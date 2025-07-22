@@ -1,1 +1,10 @@
 /* css styles */
+/* Note: comments in this file need to be denoted using '/*' /*
+/* Hastags (#) are not recognised as comments in css */
+
+/* Button text colour */
+/* Applied when button created with: */
+/* <button class='btn btn-danger'>  </button> */
+a.btn.btn-danger {
+  color: white !important;  /* or any color you'd like */
+}

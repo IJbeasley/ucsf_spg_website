@@ -1,6 +1,9 @@
 ---
 title: "UCSF Science Policy Group (SPG)"
-subtitle: "The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community."
+subtitle: "The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community. 
+
+<br><br>
+<a href='join_info/index.html' class='btn btn-danger'>Join Us!</a>"
 #<button class='btn btn-primary'>Primary Button </button>
 title-block-banner: true
 ---

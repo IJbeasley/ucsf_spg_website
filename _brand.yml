@@ -17,16 +17,34 @@ color:
   # under: full list of semantic colors 
   # https://quarto.org/docs/authoring/brand.html#applying-brand
   background: white
-  foreground: black #typical font colour
-  primary: light_grey #navigation bar (top of page) colour
+  foreground: black # typical font colour
+  primary: light_grey # navigation bar (top of page) colour
+  
   secondary: blue # lighter text or disabled states
   link: blue # hover link colour - e.g. on navigation bar
   tertiary: blue
   
-  # less likely to be used colours:
+  # less likely to be edited colours:
+  
+  # Button colours 
+  # Applied when button created with: 
+  # <button class='btn btn-success'>  </button>
   success: blue
-  warning: mid_red
+
+  # Button colours 
+  # Applied when button created with: 
+  # <button class='btn btn-danger'>  </button>
   danger: mid_red
+  # this button colour is the actual button, for the colour of the text
+  # in this button see styles.css
+  
+  # Call out colour:
+  warning: mid_red
+  info: mid_red
+
+  # Alternative text colour 
+  light: white # A bright color, used as a high-contrast foreground color on dark elements 
+  dark: black # A dark colour, used as a high-contrast foreground color on light elements 
   
 ################## ADD / CHANGE LOGO ################
 ################## Need to have small, medium, and large sized #########

@@ -46,6 +46,10 @@ website:
     pinned: true
     search: true
     
+    right:
+      - text: "<button class='btn btn-danger'>Join Us!</button>"
+        href: join_info/index.qmd
+    
     left:
       # Home page
       # - href: index.qmd
