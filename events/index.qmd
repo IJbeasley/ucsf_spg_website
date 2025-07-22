@@ -1,0 +1,23 @@
+---
+title: "Events"
+description: "Upcoming & Past Events Hosted by SPG"
+listing:
+
+  - id: events
+    max-description-length: 500
+    image-height: 150px
+    fields: [title, description, image, date]
+    contents:
+      - "*.qmd"
+    type: default
+    grid-item-border: false
+    ####### TO ADD IMAGE PLACEHOLDER #########
+    # The default image for items if they have no image.
+    #image-placeholder: 
+    
+    sort-ui: [date] # allow users to sort based on date
+    filter-ui: [title] # allow users to filter based on title
+    sort: date desc # automatically sort so the most recent events are up-top
+    # exclude: 
+    #    date: today
+---
