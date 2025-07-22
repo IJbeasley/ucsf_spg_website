@@ -9,14 +9,32 @@ listing:
     type: grid
     image-height: 225px
     grid-columns: 3
-    fields: [image, title, subtitle, socials]
+    fields: [image, title, subtitle]
+    field-display-names:
+       title: Name
+       subtitle: Leadership Role
     grid-item-align: center
 
 # Alumni 
   - id: alumni
     contents: "current/*.qmd"
     type: table
-    image-height: 225px
-    grid-columns: 3
-    fields: [title, subtitle, social]
+    fields: [title, subtitle]
+    sort-ui: false
+    filter-ui: [title]
+    field-display-names:
+       title: Name
+       subtitle: Role/s
 ---
+
+:::{#leadership-team}
+
+:::
+
+<br>
+
+## Alumni
+
+:::{#alumni}
+
+:::
