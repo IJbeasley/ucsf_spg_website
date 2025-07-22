@@ -2,11 +2,21 @@
 title: "Leadership Team"
 lightbox: true
 listing:
+
+# Current leadership team 
   - id: leadership-team
-    contents: "bios/*.qmd"
+    contents: "current/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
-    fields: [image, title, subtitle]
+    fields: [image, title, subtitle, socials]
     grid-item-align: center
+
+# Alumni 
+  - id: alumni
+    contents: "current/*.qmd"
+    type: table
+    image-height: 225px
+    grid-columns: 3
+    fields: [title, subtitle, social]
 ---

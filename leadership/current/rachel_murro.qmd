@@ -1,0 +1,9 @@
+---
+title: "Rachel Murro" # Name
+subtitle: "Leadership Role" # Leadership role / tile
+image: ../headshots/RachelMurro.jpeg # Headshot image 
+# We need to put '../headshots' here to correctly get the right folder
+image-alt: "Headshot of Rachel Murro"
+# alternative text to be read by screen readers, for examples / ideas see:
+# https://dap.berkeley.edu/web-a11y-basics/images
+---
