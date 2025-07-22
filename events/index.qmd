@@ -4,20 +4,34 @@ description: "Upcoming & Past Events Hosted by SPG"
 listing:
 
   - id: events
-    max-description-length: 500
-    image-height: 150px
-    fields: [title, description, image, date]
+  
+# All qmd files in events folder are included
     contents:
       - "*.qmd"
+
+# How can users / viewers of the website see the events tab    
+    sort-ui: [date] # allow users to sort based on date
+    filter-ui: [date,title] # allow users to filter based on title
+    sort: date desc # automatically sort so the most recent events are up-top
+  
+# How does each event appear?     
     type: default
     grid-item-border: false
-    ####### TO ADD IMAGE PLACEHOLDER #########
-    # The default image for items if they have no image.
-    #image-placeholder: 
+
+# Maximum length of description in the events 
+# 500 characters
+    max-description-length: 500
+
+# Image preview:
+    image-height: 150px
     
-    sort-ui: [date] # allow users to sort based on date
-    filter-ui: [title] # allow users to filter based on title
-    sort: date desc # automatically sort so the most recent events are up-top
-    # exclude: 
-    #    date: today
+####### IMAGE PLACEHOLDER #########
+###### ???? MAYBE FIX / ADD #########
+    # The default image for items if they have no image.
+    image-placeholder: /logo/SPG_wTxt_Gray_RGB.jpg
+    
+# What info does the user see? 
+    fields: [title, description, image, date]
+    field-display-names:
+       title: Event
 ---
