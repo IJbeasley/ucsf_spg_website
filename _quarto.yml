@@ -1,0 +1,87 @@
+project:
+  type: website
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+website:
+  page-navigation: true
+  back-to-top-navigation: true
+  title: "UCSF SPG"
+  
+  search: 
+    location: navbar
+    type: textbox
+
+############## Website footer ################
+  page-footer:
+######### TO ADD / FIX: Dynamic Copyright Year ###########
+    background: primary
+    foreground: foreground
+    left: "&copy; Copyright 2022 - 2025, Science Policy Group at UCSF"
+    right:
+      - icon: bluesky
+        href: https://bsky.app/profile/spgatucsf.bsky.social
+        aria-label: Bluesky
+      - icon: envelope-fill
+        href: mail-to:spgatucsf@gmail.com
+        aria-label: Email
+      - icon: twitter
+        href: https://twitter.com/spgatucsf
+        aria-label: Twitter
+      - icon: facebook
+        href: https://www.facebook.com/SPGatUCSF
+        aria-label: Facebook
+
+######### Navigation bar (top of the website) ##############
+  navbar:
+    # Add logo to navigation bar, top-left
+    # logo: SPG_wTxt_Gray_RGB.jpg
+    # logo-alt: "SPG logo"
+    
+    pinned: true
+    search: true
+    
+    left:
+      # Home page
+      # - href: index.qmd
+      #   text: Home
+      # Leadership page
+      - href: leadership/index.qmd
+        text: "Leadership Team"
+      # Events page
+      - href: events/index.qmd
+        text: Events
+      # News page
+      - href: news/index.qmd
+        text: News
+      # Resources
+      - href: resources/index.qmd
+        text: Resources
+      # Gallery
+      - href: gallery/index.qmd
+        text: Gallery
+      # Join Us
+      # social media icons / links - 
+      # icons are retrieved from:
+      # https://icons.getbootstrap.com/
+      - icon: bluesky
+        href: https://bsky.app/profile/spgatucsf.bsky.social
+        aria-label: Bluesky
+      - icon: envelope-fill
+        href: mail-to:spgatucsf@gmail.com
+        aria-label: Email
+      - icon: twitter
+        href: https://twitter.com/spgatucsf
+        aria-label: Twitter
+      - icon: facebook
+        href: https://www.facebook.com/SPGatUCSF
+        aria-label: Facebook
+        
+
+  
+

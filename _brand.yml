@@ -1,0 +1,54 @@
+meta:
+  name: brand.yml
+  link: https://www.spgatucsf.org
+  
+########### set default colour theme for website ##########
+  
+color:
+  # give colours human readable names:
+  palette:
+     blue: "#1c84e5"
+     white: "#ffffff"
+     black: "#000000"
+     light_grey: "#eeeeee"
+     mid_red: "#ad4242"
+     green: "#1e5c11"
+  # see explanations of what each of these change
+  # under: full list of semantic colors 
+  # https://quarto.org/docs/authoring/brand.html#applying-brand
+  background: white
+  foreground: black #typical font colour
+  primary: light_grey #navigation bar (top of page) colour
+  secondary: blue # lighter text or disabled states
+  link: blue # hover link colour - e.g. on navigation bar
+  tertiary: blue
+  
+  # less likely to be used colours:
+  success: blue
+  warning: mid_red
+  danger: mid_red
+  
+################## ADD / CHANGE LOGO ################
+################## Need to have small, medium, and large sized #########
+
+logo: 
+  images:
+    spg-logo-small: 
+########## Update Name Here #########
+      path: logo/SPG_wTxt_Gray_RGB.jpg
+      alt: "SPG icon"
+      
+    spg-logo-med:
+######### Update Name Here #########
+      path: logo/SPG_wTxt_Gray_RGB.jpg
+      alt: "SPG icon"
+
+    spg-logo-large:
+######### Update Name Here ########
+      path: logo/SPG_wTxt_Gray_RGB.jpg
+      alt: "SPG icon" 
+    
+  small: spg-logo-small
+  medium: spg-logo-med
+  large:  spg-logo-large
+  
