@@ -1,0 +1,12 @@
+---
+title: "Resources"
+description: |
+  Resources for getting started with science policy. 
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
