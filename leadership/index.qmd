@@ -1,0 +1,12 @@
+---
+title: "Leadership Team"
+lightbox: true
+listing:
+  - id: leadership-team
+    contents: "bios/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    fields: [image, title, subtitle]
+    grid-item-align: center
+---
