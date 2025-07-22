@@ -13,7 +13,23 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/events/event_3/index.html",
+      "/events/event_2/index.html",
+      "/events/event_1/index.html"
+    ]
+  },
+  {
     "listing": "/events/index.html",
+    "items": [
+      "/events/event_3/index.html",
+      "/events/event_2/index.html",
+      "/events/event_1/index.html"
+    ]
+  },
+  {
+    "listing": "/homepage/events_widget.html",
     "items": [
       "/events/event_3/index.html",
       "/events/event_2/index.html",

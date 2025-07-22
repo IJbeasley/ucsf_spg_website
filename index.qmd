@@ -8,4 +8,6 @@ subtitle: "The Science Policy Group at UCSF seeks to empower and educate people 
 title-block-banner: true
 ---
 
-Our focuses include:
+### Recent & Up-Coming Events
+
+{{< include homepage/events_widget.qmd >}}

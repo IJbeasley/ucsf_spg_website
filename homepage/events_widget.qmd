@@ -1,0 +1,38 @@
+---
+listing:
+
+  - id: events
+  
+# All qmd files in events folder are included
+    contents:
+      - "../events/*/*.qmd"
+    # exclude: 
+    #   - ../events/index.qmd
+    
+    max-items: 2
+
+# How can users / viewers of the website see the events tab    
+    sort-ui: false #[date] # allow users to sort based on date
+    filter-ui: false # [date,title] # allow users to filter based on title
+    sort: date desc # automatically sort so the most recent events are up-top
+  
+# How does each event appear?     
+    type: default
+
+# Maximum length of description in the events 
+# 500 characters
+    max-description-length: 500
+
+# Image preview:
+    image-height: 150px
+    
+####### IMAGE PLACEHOLDER #########
+###### ???? MAYBE FIX / ADD #########
+    # The default image for items if they have no image.
+    image-placeholder: logo/SPG_wTxt_Gray_RGB.jpg
+    
+# What info does the user see? 
+    fields: [title, description, image, date]
+    field-display-names:
+       title: Event
+---
