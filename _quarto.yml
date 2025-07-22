@@ -1,5 +1,10 @@
 project:
   type: website
+  # temporary for github pages
+  ######### TO CHANGE ###########
+  output-dir: docs
+  resources: 
+    - logo
 
 format:
   html:
