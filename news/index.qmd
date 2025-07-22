@@ -1,0 +1,12 @@
+---
+title: "News"
+description: |
+  News & posts from SPG. 
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
