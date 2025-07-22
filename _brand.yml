@@ -45,6 +45,11 @@ color:
   # Alternative text colour 
   light: white # A bright color, used as a high-contrast foreground color on dark elements 
   dark: black # A dark colour, used as a high-contrast foreground color on light elements 
+
+typography:
+  link:
+    color: link
+    decoration: underline
   
 ################## ADD / CHANGE LOGO ################
 ################## Need to have small, medium, and large sized #########
