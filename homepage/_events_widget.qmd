@@ -6,8 +6,6 @@ listing:
 # All qmd files in events folder are included
     contents:
       - "../events/*/*.qmd"
-    # exclude: 
-    #   - ../events/index.qmd
     
     max-items: 2
 
