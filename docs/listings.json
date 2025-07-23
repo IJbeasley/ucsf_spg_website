@@ -29,14 +29,6 @@
     ]
   },
   {
-    "listing": "/homepage/events_widget.html",
-    "items": [
-      "/events/event_3/index.html",
-      "/events/event_2/index.html",
-      "/events/event_1/index.html"
-    ]
-  },
-  {
     "listing": "/news/index.html",
     "items": [
       "/news/welcome/index.html",
