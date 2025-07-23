@@ -42,7 +42,8 @@ vignettes/*.pdf
 # Not tracking site info as made by quarto render 
 # ... as github actions should make these files
 docs/
-_sitre
+_site/
+_freeze/
 
 # translation temp files
 po/*~
