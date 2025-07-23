@@ -4,4 +4,8 @@ format: html
 editor: visual
 ---
 
-## 
+## Follow us on social media
+
+## Attend our up-coming events
+
+## Join our bi-weekly leadership meetings
