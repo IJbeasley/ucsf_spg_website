@@ -1,0 +1,40 @@
+[
+  {
+    "listing": "/resources/index.html",
+    "items": [
+      "/resources/post-with-code/index.html",
+      "/resources/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/leadership/index.html",
+    "items": [
+      "/leadership/current/rachel_murro.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/events/event_3/index.html",
+      "/events/mcclintock_letters/index.html",
+      "/events/event_2/index.html",
+      "/events/event_1/index.html"
+    ]
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/event_3/index.html",
+      "/events/mcclintock_letters/index.html",
+      "/events/event_2/index.html",
+      "/events/event_1/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/mcclintock_letters/index.html",
+      "/news/post-with-code/index.html"
+    ]
+  }
+]
