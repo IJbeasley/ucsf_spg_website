@@ -12,16 +12,10 @@ format:
 ---
 # About Us
 
-
 {{< include homepage/_about_us_widget.qmd >}}
-
-
 
 # Recent & Up-Coming Events
 
-
 {{< include homepage/_events_widget.qmd >}}
-
-
 
 `<a href='event`{=html}s`/index.html' class='btn btn-success'>`{=html}See all our events </a>

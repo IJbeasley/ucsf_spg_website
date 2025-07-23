@@ -3,7 +3,6 @@ format: html
 editor: visual
 heading: "Who are we?"
 ---
-
 {{< meta heading >}}
 
 SPG at UCSF serves as a platform for discussing science policy issues, providing resources & training for science policy education, and initiating advocacy within and beyond UCSF.
