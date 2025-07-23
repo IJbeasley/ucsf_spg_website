@@ -14,6 +14,11 @@ format:
 
 {{< include homepage/_about_us_widget.qmd >}}
 
+What do we do?
+
+Professional Development
+Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.
+
 # Recent & Up-Coming Events
 
 {{< include homepage/_events_widget.qmd >}}
