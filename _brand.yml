@@ -2,7 +2,34 @@ meta:
   name: brand.yml
   link: https://www.spgatucsf.org
   
-########### set default colour theme for website ##########
+##################  LOGO ################
+################## Need to have small, medium, and large sized #########
+
+logo: 
+  images:
+    spg-logo-small: 
+########## Update Name Here #########
+      path: logo/SPG_Pendant_Transparent_RGB_Small.png
+      alt: "Science Policy Group at UCSF Logo: depicting an atom on top of the dome of 
+      San Francisco City Hall, amidst a Golden Gate backdrop"
+      
+    spg-logo-med:
+######### Update Name Here #########
+      path: logo/SPG_Pendant_Transparent_RGB_Medium.png
+      alt: "Science Policy Group at UCSF Logo: depicting an atom on top of the dome of 
+      San Francisco City Hall, amidst a Golden Gate backdrop"
+
+    spg-logo-large:
+######### Update Name Here ########
+      path: logo/SPG_Pendant_Transparent_RGB_Large.png
+      alt: "Science Policy Group at UCSF Logo: depicting an atom on top of the dome of 
+      San Francisco City Hall, amidst a Golden Gate backdrop"
+    
+  small: spg-logo-small
+  medium: spg-logo-med
+  large:  spg-logo-large
+  
+########### Colour theme for website ##########
   
 color:
   # give colours human readable names:
@@ -46,32 +73,38 @@ color:
   light: white # A bright color, used as a high-contrast foreground color on dark elements 
   dark: black # A dark colour, used as a high-contrast foreground color on light elements 
 
+#################### Text settings (font, size etc.) ########################
 typography:
+  fonts:
+#### Headings font ##########
+    - family: Inter
+      source: google
+    - family: Poppins
+      source: google
+    # Monospace
+    - family: Cousine
+      source: google
+    - family: JetBrains
+      source: google
+  headings: 
+    family: Inter
+    style: normal
+    # weight: 500
+    color: foreground
+    line-height: 1.25
+  base: 
+    family: Poppins
+    # weight: 400
+    size: 16px
+  monospace:
+    family: Cousine
+    color: white
+    background-color: black
+    size: 16px
+    
   link:
     color: link
+    weight: 500
     decoration: underline
   
-################## ADD / CHANGE LOGO ################
-################## Need to have small, medium, and large sized #########
-
-logo: 
-  images:
-    spg-logo-small: 
-########## Update Name Here #########
-      path: logo/SPG_Pendant_Transparent_RGB_Small.png
-      alt: "SPG icon"
-      
-    spg-logo-med:
-######### Update Name Here #########
-      path: logo/SPG_Pendant_Transparent_RGB_Medium.png
-      alt: "SPG icon"
-
-    spg-logo-large:
-######### Update Name Here ########
-      path: logo/SPG_Pendant_Transparent_RGB_Large.png
-      alt: "SPG icon" 
-    
-  small: spg-logo-small
-  medium: spg-logo-med
-  large:  spg-logo-large
   
