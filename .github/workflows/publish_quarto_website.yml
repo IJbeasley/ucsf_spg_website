@@ -37,16 +37,15 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
 
 ########## Render #####################        
-        # Render site - but don't keep cache  
-      - name: Render site 
-        run: quarto render --cache-refresh
+      #   # Render site - but don't keep cache  
+      # - name: Render site 
+      #   run: quarto render --cache-refresh
 
 ######### Publish ##################
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          render: false  # skip rendering again
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
