@@ -5,8 +5,6 @@ project:
   #       twitter-card: 
   #          site: @spgatucsf
   # temporary for github pages
-  ######### TO CHANGE ###########
-  output-dir: docs
   resources: 
     - logo
 
