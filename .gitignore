@@ -39,8 +39,10 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-# docs/
+# Not tracking site info as made by quarto render 
+# ... as github actions should make these files
+docs/
+_sitre
 
 # translation temp files
 po/*~
