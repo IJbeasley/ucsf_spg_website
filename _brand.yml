@@ -58,17 +58,17 @@ logo:
   images:
     spg-logo-small: 
 ########## Update Name Here #########
-      path: logo/SPG_wTxt_Gray_RGB.jpg
+      path: logo/SPG_Pendant_Transparent_RGB_Small.png
       alt: "SPG icon"
       
     spg-logo-med:
 ######### Update Name Here #########
-      path: logo/SPG_wTxt_Gray_RGB.jpg
+      path: logo/SPG_Pendant_Transparent_RGB_Medium.png
       alt: "SPG icon"
 
     spg-logo-large:
 ######### Update Name Here ########
-      path: logo/SPG_wTxt_Gray_RGB.jpg
+      path: logo/SPG_Pendant_Transparent_RGB_Large.png
       alt: "SPG icon" 
     
   small: spg-logo-small
