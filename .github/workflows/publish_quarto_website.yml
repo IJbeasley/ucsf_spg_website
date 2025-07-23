@@ -29,11 +29,21 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         # requires renv.lock file 
 
+      - name: Render site with --cache-refresh
+        run: quarto render --cache-refresh
 
-      - name: Publish to GitHub Pages (and render)
+      - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false  # skip rendering again
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# 
+#       - name: Publish to GitHub Pages (and render)
+#         uses: quarto-dev/quarto-actions/publish@v2
+#         with:
+#           target: gh-pages
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
 
