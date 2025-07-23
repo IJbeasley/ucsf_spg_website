@@ -1,12 +1,23 @@
 ---
 title: "News"
-description: |
-  News & posts from SPG. 
+description: "News & posts from SPG. "
+
 listing:
-  contents: "*.qmd"
-  sort: "date desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
+  - id: news
+    contents: "*.qmd"
+  
+    sort: "date desc"
+    type: default
+    categories: true
+    sort-ui: false
+    filter-ui: false
+# Maximum length of description in the events 
+# 500 characters
+    max-description-length: 500
+  ####### IMAGE PLACEHOLDER #########
+  ###### ???? MAYBE FIX / ADD #########
+  # The default image for items if they have no image.
+    image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg
+# Image preview:
+    image-height: 150px
 ---

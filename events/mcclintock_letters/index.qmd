@@ -11,22 +11,27 @@ date: "June 16, 2025"
 
 ######## REQUIRED CHANGE - IMAGE & ALTERNATIVE TEXT FOR IMAGE ########
 # You can comment out the below image, and spg logo will be provided instead
-# image: 
+image: thumbnail.jpg
 # image-alt: ""
 
 ######## OPTIONAL CHANGE - CATEGORIES / LABELS #############
 categories: [news]
+
+######### REQUIRED CHANGE - EVENT LINK ###########
+about:
+  template: solana
+  links: 
+     - href: https://ijbeasley.github.io/ucsf_spg_website/ # ? registration / calender 
+       icon: calendar2-plus
+       text: "Register Here"
 
 ####### OPTIONAL CHANGE - INCLUDE AUTHOR ##########
 # author: "Example Author"
 
 # Options to leave alone:
 date-format: medium
-
-
 ---
-
-ATTN: Federally funded scientists!
+ATTN: **Federally funded scientists!**
 
 Science is currently under attack in the US. Now, more than ever before, it is critical that we bridge the gap between scientists and the broader community in order to start rebuilding trust and addressing misinformation.
 

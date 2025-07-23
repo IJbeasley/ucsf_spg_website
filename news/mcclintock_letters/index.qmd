@@ -1,0 +1,41 @@
+---
+####### REQUIRED CHANGE: TITLE ##########
+title: "McClintock Letters"
+
+###### REQUIRED CHANGE: DATE #######
+# Date: MM/DD/YYYY or "Month DD, YYYY"
+# i.e. 
+# date: "06/16/2025"
+# or
+date: "June 16, 2025"
+
+######## REQUIRED CHANGE - IMAGE & ALTERNATIVE TEXT FOR IMAGE ########
+# You can comment out the below image, and spg logo will be provided instead
+image: thumbnail.jpg
+# image-alt: ""
+
+######## OPTIONAL CHANGE - CATEGORIES / LABELS #############
+categories: [news]
+
+######### REQUIRED CHANGE - EVENT LINK ###########
+about:
+  template: solana
+  links: 
+     - href: https://ijbeasley.github.io/ucsf_spg_website/ # ? registration / calender 
+       icon: calendar2-plus
+       text: "Register Here"
+
+####### OPTIONAL CHANGE - INCLUDE AUTHOR ##########
+# author: "Example Author"
+
+# Options to leave alone:
+date-format: medium
+---
+ATTN: **Federally funded scientists!**
+
+Science is currently under attack in the US. Now, more than ever before, it is critical that we bridge the gap between scientists and the broader community in order to start rebuilding trust and addressing misinformation.
+
+We’re calling on you to take action by participating in the McClintock Letters Initiative and writing a letter to your hometown newspaper about your scientific journey and the impact of your research. The goal of this initiative is to help local communities learn about and connect with the incredible research happening across the country from someone with personal ties to them. We aim to have over 1,000 pieces published around the country on or near June 16th – the birthday of Nobel Prize-awarded geneticist Barbara McClintock’s birthday. Visit the website for guidelines and to sign up to write a letter.
+
+We hope you’ll join this national movement to improve scientific communication and share your story. This initiative is led by the Cornell Advancing Science and Policy Club and Science Homecoming, in collaboration with the Science Policy Group at UCSF and science advocates across the country.
+
