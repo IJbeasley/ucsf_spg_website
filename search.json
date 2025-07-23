@@ -1,10 +1,45 @@
 [
   {
-    "objectID": "resources/welcome/index.html",
-    "href": "resources/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "Gallery",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
+    "text": "Back to top"
+  },
+  {
+    "objectID": "leadership/alumni/rachel_murro.html",
+    "href": "leadership/alumni/rachel_murro.html",
+    "title": "Rachel Murro",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "McClintock Letters\n\n\n\n\n\n\n\n\nJun 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "news/welcome/index.html",
+    "href": "news/welcome/index.html",
+    "title": "McClintock Letters",
+    "section": "",
+    "text": "ATTN: Federally funded scientists!\nScience is currently under attack in the US. Now, more than ever before, it is critical that we bridge the gap between scientists and the broader community in order to start rebuilding trust and addressing misinformation.\nWe’re calling on you to take action by participating in the McClintock Letters Initiative and writing a letter to your hometown newspaper about your scientific journey and the impact of your research. The goal of this initiative is to help local communities learn about and connect with the incredible research happening across the country from someone with personal ties to them. We aim to have over 1,000 pieces published around the country on or near June 16th – the birthday of Nobel Prize-awarded geneticist Barbara McClintock’s birthday. Visit the website for guidelines and to sign up to write a letter.\nWe hope you’ll join this national movement to improve scientific communication and share your story. This initiative is led by the Cornell Advancing Science and Policy Club and Science Homecoming, in collaboration with the Science Policy Group at UCSF and science advocates across the country.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "events/event_1/index.html",
+    "href": "events/event_1/index.html",
+    "title": "Building Website in R: Step by Step Introduction to blogdown",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "events/event_2/index.html",
+    "href": "events/event_2/index.html",
+    "title": "Learning from Hospital EHR data with R",
+    "section": "",
+    "text": "text\n\n\n\n Back to top"
   },
   {
     "objectID": "resources/index.html",
@@ -12,6 +47,55 @@
     "title": "Resources",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "resources/welcome/index.html",
+    "href": "resources/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "join_info/index.html#attend-our-up-coming-events",
+    "href": "join_info/index.html#attend-our-up-coming-events",
+    "title": "Join Us",
+    "section": "Attend our up-coming events",
+    "text": "Attend our up-coming events"
+  },
+  {
+    "objectID": "join_info/index.html#join-our-bi-weekly-leadership-meetings",
+    "href": "join_info/index.html#join-our-bi-weekly-leadership-meetings",
+    "title": "Join Us",
+    "section": "Join our bi-weekly leadership meetings",
+    "text": "Join our bi-weekly leadership meetings"
+  },
+  {
+    "objectID": "resources/post-with-code/index.html",
+    "href": "resources/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "UCSF Science Policy Group (SPG)",
+    "section": "",
+    "text": "About Us\nWho are we?\nSPG at UCSF serves as a platform for discussing science policy issues, providing resources & training for science policy education, and initiating advocacy within and beyond UCSF.\nOur events and projects are entirely shaped by the interests of our incredible leadership members!\nExample topics include:\n\nResearch funding\nVaccine equity\nCriminal legal system policy\nDrug policy/harm reduction\nGender equity\n\n\n\nRecent & Up-Coming Events\nSee all our events \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\nTalk at Oslo UseR meetup Register Here\n\n\n\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLearning from Hospital EHR data with R\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Events",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\nTalk at Oslo UseR meetup Register Here\n\n\n\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLearning from Hospital EHR data with R\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "events/event_3/index.html",
+    "href": "events/event_3/index.html",
+    "title": "Building Website in R: Step by Step Introduction to blogdown",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
   },
   {
     "objectID": "news/post-with-code/index.html",
@@ -35,94 +119,10 @@
     "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nRole/s\n\n\n\n\n\n\n\n\nRachel Murro\n\n\nLeadership Role\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "leadership/alumni/rachel_murro.html",
-    "href": "leadership/alumni/rachel_murro.html",
-    "title": "Rachel Murro",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "UCSF Science Policy Group (SPG)",
-    "section": "",
-    "text": "About Us\nWho are we?\nSPG at UCSF serves as a platform for discussing science policy issues, providing resources & training for science policy education, and initiating advocacy within and beyond UCSF.\nOur events and projects are entirely shaped by the interests of our incredible leadership members!\n\n\nRecent & Up-Coming Events\nSee all our events \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\nTalk at Oslo UseR meetup Register Here\n\n\n\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLearning from Hospital EHR data with R\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\nNo matching items\n Back to top"
-  },
-  {
-    "objectID": "events/index.html",
-    "href": "events/index.html",
-    "title": "Events",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\nTalk at Oslo UseR meetup Register Here\n\n\n\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLearning from Hospital EHR data with R\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\nNo matching items\n Back to top"
-  },
-  {
-    "objectID": "events/event_2/index.html",
-    "href": "events/event_2/index.html",
-    "title": "Learning from Hospital EHR data with R",
-    "section": "",
-    "text": "text\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "events/event_1/index.html",
-    "href": "events/event_1/index.html",
-    "title": "Building Website in R: Step by Step Introduction to blogdown",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "events/event_3/index.html",
-    "href": "events/event_3/index.html",
-    "title": "Building Website in R: Step by Step Introduction to blogdown",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "Gallery",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "join_info/index.html#attend-our-up-coming-events",
-    "href": "join_info/index.html#attend-our-up-coming-events",
-    "title": "Join Us",
-    "section": "Attend our up-coming events",
-    "text": "Attend our up-coming events"
-  },
-  {
-    "objectID": "join_info/index.html#join-our-bi-weekly-leadership-meetings",
-    "href": "join_info/index.html#join-our-bi-weekly-leadership-meetings",
-    "title": "Join Us",
-    "section": "Join our bi-weekly leadership meetings",
-    "text": "Join our bi-weekly leadership meetings"
-  },
-  {
     "objectID": "leadership/current/rachel_murro.html",
     "href": "leadership/current/rachel_murro.html",
     "title": "Rachel Murro",
     "section": "",
     "text": "Back to top"
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "McClintock Letters\n\n\n\n\n\n\n\n\nJun 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items\n Back to top"
-  },
-  {
-    "objectID": "news/welcome/index.html",
-    "href": "news/welcome/index.html",
-    "title": "McClintock Letters",
-    "section": "",
-    "text": "ATTN: Federally funded scientists!\nScience is currently under attack in the US. Now, more than ever before, it is critical that we bridge the gap between scientists and the broader community in order to start rebuilding trust and addressing misinformation.\nWe’re calling on you to take action by participating in the McClintock Letters Initiative and writing a letter to your hometown newspaper about your scientific journey and the impact of your research. The goal of this initiative is to help local communities learn about and connect with the incredible research happening across the country from someone with personal ties to them. We aim to have over 1,000 pieces published around the country on or near June 16th – the birthday of Nobel Prize-awarded geneticist Barbara McClintock’s birthday. Visit the website for guidelines and to sign up to write a letter.\nWe hope you’ll join this national movement to improve scientific communication and share your story. This initiative is led by the Cornell Advancing Science and Policy Club and Science Homecoming, in collaboration with the Science Policy Group at UCSF and science advocates across the country.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "resources/post-with-code/index.html",
-    "href": "resources/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
   }
 ]

@@ -1,15 +1,16 @@
 [
   {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/welcome/index.html",
+      "/news/post-with-code/index.html"
+    ]
+  },
+  {
     "listing": "/resources/index.html",
     "items": [
       "/resources/post-with-code/index.html",
       "/resources/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/leadership/index.html",
-    "items": [
-      "/leadership/current/rachel_murro.html"
     ]
   },
   {
@@ -29,10 +30,9 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/leadership/index.html",
     "items": [
-      "/news/welcome/index.html",
-      "/news/post-with-code/index.html"
+      "/leadership/current/rachel_murro.html"
     ]
   }
 ]

@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-c2d8198b7f72dec16de60f0cb3fab69f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6ed4ea1da09a2ae7287331b1d96c6b58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8a2349914abd5d9b80afc24cda613ea2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-6ed4ea1da09a2ae7287331b1d96c6b58.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7313b41c2c507435bf8499e4d2993409.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-2ad08835e9a213dbffab664cdf89fd94.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7313b41c2c507435bf8499e4d2993409.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -144,8 +144,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo\SPG_Pendant_Transparent_RGB_Small.png" alt="SPG icon" class="navbar-logo light-content">
-    <img src="./logo\SPG_Pendant_Transparent_RGB_Small.png" alt="SPG icon" class="navbar-logo dark-content">
+    <img src="./logo/SPG_Pendant_Transparent_RGB_Small.png" alt="SPG icon" class="navbar-logo light-content">
+    <img src="./logo/SPG_Pendant_Transparent_RGB_Small.png" alt="SPG icon" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">UCSF SPG</span>
@@ -244,6 +244,14 @@ window.Quarto = {
 <p>Who are we?</p>
 <p>SPG at UCSF serves as a platform for discussing science policy issues, providing resources &amp; training for science policy education, and initiating advocacy within and beyond UCSF.</p>
 <p>Our events and projects are entirely shaped by the interests of our incredible leadership members!</p>
+<p>Example topics include:</p>
+<ul>
+<li><p>Research funding</p></li>
+<li><p>Vaccine equity</p></li>
+<li><p>Criminal legal system policy</p></li>
+<li><p>Drug policy/harm reduction</p></li>
+<li><p>Gender equity</p></li>
+</ul>
 </section>
 <section id="recent-up-coming-events" class="level1">
 <h1>Recent &amp; Up-Coming Events</h1>
@@ -255,7 +263,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-events">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1753081200000" data-listing-file-modified-sort="1753291394051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1753056000000" data-listing-file-modified-sort="1753292548085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <div class="thumbnail"><a href="./events/event_3/index.html" class="no-external">
 
 <p class="card-img-top"><img src="logo/SPG_wTxt_Gray_RGB.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -277,10 +285,10 @@ Jul 21, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1572246000000" data-listing-file-modified-sort="1753291394050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1572220800000" data-listing-file-modified-sort="1753292548084" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <div class="thumbnail"><a href="./events/event_2/index.html" class="no-external">
 
-<p class="card-img-top"><img src="events\event_2\image.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="events/event_2/image.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -374,7 +382,7 @@ Oct 28, 2019
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/IJbeasley\.github\.io\/ucsf_spg_website\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
