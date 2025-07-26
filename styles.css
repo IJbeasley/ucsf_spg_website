@@ -9,6 +9,15 @@ a.btn.btn-danger {
   color: white !important;  /* or any color you'd like */
 }
 
+a.btn.btn-warning {
+  color: white !important;  /* or any color you'd like */
+}
+
+a.btn.btn-success {
+  color: white !important;  /* or any color you'd like */
+}
+
+
 /* Adjust logo size to fit increased navbar */
 .navbar-logo {
   max-height: 70px; /* Adjust to fit your desired height */
@@ -72,4 +81,24 @@ a.btn.btn-danger {
 .listing-title {
   font-weight: 700;  /* Optional: make it slightly bolder */
 }
+
+/* Apply only to the homepage */
+body.page-index {
+  margin-top: 0rem; /* reduce vertical spacing */
+}
+
+/* Apply only to the homepage */
+body.page-index section#recent-up-coming-events {
+  margin-top: 0rem; /* reduce vertical spacing */
+}
+
+#quarto-document-content {
+  padding-top: 0rem /*!important; /* or 0 if you're feeling bold */
+}
+
+body.page-index section#recent-up-coming-events h1 {
+  margin-top: 1rem; /* adjust as needed */
+}
+
+
 

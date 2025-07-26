@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Join Us – UCSF SPG</title>
+<title>Join Us! – UCSF SPG</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../logo/SPG_Pendant_Transparent_RGB_Small.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -42,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-688237b6b7ae6eb56a71d5f76fe4b473.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f96ca761a4ab2e2fa2566465df91747b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-9610ab893f8a41a193496a68058fd63c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-f96ca761a4ab2e2fa2566465df91747b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-428e09f4979e159b7f1604fdd3dfc196.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-4be09c719558a7e839a3948306fb9af6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-428e09f4979e159b7f1604fdd3dfc196.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lst-recent-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lst-recent-events'] = new List('listing-lst-recent-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -165,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Join Us</h1>
+<h1 class="title">Join Us!</h1>
 </div>
 
 
@@ -185,11 +245,65 @@ ul.task-list li input[type="checkbox"] {
 <section id="follow-us-on-social-media" class="level2">
 <h2 class="anchored" data-anchor-id="follow-us-on-social-media">Follow us on social media</h2>
 </section>
-<section id="attend-our-up-coming-events" class="level2">
-<h2 class="anchored" data-anchor-id="attend-our-up-coming-events">Attend our up-coming events</h2>
+<section id="sign-up-for-our-mailing-list" class="level2">
+<h2 class="anchored" data-anchor-id="sign-up-for-our-mailing-list">Sign up for our mailing list</h2>
+</section>
+<section id="attend-up-coming-events" class="level2">
+<h2 class="anchored" data-anchor-id="attend-up-coming-events">Attend up-coming events</h2>
+<div id="listing-lst-recent-events" class="listing quarto-float quarto-figure quarto-figure-left quarto-listing quarto-listing-container-default anchored">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1753056000000" data-listing-file-modified-sort="1753511192463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="thumbnail"><a href="../events/event_3/index.html" class="no-external">
+
+<p class="card-img-top"><img src="logo/SPG_wTxt_Gray_RGB.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../events/event_3/index.html" class="no-external">Building Website in R: Step by Step Introduction to blogdown</a>
+</h3>
+<div class="delink listing-description"><a href="../events/event_3/index.html" class="no-external">
+</a><p><a href="../events/event_3/index.html" class="no-external">Talk at Oslo UseR meetup </a><a href="https://registration-link.com" class="btn-registration">Register Here</a></p>
+</div>
+</div>
+<div class="metadata">
+<a href="../events/event_3/index.html" class="no-external">
+<div class="listing-date">
+Jul 21, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1750032000000" data-listing-file-modified-sort="1753511192463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<div class="thumbnail"><a href="../events/mcclintock_letters/index.html" class="no-external">
+
+<img loading="lazy" src="../events/mcclintock_letters/thumbnail.jpg" class="thumbnail-image" style="height: 150px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../events/mcclintock_letters/index.html" class="no-external">McClintock Letters</a>
+</h3>
+<div class="delink listing-description"><a href="../events/mcclintock_letters/index.html" class="no-external">
+ATTN: <strong>Federally funded scientists!</strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../events/mcclintock_letters/index.html" class="no-external">
+<div class="listing-date">
+Jun 16, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="events/index.html" class="btn btn-success">See all our events </a></p>
 </section>
 <section id="join-our-bi-weekly-leadership-meetings" class="level2">
 <h2 class="anchored" data-anchor-id="join-our-bi-weekly-leadership-meetings">Join our bi-weekly leadership meetings</h2>
+
 
 
 </section>
