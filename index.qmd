@@ -1,26 +1,24 @@
 ---
 title: "UCSF Science Policy Group (SPG)"
-subtitle: "The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community. 
-
-<br><br>
-<a href='join_info/index.html' class='btn btn-danger'>Join Us!</a>"
-#<button class='btn btn-primary'>Primary Button </button>
+subtitle: "The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community.
+<br>
+<div style='display: flex; gap: 1rem; flex-wrap: wrap;'>
+<a href='join_info/index.html' class='btn btn-danger'>Join Us!</a>
+<a href='events/index.html' class='btn btn-success'>See all our events!</a>
+<a href='#about-us' class='btn btn-warning'>Learn more about us!</a>
+</div>
+"
 title-block-banner: true
-format: 
-  html:
-    page-layout: full
+title-block-style: default
+# title-block-categories: false
+# notebook-links: false
 ---
-# About Us
-
-{{< include homepage/_about_us_widget.qmd >}}
-
-What do we do?
-
-Professional Development
-Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.
-
 # Recent & Up-Coming Events
 
 {{< include homepage/_events_widget.qmd >}}
 
-`<a href='event`{=html}s`/index.html' class='btn btn-success'>`{=html}See all our events </a>
+# About Us
+
+<!-- {{< embed homepage/_about_us_widget.qmd >}} -->
+
+{{< include homepage/_about_us_widget.qmd >}}

@@ -1,9 +1,10 @@
 ---
 format: html
 editor: visual
-heading: "Who are we?"
+#title-block-banner: false
 ---
-{{< meta heading >}}
+
+### Who are we?
 
 SPG at UCSF serves as a platform for discussing science policy issues, providing resources & training for science policy education, and initiating advocacy within and beyond UCSF.
 
@@ -12,11 +13,11 @@ Our events and projects are entirely shaped by the interests of our incredible l
 Example topics include:
 
 -   Research funding
-
 -   Vaccine equity
-
 -   Criminal legal system policy
-
 -   Drug policy/harm reduction
-
 -   Gender equity
+
+### What do we do?
+
+Professional Development Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.

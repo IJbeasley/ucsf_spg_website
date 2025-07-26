@@ -1,0 +1,17 @@
+{
+  "hash": "a6249f2ebf700a12882f269b092f676b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Events\"\ndescription: \"Upcoming & Past Events Hosted by SPG\"\nlisting:\n\n  - id: events\n  \n# All qmd files in events folder are included\n    contents:\n      - \"*.qmd\"\n\n# How can users / viewers of the website see the events tab    \n    sort-ui: [date] # allow users to sort based on date\n    filter-ui: [date,title] # allow users to filter based on title\n    sort: date desc # automatically sort so the most recent events are up-top\n  \n# How does each event appear?     \n    type: default\n    grid-item-border: false\n\n# Maximum length of description in the events \n# 500 characters\n    max-description-length: 500\n\n# Image preview:\n    image-height: 150px\n    \n####### IMAGE PLACEHOLDER #########\n###### ???? MAYBE FIX / ADD #########\n    # The default image for items if they have no image.\n    image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg\n    \n# What info does the user see? \n    fields: [title, description, image, date]\n    field-display-names:\n       title: Event\n---\n\n:::{#fig-test}\n\n![](../logo/SPG_wTxt_Gray_RGB.jpg)\n\n:::\n\n@fig-test\n\n::: {#lst-events-full}\n\n:::\n\n@lst-events-full\n\n\n::: {.cell}\n\n```{.r .cell-code}\nhist(x = c(1,2,3))\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/fig-size-scatter-1.png){#fig-size-scatter width=672}\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

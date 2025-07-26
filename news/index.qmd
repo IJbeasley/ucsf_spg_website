@@ -1,7 +1,6 @@
 ---
 title: "News"
-description: "News & posts from SPG. "
-
+subtitle: "News & posts from SPG. "
 listing:
   - id: news
     contents: "*.qmd"

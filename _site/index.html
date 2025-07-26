@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-688237b6b7ae6eb56a71d5f76fe4b473.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7600d90ac77dc764a3e1dfdf783f2f7d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-197334029dd997a1031f8bfcd48eb3e3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-7600d90ac77dc764a3e1dfdf783f2f7d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8a85d9acc4cdd37a2d511b4745643a29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-6965de87419cb40d37a5266870d24d0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8a85d9acc4cdd37a2d511b4745643a29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    const listingTargetEl = window.document.querySelector('#listing-lst-recent-events .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-events'] = new List('listing-events', options);
+    window['quarto-listings']['listing-lst-recent-events'] = new List('listing-lst-recent-events', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -220,7 +220,8 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">UCSF Science Policy Group (SPG)</h1>
-            <p class="subtitle lead">The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community. <br><br> <a href="join_info/index.html" class="btn btn-danger">Join Us!</a></p>
+            <p class="subtitle lead">The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community. <br><br>
+<a href="join_info/index.html" class="btn btn-danger">Join Us!</a> <a href="events/index.html" class="btn btn-success">See all our events!</a> <a href="#about-us" class="btn btn-warning">Learn more about us!</a></p>
                       </div>
   </div>
     
@@ -244,31 +245,9 @@ window.Quarto = {
 
 
 
-<section id="about-us" class="level1">
-<h1>About Us</h1>
-<p>Who are we?</p>
-<p>SPG at UCSF serves as a platform for discussing science policy issues, providing resources &amp; training for science policy education, and initiating advocacy within and beyond UCSF.</p>
-<p>Our events and projects are entirely shaped by the interests of our incredible leadership members!</p>
-<p>Example topics include:</p>
-<ul>
-<li><p>Research funding</p></li>
-<li><p>Vaccine equity</p></li>
-<li><p>Criminal legal system policy</p></li>
-<li><p>Drug policy/harm reduction</p></li>
-<li><p>Gender equity</p></li>
-</ul>
-<p>What do we do?</p>
-<p>Professional Development Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.</p>
-</section>
 <section id="recent-up-coming-events" class="level1">
 <h1>Recent &amp; Up-Coming Events</h1>
-<p><a href="events/index.html" class="btn btn-success">See all our events </a></p>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-events">
+<div id="listing-lst-recent-events" class="listing quarto-float quarto-figure quarto-figure-left quarto-listing quarto-listing-container-default anchored">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-listing-date-sort="1753081200000" data-listing-file-modified-sort="1753291394051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <div class="thumbnail"><a href="./events/event_3/index.html" class="no-external">
@@ -277,7 +256,7 @@ window.Quarto = {
 
 </a></div>
 <div class="body">
-<h3 class="no-anchor listing-title">
+<h3 class="no-anchor listing-title" data-anchor-id="recent-up-coming-events">
 <a href="./events/event_3/index.html" class="no-external">Building Website in R: Step by Step Introduction to blogdown</a>
 </h3>
 <div class="delink listing-description"><a href="./events/event_3/index.html" class="no-external">
@@ -316,7 +295,34 @@ Jun 16, 2025
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+</section>
+<section id="about-us" class="level1">
+<h1>About Us</h1>
+<!-- {{< embed homepage/_about_us_widget.qmd >}} -->
+<section id="who-are-we" class="level3">
+<h3 class="anchored" data-anchor-id="who-are-we">Who are we?</h3>
+<p>SPG at UCSF serves as a platform for discussing science policy issues, providing resources &amp; training for science policy education, and initiating advocacy within and beyond UCSF.</p>
+<p>Our events and projects are entirely shaped by the interests of our incredible leadership members!</p>
+<p>Example topics include:</p>
+<ul>
+<li>Research funding</li>
+<li>Vaccine equity</li>
+<li>Criminal legal system policy</li>
+<li>Drug policy/harm reduction</li>
+<li>Gender equity</li>
+</ul>
+</section>
+<section id="what-do-we-do" class="level3">
+<h3 class="anchored" data-anchor-id="what-do-we-do">What do we do?</h3>
+<p>Professional Development Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.</p>
+
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

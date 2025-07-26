@@ -1,7 +1,9 @@
 ---
+#title-block-banner: false
+format: html
 listing:
 
-  - id: events
+  - id: lst-recent-events
   
 # All qmd files in events folder are included
     contents:
@@ -34,3 +36,7 @@ listing:
     field-display-names:
        title: Event
 ---
+
+::: {#lst-recent-events}
+
+:::

@@ -31,6 +31,15 @@
     ]
   },
   {
+    "listing": "/join_info/index.html",
+    "items": [
+      "/events/event_3/index.html",
+      "/events/mcclintock_letters/index.html",
+      "/events/event_2/index.html",
+      "/events/event_1/index.html"
+    ]
+  },
+  {
     "listing": "/news/index.html",
     "items": [
       "/news/mcclintock_letters/index.html",

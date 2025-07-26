@@ -1,9 +1,9 @@
 ---
 title: "Events"
-description: "Upcoming & Past Events Hosted by SPG"
+subtitle: "Upcoming & Past Events Hosted by SPG"
 listing:
 
-  - id: events
+  - id: lst-all-events
   
 # All qmd files in events folder are included
     contents:
@@ -35,3 +35,8 @@ listing:
     field-display-names:
        title: Event
 ---
+
+::: {#lst-all-events}
+
+:::
+

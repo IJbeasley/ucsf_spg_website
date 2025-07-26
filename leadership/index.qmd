@@ -1,6 +1,5 @@
 ---
 title: "Leadership Team"
-lightbox: true
 listing:
 
 # Current leadership team 
@@ -26,15 +25,12 @@ listing:
        title: Name
        subtitle: Role/s
 ---
-
-:::{#leadership-team}
-
+::: {#leadership-team}
 :::
 
 <br>
 
 ## Alumni
 
-:::{#alumni}
-
+::: {#alumni}
 :::

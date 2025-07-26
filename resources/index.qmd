@@ -1,7 +1,6 @@
 ---
 title: "Resources"
-description: |
-  Resources for getting started with science policy. 
+subtitle: "Resources for getting started with science policy."
 listing:
   contents: "*.qmd"
   sort: "date desc"
