@@ -22,6 +22,7 @@ format:
 website:
   page-navigation: true
   back-to-top-navigation: true
+  draft-mode: unlinked
   title: "UCSF SPG"
   
   search: 
