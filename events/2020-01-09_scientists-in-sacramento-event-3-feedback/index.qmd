@@ -1,0 +1,14 @@
+---
+title: "Scientists in Sacramento Event 3: Feedback"
+subtitle: ""
+description: "Third event in our \"\"Scientists in Sacramento\"\" series. "
+date: "2020-01-09"
+categories: [Panel, Workshop]
+date-format: medium 
+---
+
+### Speakers  
+Amiee Alden (Director of Local and State Gov't Relations at UCSF), Ben Rubin, (Director of Industry Partnerships in Precision Medicine at UCSF and former CCST STP Fellow)
+
+Third event in our ""Scientists in Sacramento"" series. Before our all-expenses-paid trip to the California Statehouse, get feedback on your preparation from a panel of experts. Participation in this event is required to join our trip to Sacramento on January 14.
+

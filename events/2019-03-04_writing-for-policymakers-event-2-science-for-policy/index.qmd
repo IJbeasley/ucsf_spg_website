@@ -1,0 +1,14 @@
+---
+title: "Writing for Policymakers Event 2: Science for Policy"
+subtitle: ""
+description: "Workshop to teach scientists how to write \"\"one pagers\"\" and white papers to help scientists communicate their research and help policymakers utilize it for evidence-based policy."
+date: "2019-03-04"
+categories: [Workshop]
+date-format: medium 
+---
+
+### Speakers  
+Amiee Alden (Director of Local and State Government Relations, UCSF), Claire Brindis (Director of Philip R. Lee Institute for Health Policy Studies and Founding Director of the Bixby Center)
+
+Workshop to teach scientists how to write ""one pagers"" and white papers to help scientists communicate their research and help policymakers utilize it for evidence-based policy.
+

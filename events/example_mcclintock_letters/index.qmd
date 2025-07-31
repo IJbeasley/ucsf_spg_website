@@ -1,4 +1,8 @@
 ---
+############### To change before publishing - let's you view changes without
+# adding them properly to the website
+draft: true
+
 ####### REQUIRED CHANGE: TITLE ##########
 title: "McClintock Letters"
 

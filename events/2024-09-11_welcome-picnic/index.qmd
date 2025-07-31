@@ -1,0 +1,14 @@
+---
+title: "Welcome Picnic"
+subtitle: "Koret Quad (MB)"
+description: "NA"
+date: "2024-09-11"
+categories: [Social]
+date-format: medium 
+---
+
+### Speakers  
+SPG members
+
+
+

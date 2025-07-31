@@ -1,0 +1,14 @@
+---
+title: "Civic Engagement Career Talk"
+subtitle: ""
+description: "Along with the Office of Career & Professional Development, we are delighted to host Dr. "
+date: "2019-10-24"
+categories: [Presentation, Chat/Q&A]
+date-format: medium 
+---
+
+### Speakers  
+Dr. Arti Garg (Founder of ESAL)
+
+Along with the Office of Career & Professional Development, we are delighted to host Dr. Arti Garg, who will discuss her career and engagement opportunities at Engineers & Scientists Acting Locally, a national organization dedicated to increasing city, county, and state level engagement by professionals with backgrounds in science, technology, engineering, and mathematics (STEM).
+

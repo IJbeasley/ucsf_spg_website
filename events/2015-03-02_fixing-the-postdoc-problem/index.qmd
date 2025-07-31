@@ -1,0 +1,14 @@
+---
+title: "Fixing the Postdoc Problem"
+subtitle: ""
+description: "NA"
+date: "2015-03-02"
+categories: [Panel]
+date-format: medium 
+---
+
+### Speakers  
+
+
+Topics included: publicly tracking postdoc outcomes, providing more structured career exploration, expanding autonomous funding for postdocs, supporting postdocs with families and training PIs to better mentor postdocs
+

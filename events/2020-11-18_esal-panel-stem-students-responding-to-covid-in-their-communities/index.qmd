@@ -1,0 +1,14 @@
+---
+title: "ESAL panel: STEM students responding to Covid in their communities"
+subtitle: ""
+description: "Online panel discussion with STEM student groups that are leading Covid response efforts in their communities. "
+date: "2020-11-18"
+categories: [Panel, Virtual]
+date-format: medium 
+---
+
+### Speakers  
+Serena Wang (CovidSMS), Alexandria Lee (Students vs Pandemics), Elina Kostyanovskaya (UCSF Science Policy Group)
+
+Online panel discussion with STEM student groups that are leading Covid response efforts in their communities. Attendees will gain an understanding of what groups are doing, as well as the lessons they’ve learned on how to be most effective. We hope attendees will leave inspired to begin their own efforts to assist their communities in COVID response.
+

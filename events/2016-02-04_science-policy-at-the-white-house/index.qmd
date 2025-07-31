@@ -1,0 +1,14 @@
+---
+title: "Science Policy at the White House"
+subtitle: ""
+description: "Former White House Fellow Charina Choi spoke about her experience in the Office of Science and Technology Policy under the Obama administration."
+date: "2016-02-04"
+categories: [Presentation]
+date-format: medium 
+---
+
+### Speakers  
+Charina Choi (Former White House Fellow in Obama administration OSTP)
+
+Former White House Fellow Charina Choi spoke about her experience in the Office of Science and Technology Policy under the Obama administration.
+

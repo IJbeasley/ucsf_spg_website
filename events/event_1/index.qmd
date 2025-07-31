@@ -2,7 +2,7 @@
 title: "Building Website in R: Step by Step Introduction to blogdown"
 description: "Talk at Oslo UseR meetup"
 date: "2019-04-02"
-# categories: [rstats]
+draft: true
 ---
 
 ![](image.jpg)

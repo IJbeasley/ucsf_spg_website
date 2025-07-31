@@ -1,0 +1,14 @@
+---
+title: "Reproducibility in Scientific Research"
+subtitle: ""
+description: "NA"
+date: "2015-04-15"
+categories: [Chat/Q&A]
+date-format: medium 
+---
+
+### Speakers  
+Vivian Siegel (Director of Education and Outreach, Broad institute)
+
+
+

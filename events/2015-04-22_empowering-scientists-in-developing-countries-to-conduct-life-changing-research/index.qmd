@@ -1,0 +1,14 @@
+---
+title: "Empowering scientists in developing countries to conduct life-changing research"
+subtitle: ""
+description: "NA"
+date: "2015-04-22"
+categories: [Presentation]
+date-format: medium 
+---
+
+### Speakers  
+Nina Dudnik (Seeding Labs)
+
+
+

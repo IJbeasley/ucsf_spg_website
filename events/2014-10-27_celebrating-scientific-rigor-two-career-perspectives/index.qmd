@@ -1,0 +1,15 @@
+---
+title: "Celebrating scientific rigor: Two career perspectives"
+subtitle: ""
+description: "Silberberg gave a personal retrospective about serendipity and passion. "
+date: "2014-10-27"
+categories: [Chat/Q&A]
+date-format: medium 
+---
+
+### Speakers  
+Silberberg (Program Director, NINDS),  
+Arsalan Daudi (Executive Director, Bio Protocol)
+
+Silberberg gave a personal retrospective about serendipity and passion. Arsalan Daudi talked about how we can address reproducibility in science
+

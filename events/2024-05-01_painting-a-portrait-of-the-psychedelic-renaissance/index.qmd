@@ -1,0 +1,15 @@
+---
+title: "Painting a Portrait of the Psychedelic Renaissance"
+subtitle: "Byers Auditorium (MB)"
+description: "Join us for an insightful conversation between two leaders in the global psychedelic Renaissance. "
+date: "2024-05-01"
+categories: [Chat/Q&A]
+date-format: medium 
+---
+
+### Speakers  
+Joshua Wooley (Director, UCSF Translational Psychedelic Research Program),  
+Imran Khan (Executive Director, UC Berkeley Center for the Science of Psychedelics)
+
+Join us for an insightful conversation between two leaders in the global psychedelic Renaissance. Joshua Woolley, MD, PhD, has a long-standing interest in the medicinal qualities of psychedelic compounds. As Director of the UCSF Translational Psychedelic Research Program, he is the Lead Scientist for several clinical trials here at UCSF. Imran Khan is the executive director of the UC Berkeley Center for the Science of Psychedelics and is focused on exploring the potential of psychedelics through research, advocacy, and public education. As a group, we'll learn how the scientific and legal landscape around psychedelics has changed in recent years, as well as discover opportunities for scientists to engage in this new frontier.
+
