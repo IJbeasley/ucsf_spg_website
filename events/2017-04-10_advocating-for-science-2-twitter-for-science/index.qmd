@@ -1,5 +1,6 @@
 ---
-title: "Advocating for Science: 2) Twitter for Science"
+title: |
+  Advocating for Science: 2) Twitter for Science
 subtitle: ""
 date: "2017-04-10"
 categories: [Workshop]

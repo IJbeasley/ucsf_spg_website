@@ -1,5 +1,6 @@
 ---
-title: "Minicourse Year 3"
+title: |
+  Minicourse Year 3
 subtitle: "PCMB, VCV (MB)"
 date: "2025-04-01"
 categories: [Course]

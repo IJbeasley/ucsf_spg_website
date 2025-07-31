@@ -1,5 +1,6 @@
 ---
-title: "Making Informed Decisions for Career Development"
+title: |
+  Making Informed Decisions for Career Development
 subtitle: ""
 date: "2014-05-29"
 categories: [Presentation]

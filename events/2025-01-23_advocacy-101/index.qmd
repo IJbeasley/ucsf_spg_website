@@ -1,7 +1,8 @@
 ---
-title: "Advocacy 101"
+title: |
+  Advocacy 101
 subtitle: "Mission Hall (MB)"
-description: "Are you passionate about making a difference but don't know where to start? "
+description: "Are you passionate about making a difference but don't know where to start? Join us for Advocacy 101 to learn the basics of effective advocacy as scientists. "
 date: "2025-01-23"
 categories: [Presentation, Panel, Social]
 date-format: medium 

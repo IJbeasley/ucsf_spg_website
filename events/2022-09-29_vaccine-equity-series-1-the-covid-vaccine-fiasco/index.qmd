@@ -1,5 +1,6 @@
 ---
-title: "Vaccine Equity Series: 1) The Covid Vaccine Fiasco"
+title: |
+  Vaccine Equity Series: 1) The Covid Vaccine Fiasco
 subtitle: "Hellen Diller (MB)"
 description: "\"Could you patent the sun?\" is a three-part speaker series examining the global rollout of mRNA vaccines during the Covid-19 pandemic. "
 date: "2022-09-29"

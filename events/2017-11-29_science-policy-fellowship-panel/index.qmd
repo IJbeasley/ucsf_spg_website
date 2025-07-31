@@ -1,5 +1,6 @@
 ---
-title: "Science Policy Fellowship Panel"
+title: |
+  Science Policy Fellowship Panel
 subtitle: ""
 description: "Former fellows from the CCST and Hellman fellowships discussed their experiences transitioning from bench science to careers in policy."
 date: "2017-11-29"

@@ -1,5 +1,6 @@
 ---
-title: "Briefing from the NASEM on the Sexual Harassment of Women"
+title: |
+  Briefing from the NASEM on the Sexual Harassment of Women
 subtitle: ""
 description: "Earlier this year, the National Academies of Sciences, Engineering, and Medicine (NASEM) released a consensus study report on the issue of sexual harassment of women entitled, \"Sexual Harassment of Women: Climate, Culture, and Consequences in Academic Sciences, Engineering, and Medicine.\" This event will cover a briefing on the report with the UCSF community."
 date: "2018-10-30"

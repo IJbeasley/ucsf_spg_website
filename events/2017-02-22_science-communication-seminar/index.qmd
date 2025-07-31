@@ -1,5 +1,6 @@
 ---
-title: "Science Communication Seminar"
+title: |
+  Science Communication Seminar
 subtitle: ""
 description: "Shah spoke about his current job working as a science communication consultant on a team of Ph.D. "
 date: "2017-02-22"

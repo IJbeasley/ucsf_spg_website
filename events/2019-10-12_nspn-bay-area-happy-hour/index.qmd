@@ -1,7 +1,7 @@
 ---
-title: "NSPN Bay Area happy hour"
+title: |
+  NSPN Bay Area happy hour
 subtitle: ""
-description: "Meet and mingle with the NSPN Western Region!"
 date: "2019-10-12"
 categories: [Social]
 date-format: medium 

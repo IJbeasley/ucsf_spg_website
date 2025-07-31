@@ -1,5 +1,6 @@
 ---
-title: "National Science Policy"
+title: |
+  National Science Policy
 subtitle: ""
 date: "2017-02-16"
 categories: [Presentation]

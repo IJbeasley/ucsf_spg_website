@@ -83,7 +83,11 @@ for (i in 1:nrow(events_spreadsheet)) {
   description <- str_trim(events_spreadsheet$`Website Description`[i])
   description <- stringr::str_remove(description, '‍')
   # Get first sentence only
-  first_sentence_description <- str_extract(description, ".*?[.!?](\\s|$)")
+  first_sentence_description <- stringr::str_extract(
+    description,
+    "(?s).*?(?<!\\b(?:Dr|Mr|Ms|Mrs|Prof|Sr|Jr))\\.(\\s|$)"
+  )
+  #first_sentence_description <- str_extract(description, ".*?[.!?](\\s|$)")
   
   
   # Where to save the information?
@@ -122,9 +126,13 @@ for (i in 1:nrow(events_spreadsheet)) {
     )
   }
   
+  title_block <- paste0("title: |\n  ", gsub("\n", "\n  ", title), "\n")
+  
+  
   content <- paste0(
     "---\n",
-    "title: |\n  ", title, "\n",
+    title_block,
+    #"title: |\n  ", title, "\n",
     # "title: ", shQuote(title), "\n",
     "subtitle: ", shQuote(location), "\n",
     description_section,

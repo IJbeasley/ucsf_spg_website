@@ -1,7 +1,8 @@
 ---
-title: "Science Policy Career Lunch Seminar"
+title: |
+  Science Policy Career Lunch Seminar
 subtitle: ""
-description: "Dr. "
+description: "Dr. Singla’s work focuses on reducing and preventing harmful environmental exposures for vulnerable populations. "
 date: "2019-07-17"
 categories: [Chat/Q&A]
 date-format: medium 

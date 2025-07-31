@@ -1,7 +1,8 @@
 ---
-title: "Science Ethics and Policy Symposium"
+title: |
+  Science Ethics and Policy Symposium
 subtitle: "UC Berkeley"
-description: "The Science Policy Groups at UCSF and UC Berkeley hosted the largest student-run interdisciplinary Science Ethics & Policy Symposium, \"From Plants to Privacy: Science Ethics for the Modern Era\"! "
+description: "The Science Policy Groups at UCSF and UC Berkeley hosted the largest student-run interdisciplinary Science Ethics & Policy Symposium, \"From Plants to Privacy: Science Ethics for the Modern Era\"! This event explored the unintended consequences of new science and technology. "
 date: "2022-04-08"
 categories: [Conference, Hybrid Virtual]
 date-format: medium 

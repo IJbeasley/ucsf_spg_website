@@ -1,5 +1,6 @@
 ---
-title: "Fixing the Postdoc Problem"
+title: |
+  Fixing the Postdoc Problem
 subtitle: ""
 date: "2015-03-02"
 categories: [Panel]

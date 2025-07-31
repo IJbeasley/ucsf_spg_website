@@ -1,5 +1,6 @@
 ---
-title: "Scientists in Sacramento Event 3: Feedback"
+title: |
+  Scientists in Sacramento Event 3: Feedback
 subtitle: ""
 description: "Third event in our \"Scientists in Sacramento\" series. "
 date: "2020-01-09"

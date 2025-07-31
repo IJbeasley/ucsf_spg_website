@@ -1,5 +1,6 @@
 ---
-title: "\"Clean Hands\" Sanitizer Donation Mutual Aid Project"
+title: |
+  "Clean Hands" Sanitizer Donation Mutual Aid Project
 subtitle: ""
 description: "We are working on a mutual aid project to distribute hand sanitizer to vulnerable populations in the Bay Area living & working in congregate settings, with a focus on people who are incarcerated, people living in transitional housing, people in public housing complexes/underserved communities & unhoused people. "
 date: "2020-04-01"

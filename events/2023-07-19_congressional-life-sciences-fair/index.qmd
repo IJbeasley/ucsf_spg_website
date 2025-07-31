@@ -1,7 +1,9 @@
 ---
-title: "Congressional Life Sciences Fair"
+title: |
+  Congressional Life Sciences Fair
 subtitle: "Washington, D.C."
-description: "We are thrilled to have four UCSF representatives share cutting-edge UCSF research at the 2023 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! "
+description: "We are thrilled to have four UCSF representatives share cutting-edge UCSF research at the 2023 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! These SPG leaders will also join Dr. Keith Yamamoto (Vice Chancellor of Science Policy and Strategy), Dr. Ben Rubin (Associate Director of Precision Medicine), and Eric Anthony (Director of Federal Government Relations) in meetings with congressional offices to advocate for federal support for biomedical research and training.
+"
 date: "2023-07-19"
 categories: [Lobbying]
 date-format: medium 

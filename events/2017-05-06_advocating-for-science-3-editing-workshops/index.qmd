@@ -1,5 +1,6 @@
 ---
-title: "Advocating for Science: 3) Editing Workshops"
+title: |
+  Advocating for Science: 3) Editing Workshops
 subtitle: ""
 date: "2017-05-06"
 categories: [Workshop]

@@ -1,5 +1,6 @@
 ---
-title: "Science Diplomacy Career Panel (NSPN SciDip Roadshow)"
+title: |
+  Science Diplomacy Career Panel (NSPN SciDip Roadshow)
 subtitle: "Mission Hall (MB)"
 description: "This Science Diplomacy Career Panel will feature local SF diplomats, including Emilia Pasquier (CEO of Swissnex), and Martin Rauchbauer (Austrian tech diplomat). "
 date: "2024-05-31"

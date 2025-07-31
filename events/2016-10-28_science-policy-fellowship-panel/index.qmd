@@ -1,5 +1,6 @@
 ---
-title: "Science Policy Fellowship Panel"
+title: |
+  Science Policy Fellowship Panel
 subtitle: ""
 description: "Past fellows shared their experiences working in science policy at both the state and national level."
 date: "2016-10-28"

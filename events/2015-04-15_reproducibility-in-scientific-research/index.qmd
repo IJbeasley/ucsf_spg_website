@@ -1,5 +1,6 @@
 ---
-title: "Reproducibility in Scientific Research"
+title: |
+  Reproducibility in Scientific Research
 subtitle: ""
 date: "2015-04-15"
 categories: [Chat/Q&A]

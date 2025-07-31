@@ -1,5 +1,6 @@
 ---
-title: "Seminar with Dr. Schaffer"
+title: |
+  Seminar with Dr. Schaffer
 subtitle: ""
 description: "He discussed his sabbatical as a science policy advisor to senator Edward Markey and how scientists need to become more effective lobbyists for our own cause."
 date: "2015-02-10"

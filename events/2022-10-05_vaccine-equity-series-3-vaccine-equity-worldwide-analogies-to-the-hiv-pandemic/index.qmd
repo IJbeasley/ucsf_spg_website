@@ -1,5 +1,6 @@
 ---
-title: "Vaccine Equity Series: 3) Vaccine Equity Worldwide: Analogies to the HIV Pandemic"
+title: |
+  Vaccine Equity Series: 3) Vaccine Equity Worldwide: Analogies to the HIV Pandemic
 subtitle: "Nursing Building (Parn)"
 description: "3) UCSF’s own Monica Gandhi will discuss the landscape of global access to HIV treatment, and how lessons from HIV can be applied to the current Covid and MPX pandemics."
 date: "2022-10-05"

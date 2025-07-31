@@ -1,7 +1,8 @@
 ---
-title: "McClintock Letters"
+title: |
+  McClintock Letters
 subtitle: ""
-description: "ATTN: Federally funded scientists! "
+description: "ATTN: Federally funded scientists! Science is currently under attack in the US. "
 date: "2025-06-16"
 categories: [Information]
 date-format: medium 

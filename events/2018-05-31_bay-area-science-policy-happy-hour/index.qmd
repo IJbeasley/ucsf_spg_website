@@ -1,5 +1,6 @@
 ---
-title: "Bay Area Science Policy Happy Hour"
+title: |
+  Bay Area Science Policy Happy Hour
 subtitle: "Teeth Bar SF"
 description: "SPG hosted a happy hour at Teeth SF with the science policy groups at UC Berkeley and Stanford. "
 date: "2018-05-31"

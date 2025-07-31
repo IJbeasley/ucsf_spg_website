@@ -1,5 +1,6 @@
 ---
-title: "Advocating for Science: 4) Developing your Scientific Elevator Pitch"
+title: |
+  Advocating for Science: 4) Developing your Scientific Elevator Pitch
 subtitle: ""
 date: "2017-07-27"
 categories: [Workshop]

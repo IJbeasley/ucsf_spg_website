@@ -1,5 +1,6 @@
 ---
-title: "Empowering scientists in developing countries to conduct life-changing research"
+title: |
+  Empowering scientists in developing countries to conduct life-changing research
 subtitle: ""
 date: "2015-04-22"
 categories: [Presentation]

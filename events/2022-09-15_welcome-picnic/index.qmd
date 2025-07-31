@@ -1,5 +1,6 @@
 ---
-title: "Welcome Picnic"
+title: |
+  Welcome Picnic
 subtitle: "Koret Quad (MB)"
 date: "2022-09-15"
 categories: [Social]

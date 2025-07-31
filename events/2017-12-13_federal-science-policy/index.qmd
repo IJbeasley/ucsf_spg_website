@@ -1,5 +1,6 @@
 ---
-title: "Federal Science Policy"
+title: |
+  Federal Science Policy
 subtitle: ""
 date: "2017-12-13"
 categories: [Presentation]
