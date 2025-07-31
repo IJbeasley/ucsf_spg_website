@@ -2,19 +2,16 @@
 title: "Join Us!"
 editor: visual
 title-block-banner: false
-# format:
-#   html:
-#     embed-resources: true
 ---
 
 ## Follow us on social media
 
-## Sign up for our mailing list 
+## Sign up for our mailing list
 
 ## Attend up-coming events
 
-{{< include ../homepage/_events_widget.qmd >}}
-
 `<a href='event`{=html}s`/index.html' class='btn btn-success'>`{=html}See all our events </a>
+
+{{< include _events_widget.qmd >}}
 
 ## Join our bi-weekly leadership meetings
