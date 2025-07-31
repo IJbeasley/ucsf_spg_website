@@ -31,9 +31,10 @@ listing:
     image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg
     
 # What info does the user see? 
-    fields: [title, description, image, date]
+    fields: [title, description, image, date, categories]
     field-display-names:
        title: Event
+       categories: Format
 ---
 
 ::: {#lst-all-events}

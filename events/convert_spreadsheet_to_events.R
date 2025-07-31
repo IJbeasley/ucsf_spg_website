@@ -124,7 +124,8 @@ for (i in 1:nrow(events_spreadsheet)) {
   
   content <- paste0(
     "---\n",
-    "title: ", shQuote(title), "\n",
+    "title: |\n  ", title, "\n",
+    # "title: ", shQuote(title), "\n",
     "subtitle: ", shQuote(location), "\n",
     description_section,
     "date: ", shQuote(date), "\n",
