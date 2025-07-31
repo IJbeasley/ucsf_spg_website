@@ -1,7 +1,6 @@
 ---
 title: "Welcome Picnic"
 subtitle: "Koret Quad (MB)"
-description: "NA"
 date: "2022-09-15"
 categories: [Social]
 date-format: medium 
@@ -9,6 +8,5 @@ date-format: medium
 
 ### Speakers  
 SPG members
-
 
 

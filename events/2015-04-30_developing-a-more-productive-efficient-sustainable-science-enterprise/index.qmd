@@ -1,7 +1,6 @@
 ---
 title: "Developing a more productive, efficient, sustainable science enterprise"
 subtitle: ""
-description: "NA"
 date: "2015-04-30"
 categories: [Presentation]
 date-format: medium 
@@ -9,6 +8,5 @@ date-format: medium
 
 ### Speakers  
 Jon Lorsch (Director, NIGMS)
-
 
 

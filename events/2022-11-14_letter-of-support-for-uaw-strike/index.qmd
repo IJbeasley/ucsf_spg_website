@@ -1,7 +1,6 @@
 ---
 title: "Letter of Support for UAW strike"
 subtitle: ""
-description: "NA"
 date: "2022-11-14"
 categories: [Information]
 date-format: medium 

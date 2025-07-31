@@ -1,17 +1,23 @@
 ############### script to take excel spreadsheet of events #####################
 ############### and convert into quarto files #################################
 
+##################### Get google sheets of event #########################
+googledrive::drive_auth()
+googlesheets4::gs4_auth(token = googledrive::drive_token())
+
+events_sheet_url <- Sys.getenv("EVENTS_GSHEET_URL")
+events_spreadsheet <- googlesheets4::read_sheet(events_sheet_url)
+
+events_spreadsheet = events_spreadsheet |>
+  tidyr::fill(Year, .direction = 'down')
+
+events_spreadsheet = events_spreadsheet[9: nrow(events_spreadsheet),]
+
 
 library(stringr)
 library(here)
 
-# Load the Excel file
-events_spreadsheet <- data.table::fread("All_SPG_Events_2021_onwards.csv")  
-
-events_spreadsheet = events_spreadsheet[9: nrow(events_spreadsheet),]
-#events_spreadsheet = events_spreadsheet[1:10,]
-
-
+###################### Functions to process events spreadsheet ##############
 # Function to help create filenames / folder
 slugify <- function(text) {
   text <- tolower(text)
@@ -35,6 +41,8 @@ extract_start_date <- function(date_str) {
   paste(start_part, year)
 }
 
+
+##################### Process spreadsheet events files ###############
 # Loop through rows (each event) to generate .qmd files
 for (i in 1:nrow(events_spreadsheet)) {
   
@@ -46,10 +54,21 @@ for (i in 1:nrow(events_spreadsheet)) {
   
   date <- as.character(events_spreadsheet$`Date(s)`[i])  # Ensure it's in character format
   date <- stringr::str_remove(date, "~")
-  date <- stringr::str_remove(date, "- Fall?")
+  date <- stringr::str_remove(date, "- Fall\\?")
   date <- stringr::str_trim(date)
   date <- stringr::str_replace(date, "and", "-")
-  date <- ifelse(grepl("-", date), extract_start_date(date), date)
+  
+  # Extract starting portion if range
+  if (grepl("-", date)) {
+    date <- extract_start_date(date)
+  }
+  
+  # If day is missing (e.g. just "April 2025"), append "01"
+  if (grepl("^[A-Za-z]+\\s\\d{4}$", date)) {
+    date <- paste0(sub(" ", " 01 ", date))
+  }
+  
+  # date <- ifelse(grepl("-", date), extract_start_date(date), date)
   date <- as.Date(stringr::str_remove(date, ","),
                          format = "%B %d %Y")
   
@@ -89,17 +108,31 @@ for (i in 1:nrow(events_spreadsheet)) {
     )
   }
   
+  text_section <- "" 
+  if (!is.na(description)) {
+    text_section <- paste0(
+      description, "\n"
+    )
+  }
+  
+  description_section <- "" 
+  if (!is.na(first_sentence_description)) {
+    description_section <- paste0(
+      "description: ", shQuote(first_sentence_description), "\n"
+    )
+  }
+  
   content <- paste0(
     "---\n",
     "title: ", shQuote(title), "\n",
     "subtitle: ", shQuote(location), "\n",
-    "description: ", shQuote(first_sentence_description), "\n",
+    description_section,
     "date: ", shQuote(date), "\n",
     "categories: [", format, "]", "\n",
     "date-format: medium \n",
     "---\n\n",
     speaker_section,
-    description, "\n"
+    text_section
   )
   
   writeLines(content, filepath)

@@ -1,7 +1,7 @@
 ---
 title: "Scientists in Sacramento Event 2"
 subtitle: ""
-description: "The second event in the Science Policy Group’s \"\"Scientists in Sacramento\"\" series. "
+description: "The second event in the Science Policy Group’s \"Scientists in Sacramento\" series. "
 date: "2019-12-10"
 categories: [Presentation]
 date-format: medium 
@@ -10,5 +10,5 @@ date-format: medium
 ### Speakers  
 Michael Bedard (Legislative Director for the President of the University of California)
 
-The second event in the Science Policy Group’s ""Scientists in Sacramento"" series. Learn from Dr. Bedard about the California legislature and how to be an effective science policy advocate. Participating in this event will lead to an all-expenses-paid trip to the California Statehouse in January to advocate for a science position of your choice.
+The second event in the Science Policy Group’s "Scientists in Sacramento" series. Learn from Dr. Bedard about the California legislature and how to be an effective science policy advocate. Participating in this event will lead to an all-expenses-paid trip to the California Statehouse in January to advocate for a science position of your choice.
 

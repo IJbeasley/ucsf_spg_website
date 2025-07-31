@@ -1,14 +1,10 @@
 ---
 title: "Pursuing Gender Equity at UCSF"
 subtitle: "Cole Hall (Parn)"
-description: "NA"
 date: "2016-09-13"
 categories: [Panel]
 date-format: medium 
 ---
-
-### Speakers  
-
 
 SPG & WiLS partnered to present a panel discussion between UCSF leadership and trainees on gender equity issues
 

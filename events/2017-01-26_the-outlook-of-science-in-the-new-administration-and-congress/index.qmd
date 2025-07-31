@@ -1,14 +1,10 @@
 ---
 title: "The Outlook of Science in the New Administration and Congress"
 subtitle: ""
-description: "NA"
 date: "2017-01-26"
 categories: [Movie/livestream]
 date-format: medium 
 ---
-
-### Speakers  
-
 
 AAAS webinar screening
 

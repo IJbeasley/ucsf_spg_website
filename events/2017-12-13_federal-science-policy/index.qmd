@@ -1,7 +1,6 @@
 ---
 title: "Federal Science Policy"
 subtitle: ""
-description: "NA"
 date: "2017-12-13"
 categories: [Presentation]
 date-format: medium 

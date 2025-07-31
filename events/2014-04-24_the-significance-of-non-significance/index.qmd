@@ -1,7 +1,6 @@
 ---
 title: "The Significance of Non-Significance"
 subtitle: ""
-description: "NA"
 date: "2014-04-24"
 categories: [Panel]
 date-format: medium 

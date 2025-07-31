@@ -1,14 +1,9 @@
 ---
 title: "Minicourse Year 2"
 subtitle: "Mission Hall (MB)"
-description: "NA"
 date: "2024-04-22"
 categories: [Course]
 date-format: medium 
 ---
-
-### Speakers  
-
-
 
 

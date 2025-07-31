@@ -1,11 +1,9 @@
 ---
 title: "Minicourse Year 3"
 subtitle: "PCMB, VCV (MB)"
-description: "NA"
 date: "2025-04-01"
 categories: [Course]
 date-format: medium 
 ---
-
 
 

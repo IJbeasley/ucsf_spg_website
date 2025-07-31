@@ -1,14 +1,11 @@
 ---
-title: "\"\"Clean Hands\"\" Sanitizer Donation Mutual Aid Project"
+title: "\"Clean Hands\" Sanitizer Donation Mutual Aid Project"
 subtitle: ""
 description: "We are working on a mutual aid project to distribute hand sanitizer to vulnerable populations in the Bay Area living & working in congregate settings, with a focus on people who are incarcerated, people living in transitional housing, people in public housing complexes/underserved communities & unhoused people. "
-date: "20-04-20"
+date: "2020-04-01"
 categories: [Outreach]
 date-format: medium 
 ---
-
-### Speakers  
-
 
 We are working on a mutual aid project to distribute hand sanitizer to vulnerable populations in the Bay Area living & working in congregate settings, with a focus on people who are incarcerated, people living in transitional housing, people in public housing complexes/underserved communities & unhoused people. Because of the unique policy challenges and public health risks within jails and prisons, we have been and will continue to focus on incarcerated groups and inhabitants within transitional housing. We have been fortunate to be able to serve people in public housing projects and will continue to do so to the best of our ability. We ended up serving nearly every prison in CA, local jails, several high-risk SF neighborhoods, groups working with the unhoused, and the Navajo Nation.
 
