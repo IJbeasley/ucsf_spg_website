@@ -12,6 +12,9 @@ title-block-banner: true
 title-block-style: default
 lightbox:
   match: auto
+  effect: zoom
+  desc-position: bottom
+  loop: true
 # title-block-categories: false
 # notebook-links: false
 ---
@@ -31,7 +34,7 @@ lightbox:
 
 ::: {.column width="40%"}
 <div style="padding-left: 1.5em;">
-![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox}
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
 </div>
 :::
 
@@ -41,7 +44,7 @@ lightbox:
 
 ::: {.column width="40%"}
 <div style="padding-right: 1.5em;">
-![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox}
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
 </div>
 :::
 

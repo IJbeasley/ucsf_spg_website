@@ -4,13 +4,13 @@ project:
     - logo
 execute:
   freeze: auto
-
   # # If any part of website shared using twitter, 
   # # Include spg handle in the
   #       twitter-card: 
   #          site: @spgatucsf
   resources: 
     - logo
+    - images
 
 format:
   html:
