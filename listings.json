@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/gallery/index.html",
+    "items": []
+  },
+  {
     "listing": "/news/index.html",
     "items": [
       "/news/mcclintock_letters/index.html",
