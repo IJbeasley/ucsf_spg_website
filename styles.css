@@ -2,6 +2,12 @@
 /* Note: comments in this file need to be denoted using '/*' /*
 /* Hastags (#) are not recognised as comments in css */
 
+.shrink-img {
+  width: 200px;
+  height: auto;
+}
+
+
 .heading-up {
   margin-top: -0.25em;
 }
