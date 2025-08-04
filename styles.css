@@ -2,6 +2,10 @@
 /* Note: comments in this file need to be denoted using '/*' /*
 /* Hastags (#) are not recognised as comments in css */
 
+.heading-up {
+  margin-top: -0.25em;
+}
+
 /* Button text colour */
 /* Applied when button created with: */
 /* <button class='btn btn-danger'>  </button> */

@@ -15,12 +15,42 @@ lightbox:
 # title-block-categories: false
 # notebook-links: false
 ---
-# Recent & Up-Coming Events
+
+# Recent & Up-Coming Events {.heading-up}
 
 {{< include homepage/_events_widget.qmd >}}
 
-# About Us
 
-<!-- {{< embed homepage/_about_us_widget.qmd >}} -->
+# About Us {.heading-up}
 
+::: {.columns}
+
+::: {.column width="60%"}
 {{< include homepage/_about_us_widget.qmd >}}
+:::
+
+::: {.column width="40%"}
+<div style="padding-left: 1.5em;">
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox}
+</div>
+:::
+
+<br>
+
+::: {.columns}
+
+::: {.column width="40%"}
+<div style="padding-right: 1.5em;">
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox}
+</div>
+:::
+
+::: {.column width="60%"}
+{{< include homepage/_what_do_we_do.qmd >}}
+:::
+
+
+
+
+
+

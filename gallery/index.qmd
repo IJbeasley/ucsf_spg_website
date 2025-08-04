@@ -1,3 +1,17 @@
 ---
 title: "Gallery"
+page-layout: full
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - ../images/*.jpg
+    - ../images/*.png
+  sort-ui: false
+  filter-ui: false
+  categories: false
+---
+
+::: {#listing-gallery}
+:::
 ---
