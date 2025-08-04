@@ -1,42 +1,92 @@
 ```{=html}
 <style type="text/css">
+
 .grid-gallery {
   columns: 3 300px;
   column-gap: 0.5rem;
   width: 90%;
   margin: 0 auto;
 }
+
 .grid-item {
   width: 300px;
-  margin: 0 0.5rem 0.5rem 0;
+  height: auto;
+  margin: 0rem;
   display: inline-block;
-  width: 100%;
-  border-radius: 5px;
+  border-radius: 0px;
 }
+
 img.grid-item {
-  width: 100%;
   transition: all .25s ease-in-out;
 }
+
 img.grid-item:hover {
   transform: scale(1.025);
 }
-.caption {
-  font-size: 0.9em;
+
+figcaption.caption {
+  font-size: 1em;
   text-align: center;
-  margin-top: 0.3rem;
-  color: #555;
+  margin-top: -0.5rem; 
+  margin-bottom: 0.75rem;
+  color: black;
 }
+
+figure {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  break-inside: avoid;
+}
+
 </style>
 ```
-::: {.grid-gallery}
-<% for (const item of items) { %>
-  ::: {}
-  ![](<%= item.path %>){.grid-item .lightbox loading="lazy" group="quarto-grid-gallery"}
-  <% if (item.title) { %>
-    <div class="caption"><%= item.title %></div>
-  <% } %>
-  :::  
-<% } %>
-:::
 
+
+<div class="grid-gallery">
+
+<% for (const item of items) { %>
+
+<% 
+  const title = item.title.replace(/"/g, '&quot;');
+  const description = item.description.replace(/"/g, '&quot;');
+  const quarter = item.quarter.replace(/"/g, '&quot;');
+  const alt_text = item.alt_text.replace(/"/g, '&quot;');
+%>
+
+
+<figure>
+
+  <a href="<%= item.path %>" 
+     class="lightbox" 
+     title="<%= title %>"
+     data-original-href="<%= item.path %>"
+     data-glightbox="title: <%= title %>; description: <%= description %>;" 
+     data-gallery="quarto-grid-gallery">
+    
+  <img src="<%= item.path %>" 
+       alt="<%= alt_text %>" 
+       class="grid-item" 
+       loading="lazy" />
+  </a>
+  
+  <figcaption class="caption">
+  <b>
+  <%= title %>
+  (<%= quarter %>): 
+  </b>
+  <br>
+  <%= description %>
+  </figcaption>
+
+</figure>
+  
+<% } %>
+
+
+</div>
 

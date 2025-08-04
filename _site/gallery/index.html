@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-quarter','listing-description','listing-alt_text',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-filename","listing-file-modified"],
+      searchColumns: ["listing-title","listing-quarter","listing-description","listing-alt_text"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -247,48 +247,105 @@ window.Quarto = {
 
 <div id="listing-listing-gallery" class="quarto-listing quarto-listing-container-custom">
 <style type="text/css">
+
 .grid-gallery {
   columns: 3 300px;
   column-gap: 0.5rem;
   width: 90%;
   margin: 0 auto;
 }
+
 .grid-item {
   width: 300px;
-  margin: 0 0.5rem 0.5rem 0;
+  height: auto;
+  margin: 0rem;
   display: inline-block;
-  width: 100%;
-  border-radius: 5px;
+  border-radius: 0px;
 }
+
 img.grid-item {
-  width: 100%;
   transition: all .25s ease-in-out;
 }
+
 img.grid-item:hover {
   transform: scale(1.025);
 }
-.caption {
-  font-size: 0.9em;
+
+figcaption.caption {
+  font-size: 1em;
   text-align: center;
-  margin-top: 0.3rem;
-  color: #555;
+  margin-top: -0.5rem; 
+  margin-bottom: 0.75rem;
+  color: black;
 }
+
+figure {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  break-inside: avoid;
+}
+
 </style>
 <div class="grid-gallery">
-<p>::: {} <a href="..\images\IMG_20200408_130005.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="..\images\IMG_20200408_130005.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
-<p>:::</p>
-<p>::: {} <a href="..\images\IMG_6350.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="..\images\IMG_6350.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
-<p>:::</p>
-<p>::: {} <a href="..\images\IMG_6370.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="..\images\IMG_6370.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
-<p>:::</p>
-<p>::: {} <a href="..\images\thumbnail_IMG_0395.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="..\images\thumbnail_IMG_0395.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
-<p>:::</p>
-<p>::: {} <a href="..\images\SPG_Advocacy_Photo.png" class="lightbox" data-gallery="quarto-grid-gallery"><img src="..\images\SPG_Advocacy_Photo.png" class="grid-item img-fluid" loading="lazy"></a></p>
-<p>:::</p>
+<figure class="figure">
+<p><a href="../images/SPG_Advocacy_Photo.png" class="lightbox" title="SPG Test Photo" data-original-href="../images/SPG_Advocacy_Photo.png" data-glightbox="title: SPG Test Photo; description: Test Description;" data-gallery="quarto-grid-gallery"></a></p><a href="../images/SPG_Advocacy_Photo.png" class="lightbox" title="SPG Test Photo" data-original-href="../images/SPG_Advocacy_Photo.png" data-glightbox="title: SPG Test Photo; description: Test Description;" data-gallery="quarto-grid-gallery">
+</a><p><a href="../images/SPG_Advocacy_Photo.png" class="lightbox" title="SPG Test Photo" data-original-href="../images/SPG_Advocacy_Photo.png" data-glightbox="title: SPG Test Photo; description: Test Description;" data-gallery="quarto-grid-gallery"><img src="../images/SPG_Advocacy_Photo.png" alt="Test Alt Text" class="grid-item figure-img" loading="lazy"> </a></p>
+<figcaption class="caption">
+<b> SPG Test Photo (Fall 2021): </b> <br> Test Description
+</figcaption>
+</figure>
+<figure class="figure">
+<p><a href="../images/IMG_6350.jpg" class="lightbox" title="SPG Test Photo #2" data-original-href="../images/IMG_6350.jpg" data-glightbox="title: SPG Test Photo #2; description: Test Description;" data-gallery="quarto-grid-gallery"></a></p><a href="../images/IMG_6350.jpg" class="lightbox" title="SPG Test Photo #2" data-original-href="../images/IMG_6350.jpg" data-glightbox="title: SPG Test Photo #2; description: Test Description;" data-gallery="quarto-grid-gallery">
+</a><p><a href="../images/IMG_6350.jpg" class="lightbox" title="SPG Test Photo #2" data-original-href="../images/IMG_6350.jpg" data-glightbox="title: SPG Test Photo #2; description: Test Description;" data-gallery="quarto-grid-gallery"><img src="../images/IMG_6350.jpg" alt="Test Alt Text" class="grid-item figure-img" loading="lazy"> </a></p>
+<figcaption class="caption">
+<b> SPG Test Photo #2 (Fall 2021): </b> <br> Test Description
+</figcaption>
+</figure>
+<figure class="figure">
+<p><a href="../images/IMG_6370.jpg" class="lightbox" title="SPG Test Photo #3" data-original-href="../images/IMG_6370.jpg" data-glightbox="title: SPG Test Photo #3; description: Test Description;" data-gallery="quarto-grid-gallery"></a></p><a href="../images/IMG_6370.jpg" class="lightbox" title="SPG Test Photo #3" data-original-href="../images/IMG_6370.jpg" data-glightbox="title: SPG Test Photo #3; description: Test Description;" data-gallery="quarto-grid-gallery">
+</a><p><a href="../images/IMG_6370.jpg" class="lightbox" title="SPG Test Photo #3" data-original-href="../images/IMG_6370.jpg" data-glightbox="title: SPG Test Photo #3; description: Test Description;" data-gallery="quarto-grid-gallery"><img src="../images/IMG_6370.jpg" alt="Test Alt Text" class="grid-item figure-img" loading="lazy"> </a></p>
+<figcaption class="caption">
+<b> SPG Test Photo #3 (Fall 2021): </b> <br> Test Description
+</figcaption>
+</figure>
+<figure class="figure">
+<p><a href="../images/thumbnail_IMG_0395.jpg" class="lightbox" title="SPG Test Photo #4" data-original-href="../images/thumbnail_IMG_0395.jpg" data-glightbox="title: SPG Test Photo #4; description: Test Description;" data-gallery="quarto-grid-gallery"></a></p><a href="../images/thumbnail_IMG_0395.jpg" class="lightbox" title="SPG Test Photo #4" data-original-href="../images/thumbnail_IMG_0395.jpg" data-glightbox="title: SPG Test Photo #4; description: Test Description;" data-gallery="quarto-grid-gallery">
+</a><p><a href="../images/thumbnail_IMG_0395.jpg" class="lightbox" title="SPG Test Photo #4" data-original-href="../images/thumbnail_IMG_0395.jpg" data-glightbox="title: SPG Test Photo #4; description: Test Description;" data-gallery="quarto-grid-gallery"><img src="../images/thumbnail_IMG_0395.jpg" alt="Test Alt Text" class="grid-item figure-img" loading="lazy"> </a></p>
+<figcaption class="caption">
+<b> SPG Test Photo #4 (Fall 2021): </b> <br> Test Description
+</figcaption>
+</figure>
+<figure class="figure">
+<p><a href="../images/IMG_20200408_130005.jpg" class="lightbox" title="SPG Test Photo #5" data-original-href="../images/IMG_20200408_130005.jpg" data-glightbox="title: SPG Test Photo #5; description: Test Description;" data-gallery="quarto-grid-gallery"></a></p><a href="../images/IMG_20200408_130005.jpg" class="lightbox" title="SPG Test Photo #5" data-original-href="../images/IMG_20200408_130005.jpg" data-glightbox="title: SPG Test Photo #5; description: Test Description;" data-gallery="quarto-grid-gallery">
+</a><p><a href="../images/IMG_20200408_130005.jpg" class="lightbox" title="SPG Test Photo #5" data-original-href="../images/IMG_20200408_130005.jpg" data-glightbox="title: SPG Test Photo #5; description: Test Description;" data-gallery="quarto-grid-gallery"><img src="../images/IMG_20200408_130005.jpg" alt="Test Alt Text" class="grid-item figure-img" loading="lazy"> </a></p>
+<figcaption class="caption">
+<b> SPG Test Photo #5 (Fall 2021): </b> <br> Test Description
+</figcaption>
+</figure>
+<figure class="figure">
+<p><a href="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" class="lightbox" title="SPG Test Photo #6" data-original-href="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" data-glightbox="title: SPG Test Photo #6; description: Test Description;" data-gallery="quarto-grid-gallery"></a></p><a href="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" class="lightbox" title="SPG Test Photo #6" data-original-href="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" data-glightbox="title: SPG Test Photo #6; description: Test Description;" data-gallery="quarto-grid-gallery">
+</a><p><a href="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" class="lightbox" title="SPG Test Photo #6" data-original-href="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" data-glightbox="title: SPG Test Photo #6; description: Test Description;" data-gallery="quarto-grid-gallery"><img src="../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.jpg" alt="Test Alt Text" class="grid-item figure-img" loading="lazy"> </a></p>
+<figcaption class="caption">
+<b> SPG Test Photo #6 (Fall 2021): </b> <br> Test Description
+</figcaption>
+</figure>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<hr>
+<p><br> <br> <br></p>
+<div style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../logo/SPG_Pendant_Transparent_RGB_Small.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SPG Logo"><img src="../logo/SPG_Pendant_Transparent_RGB_Small.png" class="shrink-img img-fluid figure-img" alt="SPG Logo"></a></p>
+<figcaption>SPG Logo</figcaption>
+</figure>
+</div>
+</div>
 
 
 
@@ -738,7 +795,7 @@ img.grid-item:hover {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":true,"openEffect":"zoom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

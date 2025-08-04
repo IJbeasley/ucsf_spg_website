@@ -4,14 +4,30 @@ page-layout: full
 listing:
   id: listing-gallery
   template: gallery.ejs
-  contents:
-    - ../images/*.jpg
-    - ../images/*.png
-  sort-ui: false
-  filter-ui: false
-  categories: false
+  contents: gallery.yml
+    # - ../images/*.jpg
+    # - ../images/*.png
+  # sort-ui: false
+  # filter-ui: false
+  # categories: false
+lightbox:
+  match: auto
+  effect: zoom
+  desc-position: bottom
+  loop: true
 ---
 
 ::: {#listing-gallery}
 :::
----
+
+
+
+
+<br>
+<br>
+<br>
+
+<div style="text-align: center;">
+![SPG Logo](../logo/SPG_Pendant_Transparent_RGB_Small.png){.lightbox .shrink-img}
+</div>
+
