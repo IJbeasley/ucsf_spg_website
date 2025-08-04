@@ -2,6 +2,11 @@
 format: html
 editor: visual
 #title-block-banner: false
+lightbox:
+  match: auto
+---
+
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox}
 ---
 
 ### Who are we?
@@ -20,4 +25,42 @@ Example topics include:
 
 ### What do we do?
 
-Professional Development Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.
+#### **Professional Development** 
+
+Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.
+
+#### **Skill building**
+
+We have held workshops on communication and advocacy skills, including effective use of social media and persuasive writing for elected officials and the public.
+
+#### **Policy career exploration**
+
+We have invited speakers to discuss their careers in science policy fields and help our members follow in their footsteps.
+
+### Advocacy
+
+Beyond hosting events at UCSF, we advocate for issues we care about directly to people in power.
+
+#### **Advocacy training**
+
+We have hosted a variety of workshops to prepare members with no prior experience to visit the State Capitol and advocate for an issue of their choice, including an Advocacy 101 workshop, a Civic Engagement workshop series, and a policy Memo Writing workshop.
+
+#### **Advocacy opportunities** 
+
+In addition to phone banking campaigns, we have organized advocacy visits to the CA State Capitol in Sacramento and have participated in the March For Science (D.C.) and CASE workshops.
+
+### **Community Engagement**
+
+Many of our best and biggest events aim to engage the public.
+
+#### **Mutual aid**
+
+Our biggest mutual aid action was a year-long Clean Hands project, where we distributed 2,200+ gallons of hand sanitizer in over 62,000 bottles to CA jails/prisons, the Navajo Nation and other underserved COVID-vulnerable communities.
+
+#### Engaging with the democratic process
+
+We have moderated the 2019 Last District Attorney debate, provided information about voting and voter registration, and hosted ballot measure pros & cons sessions.
+
+#### **Community education**
+
+We have provided many opportunities for the public to learn more about science and science policy, including a public screening of the documentary "Human Nature" and a series of panels about controversial “Hard Questions” like defunding the police and SF’s housing crisis.

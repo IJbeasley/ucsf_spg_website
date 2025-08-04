@@ -1,5 +1,5 @@
 ---
-title: "UCSF Science Policy Group (SPG)"
+title: "Science Policy Group (SPG) at UCSF"
 subtitle: "The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community.
 <br>
 <div style='display: flex; gap: 1rem; flex-wrap: wrap;'>
@@ -10,6 +10,8 @@ subtitle: "The Science Policy Group at UCSF seeks to empower and educate people 
 "
 title-block-banner: true
 title-block-style: default
+lightbox:
+  match: auto
 # title-block-categories: false
 # notebook-links: false
 ---

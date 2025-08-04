@@ -23,7 +23,7 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   draft-mode: unlinked
-  title: "UCSF SPG"
+  title: "SPG at UCSF"
   
   search: 
     location: navbar
