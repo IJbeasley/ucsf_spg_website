@@ -134,7 +134,11 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../custom_style/navbar.css">
+<link rel="stylesheet" href="../custom_style/footer.css">
+<link rel="stylesheet" href="../custom_style/buttons.css">
+<link rel="stylesheet" href="../custom_style/homepage.css">
+<link rel="stylesheet" href="../custom_style/events_and_news_listings.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -186,7 +190,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../mail-to:spgatucsf@gmail.com"> <i class="bi bi-envelope-fill" role="img" aria-label="Email">
+    <a class="nav-link" href="mailto:spgatucsf@gmail.com"> <i class="bi bi-envelope-fill" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -201,7 +205,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../www.youtube.com/@spgUCSF"> <i class="bi bi-youtube" role="img" aria-label="Youtube">
+    <a class="nav-link" href="https://www.youtube.com/@spgUCSF"> <i class="bi bi-youtube" role="img" aria-label="Youtube">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -254,7 +258,7 @@ window.Quarto = {
 <p><a href="events/index.html" class="btn btn-success">See all our events </a></p>
 <div id="listing-lst-recent-events" class="listing quarto-float quarto-figure quarto-figure-left quarto-listing quarto-listing-container-default anchored">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U29jaWFs" data-listing-date-sort="1758758400000" data-listing-file-modified-sort="1754355991103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="quarto-post image-right" data-index="0" data-categories="U29jaWFs" data-listing-date-sort="1758758400000" data-listing-file-modified-sort="1754362029483" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <div class="thumbnail"><a href="../events/2025-09-25_welcome-picnic/index.html" class="no-external">
 
 <p class="card-img-top"><img src="../logo/SPG_wTxt_Gray_RGB.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -276,7 +280,7 @@ Sep 25, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="SW5mb3JtYXRpb24=" data-listing-date-sort="1750032000000" data-listing-file-modified-sort="1754355991103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="quarto-post image-right" data-index="1" data-categories="SW5mb3JtYXRpb24=" data-listing-date-sort="1750032000000" data-listing-file-modified-sort="1754362029483" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="thumbnail"><a href="../events/2025-06-16_mcclintock-letters/index.html" class="no-external">
 
 <p class="card-img-top"><img src="../logo/SPG_wTxt_Gray_RGB.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -713,13 +717,32 @@ Jun 16, 2025
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2022 - 2025, <br> Science Policy Group at UCSF</p>
-</div>   
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <medium>
+<b> © Copyright 2021 - <span id="year"></span>, 
+Science Policy Group at UCSF </b>
+</medium>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<br>
+<small>
+The views and opinions of the RCO expressed herein do not necessarily state or reflect
+those of the Regents of the University of California, UCSF, UCSF
+Medical Center, or any entities or units thereof.
+</small>
+  </li>  
+</ul>
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <br>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://bsky.app/profile/spgatucsf.bsky.social">
       <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
@@ -727,7 +750,7 @@ Jun 16, 2025
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../mail-to:spgatucsf@gmail.com">
+    <a class="nav-link" href="mailto:spgatucsf@gmail.com">
       <i class="bi bi-envelope-fill" role="img" aria-label="Email">
 </i> 
     </a>
@@ -745,7 +768,7 @@ Jun 16, 2025
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../www.youtube.com/@spgUCSF">
+    <a class="nav-link" href="https://www.youtube.com/@spgUCSF">
       <i class="bi bi-youtube" role="img" aria-label="Youtube">
 </i> 
     </a>

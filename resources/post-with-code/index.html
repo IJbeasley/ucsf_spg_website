@@ -110,7 +110,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../custom_style/navbar.css">
+<link rel="stylesheet" href="../../custom_style/footer.css">
+<link rel="stylesheet" href="../../custom_style/buttons.css">
+<link rel="stylesheet" href="../../custom_style/homepage.css">
+<link rel="stylesheet" href="../../custom_style/events_and_news_listings.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -162,7 +166,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../mail-to:spgatucsf@gmail.com"> <i class="bi bi-envelope-fill" role="img" aria-label="Email">
+    <a class="nav-link" href="mailto:spgatucsf@gmail.com"> <i class="bi bi-envelope-fill" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -177,7 +181,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../www.youtube.com/@spgUCSF"> <i class="bi bi-youtube" role="img" aria-label="Youtube">
+    <a class="nav-link" href="https://www.youtube.com/@spgUCSF"> <i class="bi bi-youtube" role="img" aria-label="Youtube">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -651,13 +655,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2022 - 2025, <br> Science Policy Group at UCSF</p>
-</div>   
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <medium>
+<b> © Copyright 2021 - <span id="year"></span>, 
+Science Policy Group at UCSF </b>
+</medium>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<br>
+<small>
+The views and opinions of the RCO expressed herein do not necessarily state or reflect
+those of the Regents of the University of California, UCSF, UCSF
+Medical Center, or any entities or units thereof.
+</small>
+  </li>  
+</ul>
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <br>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://bsky.app/profile/spgatucsf.bsky.social">
       <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
@@ -665,7 +688,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../mail-to:spgatucsf@gmail.com">
+    <a class="nav-link" href="mailto:spgatucsf@gmail.com">
       <i class="bi bi-envelope-fill" role="img" aria-label="Email">
 </i> 
     </a>
@@ -683,7 +706,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../www.youtube.com/@spgUCSF">
+    <a class="nav-link" href="https://www.youtube.com/@spgUCSF">
       <i class="bi bi-youtube" role="img" aria-label="Youtube">
 </i> 
     </a>
