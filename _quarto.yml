@@ -17,7 +17,13 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+    css: 
+      - custom_style/navbar.css
+      - custom_style/footer.css
+      - custom_style/buttons.css
+      - custom_style/homepage.css
+      - custom_style/events_and_news_listings.css
+      
 
 website:
   page-navigation: true
@@ -52,7 +58,6 @@ website:
       - href: gallery/index.qmd
         text: Gallery
 
-      # Join Us
     right:
       # social media icons / links - 
       # icons are retrieved from:
@@ -61,7 +66,7 @@ website:
         href: https://bsky.app/profile/spgatucsf.bsky.social
         aria-label: Bluesky
       - icon: envelope-fill
-        href: mail-to:spgatucsf@gmail.com
+        href: mailto:spgatucsf@gmail.com
         aria-label: Email
       - icon: twitter
         href: https://twitter.com/spgatucsf
@@ -70,7 +75,7 @@ website:
         href: https://www.facebook.com/SPGatUCSF
         aria-label: Facebook
       - icon: youtube
-        href: www.youtube.com/@spgUCSF
+        href: https://www.youtube.com/@spgUCSF
         aria-label: Youtube            
       - text: "<button class='btn btn-danger'>Join Us!</button>"
         href: join_info/index.qmd
@@ -78,20 +83,36 @@ website:
 
 ############## Website footer ################
   page-footer:
-######### TO ADD / FIX: Dynamic Copyright Year ###########
     background: primary
     foreground: foreground
-    left: "&copy; Copyright 2022 - 2025, <br> Science Policy Group at UCSF"
-      
-      # social media icons / links - 
-      # icons are retrieved from:
-      # https://icons.getbootstrap.com/    
+    left: 
+      - text: |
+          <medium>
+          <b> &copy; Copyright 2021 - <span id="year"></span>, 
+          Science Policy Group at UCSF </b>
+          </medium>
+          
+          <script>
+          document.getElementById("year").textContent = new Date().getFullYear();
+          </script>
+          
+          <br>
+          <small>
+          The views and opinions of the RCO expressed herein do not necessarily state or reflect
+          those of the Regents of the University of California, UCSF, UCSF
+          Medical Center, or any entities or units thereof.
+          </small>
+
+    # social media icons / links - 
+    # icons are retrieved from:
+    # https://icons.getbootstrap.com/ 
     right:
+      - text: "<br>"
       - icon: bluesky
         href: https://bsky.app/profile/spgatucsf.bsky.social
         aria-label: Bluesky
       - icon: envelope-fill
-        href: mail-to:spgatucsf@gmail.com
+        href: mailto:spgatucsf@gmail.com
         aria-label: Email
       - icon: twitter
         href: https://twitter.com/spgatucsf
@@ -100,9 +121,8 @@ website:
         href: https://www.facebook.com/SPGatUCSF
         aria-label: Facebook
       - icon: youtube
-        href: www.youtube.com/@spgUCSF
+        href: https://www.youtube.com/@spgUCSF
         aria-label: Youtube
-        
 
 
 
