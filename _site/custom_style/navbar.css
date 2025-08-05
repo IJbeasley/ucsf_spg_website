@@ -1,0 +1,39 @@
+/* custom changes to navigation bar css styles */
+
+
+/* Adjust logo size to fit increased navbar */
+.navbar-logo {
+  max-height: 70px; /* Adjust to fit your desired height */
+  height: auto;
+}
+
+
+/* Vertically center the navbar title (i.e. spg at ucsf) */
+.navbar-title {
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem; /* Optional: make text larger */
+  font-weight: 700;
+}
+
+
+/* Font size of nav bar links */
+.navbar-nav .nav-link {
+  font-size: 1.25rem;  /* Increase this value as needed */
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Font size of compact icon-only nav items */
+.navbar-nav .nav-item.compact .nav-link i {
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 1.25rem;
+  align-items: center;
+}

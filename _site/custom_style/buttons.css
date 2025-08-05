@@ -1,0 +1,16 @@
+/* custom changes to button css styles */
+
+/* Button text colour */
+/* Applied when button created with: */
+/* <button class='btn btn-danger'>  </button> */
+a.btn.btn-danger {
+  color: white !important;  /* or any color you'd like */
+}
+
+a.btn.btn-warning {
+  color: white !important;  /* or any color you'd like */
+}
+
+a.btn.btn-success {
+  color: white !important;  /* or any color you'd like */
+}

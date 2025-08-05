@@ -1,0 +1,22 @@
+/* custom changes to listings - primarily for news and events css styles */
+
+/* Note: comments in this file need to be denoted using '/*' /*
+/* Hastags (#) are not recognised as comments in css */
+
+
+/* Increase font size for listing date */
+/* see for e.g. events on homepage */
+.listing-date {
+  font-size: 1.1rem; /* Adjust as needed */
+}
+
+/* Make events or news title bolder */
+.listing-title {
+  font-weight: 700;  
+}
+
+/* shrink image included in bottom of gallery */
+.shrink-img {
+  width: 200px;
+  height: auto;
+}

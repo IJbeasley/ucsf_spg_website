@@ -1,0 +1,26 @@
+/* custom changes to footer css styles */
+
+/* size of footer bar */
+.nav-footer {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.1em;
+}
+
+/* Font size for footer text */
+.footer p {
+  font-size: 1.5rem;  /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  align-items: center;
+}
+
+/* Font size of footer icons */
+.footer .nav-item.compact .nav-link i {
+  font-size: 1.25rem;  /* Adjust icon size */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  align-items: center;
+}
