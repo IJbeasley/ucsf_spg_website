@@ -1,15 +1,10 @@
 ---
-title: "Gallery"
+title: Gallery
 page-layout: full
 listing:
   id: listing-gallery
   template: gallery.ejs
   contents: gallery.yml
-    # - ../images/*.jpg
-    # - ../images/*.png
-  # sort-ui: false
-  # filter-ui: false
-  # categories: false
 lightbox:
   match: auto
   effect: zoom
@@ -19,8 +14,6 @@ lightbox:
 
 ::: {#listing-gallery}
 :::
-
-
 
 
 <br>
