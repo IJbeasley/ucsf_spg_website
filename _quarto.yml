@@ -18,6 +18,7 @@ format:
       - cosmo
       - brand
     css: 
+      - custom_style/mobile_font_sizes.css
       - custom_style/navbar.css
       - custom_style/footer.css
       - custom_style/buttons.css
@@ -68,15 +69,15 @@ website:
       - icon: envelope-fill
         href: mailto:spgatucsf@gmail.com
         aria-label: Email
-      - icon: twitter
-        href: https://twitter.com/spgatucsf
-        aria-label: Twitter
-      - icon: facebook
-        href: https://www.facebook.com/SPGatUCSF
-        aria-label: Facebook
-      - icon: youtube
-        href: https://www.youtube.com/@spgUCSF
-        aria-label: Youtube            
+      # - icon: twitter
+      #   href: https://twitter.com/spgatucsf
+      #   aria-label: Twitter
+      # - icon: facebook
+      #   href: https://www.facebook.com/SPGatUCSF
+      #   aria-label: Facebook
+      # - icon: youtube
+      #   href: https://www.youtube.com/@spgUCSF
+        # aria-label: Youtube            
       - text: "<button class='btn btn-danger'>Join Us!</button>"
         href: join_info/index.qmd
 
