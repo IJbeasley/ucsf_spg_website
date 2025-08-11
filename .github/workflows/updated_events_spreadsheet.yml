@@ -1,9 +1,11 @@
 # .github/workflows/run-r-on-webhook.yml
-name: Use updated events google sheets to update events page of website
+name: Update events page of website using updated events google sheets to
 
 on:
   repository_dispatch:
     types: [update-events-sheets]
+    branches:
+      - main
 
 jobs:
   generate:
@@ -15,22 +17,42 @@ jobs:
 
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # prevent automatic token use for safety
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+        # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
+          version: pre-release 
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+          r-version: '4.3.1'
 
       - name: Set up renv
         uses: r-lib/actions/setup-renv@v2
 
-      - name: Run script to generate qmds
+      - name: Use Gargle (Google Drive) OAuth token
+        run: |
+          mkdir -p ~/.R/gargle
+          echo "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth
+
+      - name: Run script to generate event webpage Quarto files
         run: Rscript events/convert_spreadsheet_to_events.R
         env:
-          GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
+          EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
 
-      - name: Commit changes
+      - name: Setup git auth
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Commit changes
+        run: |
           git add events/
-          git commit -m "Update QMDs from Google Sheet" || echo "No changes to commit"
+          git commit -m "Update Events Page from SPG Events Google Sheet" || echo "No changes to commit"
           git push
