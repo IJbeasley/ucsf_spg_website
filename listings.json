@@ -1,7 +1,9 @@
 [
   {
-    "listing": "/gallery/index.html",
-    "items": []
+    "listing": "/leadership/index.html",
+    "items": [
+      "/leadership/current/rachel_murro.html"
+    ]
   },
   {
     "listing": "/news/index.html",
@@ -11,7 +13,7 @@
     ]
   },
   {
-    "listing": "/events/index.html",
+    "listing": "/join_info/index.html",
     "items": [
       "/events/2025-09-25_welcome-picnic/index.html",
       "/events/2025-06-16_mcclintock-letters/index.html",
@@ -107,14 +109,11 @@
     ]
   },
   {
-    "listing": "/resources/index.html",
-    "items": [
-      "/resources/post-with-code/index.html",
-      "/resources/welcome/index.html"
-    ]
+    "listing": "/gallery/index.html",
+    "items": []
   },
   {
-    "listing": "/join_info/index.html",
+    "listing": "/events/index.html",
     "items": [
       "/events/2025-09-25_welcome-picnic/index.html",
       "/events/2025-06-16_mcclintock-letters/index.html",
@@ -306,9 +305,10 @@
     ]
   },
   {
-    "listing": "/leadership/index.html",
+    "listing": "/resources/index.html",
     "items": [
-      "/leadership/current/rachel_murro.html"
+      "/resources/post-with-code/index.html",
+      "/resources/welcome/index.html"
     ]
   }
 ]
