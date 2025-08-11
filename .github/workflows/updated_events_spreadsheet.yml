@@ -4,8 +4,15 @@ name: Update events page of website using updated events google sheets to
 on:
   repository_dispatch:
     types: [update-events-sheets]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
     # branches:
     #   - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   generate-events-page:
@@ -20,6 +27,9 @@ jobs:
 
       - name: Mask gargle / Google drive token
         run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_TOKEN }}"   
+
+      - name: Mask gargle / Google drive email
+        run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_EMAIL }}"  
 
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -61,6 +71,7 @@ jobs:
         run: Rscript events/convert_spreadsheet_to_events.R
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
+          GARGLE_OAUTH_EMAIL: ${{ secrets.GARGLE_OAUTH_EMAIL }}
 
       - name: Commit changes
         run: |
