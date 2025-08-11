@@ -42,10 +42,10 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-      - name: Use Gargle (Google Drive) OAuth token
-        run: |
-          mkdir -p ~/.R/gargle
-          printf '%s' "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth
+      # - name: Use Gargle (Google Drive) OAuth token
+      #   run: |
+      #     mkdir -p .secrets
+      #     printf '%s' "${{ secrets.GARGLE_OAUTH_TOKEN }}" > .secrets/
 
       # - name: Use Gargle (Google Drive) OAuth token
       #   run: |
@@ -72,7 +72,7 @@ jobs:
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
           GARGLE_OAUTH_EMAIL: ${{ secrets.GARGLE_OAUTH_EMAIL }}
-          GARGLE_OAUTH_TOKEN: ${{ secrets.GARGLE_OAUTH_TOKEN }}
+          GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
 
       - name: Commit changes
         run: |

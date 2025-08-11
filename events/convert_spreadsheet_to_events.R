@@ -2,11 +2,23 @@
 ############### and convert into quarto files #################################
 
 ##################### Get google sheets of event #########################
-googledrive::drive_auth(token = Sys.getenv("GARGLE_OAUTH_TOKEN"),
-                        email = Sys.getenv("GARGLE_OAUTH_EMAIL")
-                        )
+# googledrive::drive_auth(token = Sys.getenv("GARGLE_OAUTH_TOKEN"),
+#                         email = Sys.getenv("GARGLE_OAUTH_EMAIL")
+#                         )
 
-googlesheets4::gs4_auth(token = googledrive::drive_token())
+googlesheets4::gs4_auth(token = gargle::secret_read_rds(
+  ".secrets/gs4-token.rds",
+  key = "GARGLE_OAUTH_KEY"
+))
+
+# path = gargle::secret_decrypt_json(
+#   system.file("secret", 
+#               "googledrive-testing.json", 
+#               package = "googledrive"),
+#   "GARGLE_OAUTH_KEY"
+# )
+
+# googlesheets4::gs4_auth(token = googledrive::drive_token())
 
 events_sheet_url <- Sys.getenv("EVENTS_GSHEET_URL")
 events_spreadsheet <- googlesheets4::read_sheet(events_sheet_url)
