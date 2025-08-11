@@ -52,11 +52,11 @@ jobs:
       #     mkdir -p ~/.R/gargle
       #     echo "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth          
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-        # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
-          version: pre-release 
+      # - name: Set up Quarto
+      #   uses: quarto-dev/quarto-actions/setup@v2
+      #   with:
+      #   # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
+      #     version: pre-release 
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
