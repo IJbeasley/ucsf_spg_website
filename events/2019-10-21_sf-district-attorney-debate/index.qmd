@@ -1,9 +1,9 @@
 ---
 title: |
   SF District Attorney Debate
-subtitle: "Byers Auditorium"
-description: "For the first time in over a century in San Francisco, this year’s election is an open race with four visionary new candidates. "
-date: "2019-10-21"
+subtitle: 'Byers Auditorium'
+description: 'For the first time in over a century in San Francisco, this year’s election is an open race with four visionary new candidates. '
+date: '2019-10-21'
 categories: [Debate]
 date-format: medium 
 ---

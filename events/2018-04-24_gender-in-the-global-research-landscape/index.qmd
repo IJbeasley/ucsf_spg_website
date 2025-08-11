@@ -1,9 +1,9 @@
 ---
 title: |
   Gender in the Global Research Landscape
-subtitle: ""
-description: "Holly J. "
-date: "2018-04-24"
+subtitle: ''
+description: 'Holly J. '
+date: '2018-04-24'
 categories: [Presentation]
 date-format: medium 
 ---

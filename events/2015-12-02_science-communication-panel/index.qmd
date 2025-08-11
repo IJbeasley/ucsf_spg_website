@@ -1,9 +1,9 @@
 ---
 title: |
   Science Communication Panel
-subtitle: ""
-description: "A panel on Science communication with Carry the One Radio, iBio, Youreka Science, and the dedicated publicity and outreach team at UCSF, all of whom work hard to communicate science to the public in engaging and exciting ways."
-date: "2015-12-02"
+subtitle: ''
+description: 'A panel on Science communication with Carry the One Radio, iBio, Youreka Science, and the dedicated publicity and outreach team at UCSF, all of whom work hard to communicate science to the public in engaging and exciting ways.'
+date: '2015-12-02'
 categories: [Panel]
 date-format: medium 
 ---

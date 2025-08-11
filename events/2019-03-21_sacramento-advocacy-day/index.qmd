@@ -1,9 +1,9 @@
 ---
 title: |
   Sacramento Advocacy Day
-subtitle: ""
-description: "Last month, Science Policy Group members from UC Berkeley and UCSF went to the California State House to talk about multiple bills on energy being put forth for this legislative year. "
-date: "2019-03-21"
+subtitle: ''
+description: 'Last month, Science Policy Group members from UC Berkeley and UCSF went to the California State House to talk about multiple bills on energy being put forth for this legislative year. '
+date: '2019-03-21'
 categories: [Lobbying]
 date-format: medium 
 ---

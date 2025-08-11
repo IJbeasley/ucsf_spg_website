@@ -1,8 +1,8 @@
 ---
 title: |
   Congressional Life Sciences Fair
-subtitle: "Washington, D.C."
-date: "2024-06-10"
+subtitle: 'Washington, D.C.'
+date: '2024-06-10'
 categories: [Lobbying]
 date-format: medium 
 ---

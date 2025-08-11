@@ -1,8 +1,8 @@
 ---
 title: |
   My life in science policy
-subtitle: ""
-date: "2014-12-04"
+subtitle: ''
+date: '2014-12-04'
 categories: [Chat/Q&A]
 date-format: medium 
 ---

@@ -1,9 +1,9 @@
 ---
 title: |
   Environmental Policy
-subtitle: ""
-description: "A roundtable discussion with former CCST Fellow for the California State Senate Committee on Environmental Quality and current staff scientist at the National Resources Defense Council."
-date: "2018-01-11"
+subtitle: ''
+description: 'A roundtable discussion with former CCST Fellow for the California State Senate Committee on Environmental Quality and current staff scientist at the National Resources Defense Council.'
+date: '2018-01-11'
 categories: [Chat/Q&A]
 date-format: medium 
 ---

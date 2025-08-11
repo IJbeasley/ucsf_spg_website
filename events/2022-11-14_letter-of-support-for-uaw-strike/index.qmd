@@ -1,8 +1,8 @@
 ---
 title: |
   Letter of Support for UAW strike
-subtitle: ""
-date: "2022-11-14"
+subtitle: ''
+date: '2022-11-14'
 categories: [Information]
 date-format: medium 
 ---

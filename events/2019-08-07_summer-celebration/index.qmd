@@ -1,9 +1,9 @@
 ---
 title: |
   Summer Celebration
-subtitle: ""
-description: "SPG invites you to a summer celebration! Come learn who we are, what we do, and how you can get involved."
-date: "2019-08-07"
+subtitle: ''
+description: 'SPG invites you to a summer celebration! Come learn who we are, what we do, and how you can get involved.'
+date: '2019-08-07'
 categories: [Social]
 date-format: medium 
 ---

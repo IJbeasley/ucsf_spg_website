@@ -1,8 +1,8 @@
 ---
 title: |
   What is the role of science policy in healthcare today?
-subtitle: ""
-date: "2014-11-19"
+subtitle: ''
+date: '2014-11-19'
 categories: [Presentation]
 date-format: medium 
 ---

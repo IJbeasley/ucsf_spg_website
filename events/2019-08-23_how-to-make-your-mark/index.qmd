@@ -1,9 +1,9 @@
 ---
 title: |
   How to Make Your Mark
-subtitle: ""
-description: "Learn more about the tools and tricks behind designing your own logo (and more) from Stephen Collera, Digital Media Specialist and Former Graphic Designer for McDonald’s Corporate. "
-date: "2019-08-23"
+subtitle: ''
+description: 'Learn more about the tools and tricks behind designing your own logo (and more) from Stephen Collera, Digital Media Specialist and Former Graphic Designer for McDonald’s Corporate. '
+date: '2019-08-23'
 categories: [Presentation]
 date-format: medium 
 ---

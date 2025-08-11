@@ -1,8 +1,8 @@
 ---
 title: |
   Advocacy 101: How to advocate for science at UCSF and beyond
-subtitle: ""
-date: "2014-05-22"
+subtitle: ''
+date: '2014-05-22'
 categories: [Presentation]
 date-format: medium 
 ---

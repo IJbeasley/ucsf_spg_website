@@ -1,9 +1,9 @@
 ---
 title: |
   Science Policy State Fellowship Alumni Panel
-subtitle: ""
-description: "Join the Science Policy Group and the Office of Career & Professional Development for the second in our science policy fellowship series, which will focus on state-level fellowships. "
-date: "2019-05-31"
+subtitle: ''
+description: 'Join the Science Policy Group and the Office of Career & Professional Development for the second in our science policy fellowship series, which will focus on state-level fellowships. '
+date: '2019-05-31'
 categories: [Panel]
 date-format: medium 
 ---

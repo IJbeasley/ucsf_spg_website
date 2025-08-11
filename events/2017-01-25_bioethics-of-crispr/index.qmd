@@ -1,9 +1,9 @@
 ---
 title: |
   Bioethics of CRISPR
-subtitle: ""
-description: "Stanford Law Professor Hank Greely lectured on the regulation of CRISPR and other genetic technologies."
-date: "2017-01-25"
+subtitle: ''
+description: 'Stanford Law Professor Hank Greely lectured on the regulation of CRISPR and other genetic technologies.'
+date: '2017-01-25'
 categories: [Presentation]
 date-format: medium 
 ---

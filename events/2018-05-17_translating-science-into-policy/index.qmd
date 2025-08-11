@@ -1,9 +1,9 @@
 ---
 title: |
   Translating Science into Policy
-subtitle: ""
-description: "Arlene Blum, Executive Director of the Green Science Policy Institute, spoke about her work to facilitate responsible use of chemicals to protect human and ecological health."
-date: "2018-05-17"
+subtitle: ''
+description: 'Arlene Blum, Executive Director of the Green Science Policy Institute, spoke about her work to facilitate responsible use of chemicals to protect human and ecological health.'
+date: '2018-05-17'
 categories: [Presentation]
 date-format: medium 
 ---
