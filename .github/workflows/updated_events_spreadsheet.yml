@@ -4,21 +4,43 @@ name: Update events page of website using updated events google sheets to
 on:
   repository_dispatch:
     types: [update-events-sheets]
-    branches:
-      - main
+    # branches:
+    #   - main
 
 jobs:
-  generate:
+  generate-events-page:
     runs-on: ubuntu-latest
-
-    steps:
+    
+    steps:       
       - name: Mask sheet URL
         run: echo "::add-mask::${{ secrets.EVENTS_GSHEET_URL }}"
+        
+      - name: Mask events github token
+        run: echo "::add-mask::${{ secrets.EVENTS_GITHUB_TOKEN }}"        
+
+      - name: Mask gargle / Google drive token
+        run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_TOKEN }}"   
 
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: false  # prevent automatic token use for safety
+
+      - name: Setup git auth
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Use Gargle (Google Drive) OAuth token
+        run: |
+          mkdir -p ~/.R/gargle
+          printf '%s' "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth
+
+      # - name: Use Gargle (Google Drive) OAuth token
+      #   run: |
+      #     mkdir -p ~/.R/gargle
+      #     echo "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth          
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -35,24 +57,14 @@ jobs:
       - name: Set up renv
         uses: r-lib/actions/setup-renv@v2
 
-      - name: Use Gargle (Google Drive) OAuth token
-        run: |
-          mkdir -p ~/.R/gargle
-          echo "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth
-
-      - name: Run script to generate event webpage Quarto files
+      - name: Generate event webpage Quarto files from RScript
         run: Rscript events/convert_spreadsheet_to_events.R
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
 
-      - name: Setup git auth
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
       - name: Commit changes
         run: |
+          git status
           git add events/
           git commit -m "Update Events Page from SPG Events Google Sheet" || echo "No changes to commit"
           git push
