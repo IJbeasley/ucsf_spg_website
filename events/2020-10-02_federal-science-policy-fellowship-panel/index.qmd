@@ -1,9 +1,9 @@
 ---
 title: |
   Federal Science Policy Fellowship Panel
-subtitle: ""
-description: "Science policy fellowships offer a fantastic opportunity for researchers to explore the policy realm. "
-date: "2020-10-02"
+subtitle: ''
+description: 'Science policy fellowships offer a fantastic opportunity for researchers to explore the policy realm. '
+date: '2020-10-02'
 categories: [Panel]
 date-format: medium 
 ---

@@ -1,8 +1,8 @@
 ---
 title: |
   Welcome Picnic
-subtitle: "Koret Quad (MB)"
-date: "2024-09-11"
+subtitle: 'Koret Quad (MB)'
+date: '2024-09-11'
 categories: [Social]
 date-format: medium 
 ---

@@ -1,9 +1,9 @@
 ---
 title: |
   Scientists in Sacramento Event 4: Sacramento Advocacy Day
-subtitle: ""
-description: "For Event 4, Sacramento Advocacy Day, SPG took our advocacy teams to meet with legislators in Sacramento. "
-date: "2020-01-14"
+subtitle: ''
+description: 'For Event 4, Sacramento Advocacy Day, SPG took our advocacy teams to meet with legislators in Sacramento. '
+date: '2020-01-14'
 categories: [Lobbying]
 date-format: medium 
 ---

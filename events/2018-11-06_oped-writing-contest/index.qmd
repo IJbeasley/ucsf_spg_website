@@ -1,9 +1,9 @@
 ---
 title: |
   OpEd Writing Contest
-subtitle: ""
-description: "Part of a series on communicating your expertise to the public and policy makers. "
-date: "2018-11-06"
+subtitle: ''
+description: 'Part of a series on communicating your expertise to the public and policy makers. '
+date: '2018-11-06'
 categories: [Information]
 date-format: medium 
 ---

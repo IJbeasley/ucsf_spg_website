@@ -1,8 +1,8 @@
 ---
 title: |
   NSPN Bay Area happy hour
-subtitle: ""
-date: "2019-10-12"
+subtitle: ''
+date: '2019-10-12'
 categories: [Social]
 date-format: medium 
 ---

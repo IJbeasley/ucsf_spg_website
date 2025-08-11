@@ -1,9 +1,9 @@
 ---
 title: |
   NSPN Symposium Info Session
-subtitle: ""
-description: "The Science Policy Groups at UCSF and UC Berkeley won the bid to host the 2021 National Science Policy Network (NSPN) Symposium this November! Our theme is Science Ethics for the Modern Era, and our talks/workshops explore a variety of timely and controversial topics from gene editing therapies to criminal justice reform and drug overdose prevention. "
-date: "2021-07-14"
+subtitle: ''
+description: 'The Science Policy Groups at UCSF and UC Berkeley won the bid to host the 2021 National Science Policy Network (NSPN) Symposium this November! Our theme is Science Ethics for the Modern Era, and our talks/workshops explore a variety of timely and controversial topics from gene editing therapies to criminal justice reform and drug overdose prevention. '
+date: '2021-07-14'
 categories: [Hybrid Virtual, Presentation]
 date-format: medium 
 ---

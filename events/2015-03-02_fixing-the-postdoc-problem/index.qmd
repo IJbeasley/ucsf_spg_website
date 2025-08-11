@@ -1,8 +1,8 @@
 ---
 title: |
   Fixing the Postdoc Problem
-subtitle: ""
-date: "2015-03-02"
+subtitle: ''
+date: '2015-03-02'
 categories: [Panel]
 date-format: medium 
 ---

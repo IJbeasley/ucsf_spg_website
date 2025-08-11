@@ -1,8 +1,8 @@
 ---
 title: |
   Making Informed Decisions for Career Development
-subtitle: ""
-date: "2014-05-29"
+subtitle: ''
+date: '2014-05-29'
 categories: [Presentation]
 date-format: medium 
 ---

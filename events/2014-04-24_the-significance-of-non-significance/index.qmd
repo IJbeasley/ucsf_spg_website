@@ -1,8 +1,8 @@
 ---
 title: |
   The Significance of Non-Significance
-subtitle: ""
-date: "2014-04-24"
+subtitle: ''
+date: '2014-04-24'
 categories: [Panel]
 date-format: medium 
 ---

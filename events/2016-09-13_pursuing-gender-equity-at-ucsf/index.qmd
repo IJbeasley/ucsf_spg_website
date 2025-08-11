@@ -1,8 +1,8 @@
 ---
 title: |
   Pursuing Gender Equity at UCSF
-subtitle: "Cole Hall (Parn)"
-date: "2016-09-13"
+subtitle: 'Cole Hall (Parn)'
+date: '2016-09-13'
 categories: [Panel]
 date-format: medium 
 ---

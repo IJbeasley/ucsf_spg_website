@@ -7,12 +7,13 @@
 /* Increase font size for listing date */
 /* see for e.g. events on homepage */
 .listing-date {
-  font-size: 1.1rem; /* Adjust as needed */
+  font-size: clamp(1em, 0.5em + 5vw,1.35em); /* Adjust as needed */
 }
 
 /* Make events or news title bolder */
 .listing-title {
   font-weight: 700;  
+  font-size: clamp(1em, 0.5em + 5vh, 1.35em);
 }
 
 /* shrink image included in bottom of gallery */

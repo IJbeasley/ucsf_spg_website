@@ -1,9 +1,9 @@
 ---
 title: |
   Ballot Initiative Forum: CA
-subtitle: ""
-description: "Bring your freshly mailed ballot and follow along as the League of Women Voters of SF reviews the pros and cons of the 12 statewide ballot measures. "
-date: "2020-10-16"
+subtitle: ''
+description: 'Bring your freshly mailed ballot and follow along as the League of Women Voters of SF reviews the pros and cons of the 12 statewide ballot measures. '
+date: '2020-10-16'
 categories: [Presentation, Chat/Q&A]
 date-format: medium 
 ---

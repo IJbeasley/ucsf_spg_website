@@ -3,9 +3,9 @@ title: |
   Hard Questions Series: 1) Homelessness, Housing, and Evictions
   2) Defunding Policing
   3) The Future of AI
-subtitle: "Zoom (virtual only)"
-description: "This virtual panel will feature experts on the history and policy of housing, homelessness and evictions in the United States. "
-date: "2021-09-27"
+subtitle: 'Zoom (virtual only)'
+description: 'This virtual panel will feature experts on the history and policy of housing, homelessness and evictions in the United States. '
+date: '2021-09-27'
 categories: [Panel, Virtual]
 date-format: medium 
 ---

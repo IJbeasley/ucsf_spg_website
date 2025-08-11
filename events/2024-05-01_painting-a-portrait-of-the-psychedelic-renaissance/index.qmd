@@ -1,9 +1,9 @@
 ---
 title: |
   Painting a Portrait of the Psychedelic Renaissance
-subtitle: "Byers Auditorium (MB)"
-description: "Join us for an insightful conversation between two leaders in the global psychedelic Renaissance. "
-date: "2024-05-01"
+subtitle: 'Byers Auditorium (MB)'
+description: 'Join us for an insightful conversation between two leaders in the global psychedelic Renaissance. '
+date: '2024-05-01'
 categories: [Chat/Q&A]
 date-format: medium 
 ---
