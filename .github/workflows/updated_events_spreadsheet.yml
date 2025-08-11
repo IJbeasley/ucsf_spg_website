@@ -1,0 +1,39 @@
+# .github/workflows/run-r-on-webhook.yml
+name: Use updated events google sheets to update events page of website
+
+on:
+  repository_dispatch:
+    types: [update-events-sheets]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mask sheet URL
+        run: echo "::add-mask::${{ secrets.EVENTS_GSHEET_URL }}"
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install packages
+        run: |
+          install.packages(c("googlesheets4", "stringr", "dplyr", "readr"))
+        shell: Rscript {0}
+
+      - name: Run script to generate qmds
+        run: Rscript generate_events.R
+        env:
+          GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
+
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add events/
+          git commit -m "Update QMDs from Google Sheet" || echo "No changes to commit"
+          git push
