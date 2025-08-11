@@ -25,11 +25,8 @@ jobs:
       - name: Mask events github token
         run: echo "::add-mask::${{ secrets.EVENTS_GITHUB_TOKEN }}"        
 
-      - name: Mask gargle / Google drive token
-        run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_TOKEN }}"   
-
       - name: Mask gargle / Google drive email
-        run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_EMAIL }}"  
+        run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_KEY }}"  
 
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -41,22 +38,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
-      # - name: Use Gargle (Google Drive) OAuth token
-      #   run: |
-      #     mkdir -p .secrets
-      #     printf '%s' "${{ secrets.GARGLE_OAUTH_TOKEN }}" > .secrets/
-
-      # - name: Use Gargle (Google Drive) OAuth token
-      #   run: |
-      #     mkdir -p ~/.R/gargle
-      #     echo "${{ secrets.GARGLE_OAUTH_TOKEN }}" > ~/.R/gargle/gargle-oauth          
-
-      # - name: Set up Quarto
-      #   uses: quarto-dev/quarto-actions/setup@v2
-      #   with:
-      #   # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
-      #     version: pre-release 
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
@@ -71,12 +52,11 @@ jobs:
         run: Rscript events/convert_spreadsheet_to_events.R
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
-          GARGLE_OAUTH_EMAIL: ${{ secrets.GARGLE_OAUTH_EMAIL }}
           GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
 
       - name: Commit changes
         run: |
-          git status
           git add events/
+          git status
           git commit -m "Update Events Page from SPG Events Google Sheet" || echo "No changes to commit"
           git push
