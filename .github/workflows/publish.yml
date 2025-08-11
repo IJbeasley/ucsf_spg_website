@@ -1,4 +1,4 @@
-name: Render and Publish
+name: Render and Publish Webpage
 
 on:
   # Allows you to run this workflow manually from the Actions tab

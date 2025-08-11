@@ -2,7 +2,7 @@
 ############### and convert into quarto files #################################
 
 ##################### Get google sheets of event #########################
-googledrive::drive_auth(cache = "~/.R/gargle/gargle-oauth",
+googledrive::drive_auth(token = Sys.getenv("GARGLE_OAUTH_TOKEN"),
                         email = Sys.getenv("GARGLE_OAUTH_EMAIL")
                         )
 

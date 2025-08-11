@@ -1,5 +1,5 @@
 # .github/workflows/run-r-on-webhook.yml
-name: Update events page of website using updated events google sheets to
+name: Update events page of website using updated GDrive events sheet 
 
 on:
   repository_dispatch:
@@ -72,6 +72,7 @@ jobs:
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
           GARGLE_OAUTH_EMAIL: ${{ secrets.GARGLE_OAUTH_EMAIL }}
+          GARGLE_OAUTH_TOKEN: ${{ secrets.GARGLE_OAUTH_TOKEN }}
 
       - name: Commit changes
         run: |
