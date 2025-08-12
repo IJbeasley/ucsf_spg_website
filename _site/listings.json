@@ -1,23 +1,20 @@
 [
   {
-    "listing": "/resources/index.html",
+    "listing": "/events/index.html",
     "items": [
-      "/resources/post-with-code/index.html",
-      "/resources/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/leadership/index.html",
-    "items": [
-      "/leadership/current/rachel_murro.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
+      "/events/2025-12-01_advocating-for-science-part-1-intro-to-ca-legislature/index.html",
+      "/events/2025-12-01_advocating-for-science-part-2-how-to-communicate-with-policymakers/index.html",
+      "/events/2025-12-01_advocating-for-science-part-3-writing-a-1-pager/index.html",
+      "/events/2025-12-01_advocating-for-science-part-4-sacramento-trip/index.html",
+      "/events/2025-12-01_minicourse-year-4/index.html",
+      "/events/2025-12-01_neuroethics-panel/index.html",
+      "/events/2025-12-01_night-science/index.html",
       "/events/2025-09-25_welcome-picnic/index.html",
+      "/events/event_3/index.html",
       "/events/2025-06-16_mcclintock-letters/index.html",
+      "/events/example_mcclintock_letters/index.html",
       "/events/2025-04-01_minicourse-year-3/index.html",
+      "/events/2025-02-23_fireside-chat-with-holden-thorp/index.html",
       "/events/2025-01-23_advocacy-101/index.html",
       "/events/2024-11-05_voting-guide/index.html",
       "/events/2024-09-11_welcome-picnic/index.html",
@@ -32,11 +29,17 @@
       "/events/2023-04-19_overdose-prevention-workshop-and-seminar/index.html",
       "/events/2022-11-14_letter-of-support-for-uaw-strike/index.html",
       "/events/2022-10-05_vaccine-equity-series-3-vaccine-equity-worldwide-analogies-to-the-hiv-pandemic/index.html",
+      "/events/2022-10-05_vaccine-equity-series-session-3-vaccine-equity-worldwide-analogies-to-the-hiv-pandemic/index.html",
       "/events/2022-10-03_vaccine-equity-series-2-vaccine-science-for-equity/index.html",
+      "/events/2022-10-03_vaccine-equity-series-session-2-vaccine-science-for-equity/index.html",
       "/events/2022-09-29_vaccine-equity-series-1-the-covid-vaccine-fiasco/index.html",
+      "/events/2022-09-29_vaccine-equity-series-session-1-the-covid-vaccine-fiasco/index.html",
       "/events/2022-09-15_welcome-picnic/index.html",
       "/events/2022-04-08_science-ethics-and-policy-symposium/index.html",
+      "/events/2021-10-13_hard-questions-series-session-3-the-future-of-ai/index.html",
+      "/events/2021-10-04_hard-questions-series-session-2-defunding-policing/index.html",
       "/events/2021-09-27_hard-questions-series-1-homelessness-housing-and-evictions-2-defunding-policing-3-the-future-of-ai/index.html",
+      "/events/2021-09-27_hard-questions-series-session-1-homelessness-housing-and-evictions/index.html",
       "/events/2021-09-08_welcome-picnic/index.html",
       "/events/2021-07-14_nspn-symposium-info-session/index.html",
       "/events/2021-02-12_state-science-policy-fellowship-panel/index.html",
@@ -52,6 +55,7 @@
       "/events/2020-01-14_scientists-in-sacramento-event-4-sacramento-advocacy-day/index.html",
       "/events/2020-01-09_scientists-in-sacramento-event-3-feedback/index.html",
       "/events/2019-12-10_scientists-in-sacramento-event-2/index.html",
+      "/events/event_2/index.html",
       "/events/2019-10-24_civic-engagement-career-talk/index.html",
       "/events/2019-10-21_sf-district-attorney-debate/index.html",
       "/events/2019-10-17_ballot-initiative-forum-sf-election-events/index.html",
@@ -64,6 +68,7 @@
       "/events/2019-05-31_science-policy-state-fellowship-alumni-panel/index.html",
       "/events/2019-05-15_federal-fellowship-alumni-panel/index.html",
       "/events/2019-04-15_writing-for-policymakers-event-3-policy-for-science/index.html",
+      "/events/event_1/index.html",
       "/events/2019-03-21_sacramento-advocacy-day/index.html",
       "/events/2019-03-04_writing-for-policymakers-event-2-science-for-policy/index.html",
       "/events/2019-02-21_writing-for-policymakers-event-1-panel/index.html",
@@ -109,11 +114,24 @@
     ]
   },
   {
-    "listing": "/events/index.html",
+    "listing": "/leadership/index.html",
     "items": [
-      "/events/2025-09-25_welcome-picnic/index.html",
+      "/leadership/current/rachel_murro.html"
+    ]
+  },
+  {
+    "listing": "/join_info/index.html",
+    "items": [
+      "/events/2025-12-01_advocating-for-science-part-1-intro-to-ca-legislature/index.html",
+      "/events/2025-12-01_advocating-for-science-part-2-how-to-communicate-with-policymakers/index.html",
+      "/events/2025-12-01_advocating-for-science-part-3-writing-a-1-pager/index.html",
+      "/events/2025-12-01_advocating-for-science-part-4-sacramento-trip/index.html",
+      "/events/2025-12-01_minicourse-year-4/index.html",
+      "/events/2025-12-01_neuroethics-panel/index.html",
+      "/events/2025-12-01_night-science/index.html",
       "/events/2025-06-16_mcclintock-letters/index.html",
       "/events/2025-04-01_minicourse-year-3/index.html",
+      "/events/2025-02-23_fireside-chat-with-holden-thorp/index.html",
       "/events/2025-01-23_advocacy-101/index.html",
       "/events/2024-11-05_voting-guide/index.html",
       "/events/2024-09-11_welcome-picnic/index.html",
@@ -128,11 +146,17 @@
       "/events/2023-04-19_overdose-prevention-workshop-and-seminar/index.html",
       "/events/2022-11-14_letter-of-support-for-uaw-strike/index.html",
       "/events/2022-10-05_vaccine-equity-series-3-vaccine-equity-worldwide-analogies-to-the-hiv-pandemic/index.html",
+      "/events/2022-10-05_vaccine-equity-series-session-3-vaccine-equity-worldwide-analogies-to-the-hiv-pandemic/index.html",
       "/events/2022-10-03_vaccine-equity-series-2-vaccine-science-for-equity/index.html",
+      "/events/2022-10-03_vaccine-equity-series-session-2-vaccine-science-for-equity/index.html",
       "/events/2022-09-29_vaccine-equity-series-1-the-covid-vaccine-fiasco/index.html",
+      "/events/2022-09-29_vaccine-equity-series-session-1-the-covid-vaccine-fiasco/index.html",
       "/events/2022-09-15_welcome-picnic/index.html",
       "/events/2022-04-08_science-ethics-and-policy-symposium/index.html",
+      "/events/2021-10-13_hard-questions-series-session-3-the-future-of-ai/index.html",
+      "/events/2021-10-04_hard-questions-series-session-2-defunding-policing/index.html",
       "/events/2021-09-27_hard-questions-series-1-homelessness-housing-and-evictions-2-defunding-policing-3-the-future-of-ai/index.html",
+      "/events/2021-09-27_hard-questions-series-session-1-homelessness-housing-and-evictions/index.html",
       "/events/2021-09-08_welcome-picnic/index.html",
       "/events/2021-07-14_nspn-symposium-info-session/index.html",
       "/events/2021-02-12_state-science-policy-fellowship-panel/index.html",
@@ -209,11 +233,28 @@
     "items": []
   },
   {
-    "listing": "/join_info/index.html",
+    "listing": "/resources/index.html",
     "items": [
+      "/resources/post-with-code/index.html",
+      "/resources/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/events/2025-12-01_advocating-for-science-part-1-intro-to-ca-legislature/index.html",
+      "/events/2025-12-01_advocating-for-science-part-2-how-to-communicate-with-policymakers/index.html",
+      "/events/2025-12-01_advocating-for-science-part-3-writing-a-1-pager/index.html",
+      "/events/2025-12-01_advocating-for-science-part-4-sacramento-trip/index.html",
+      "/events/2025-12-01_minicourse-year-4/index.html",
+      "/events/2025-12-01_neuroethics-panel/index.html",
+      "/events/2025-12-01_night-science/index.html",
       "/events/2025-09-25_welcome-picnic/index.html",
+      "/events/event_3/index.html",
       "/events/2025-06-16_mcclintock-letters/index.html",
+      "/events/example_mcclintock_letters/index.html",
       "/events/2025-04-01_minicourse-year-3/index.html",
+      "/events/2025-02-23_fireside-chat-with-holden-thorp/index.html",
       "/events/2025-01-23_advocacy-101/index.html",
       "/events/2024-11-05_voting-guide/index.html",
       "/events/2024-09-11_welcome-picnic/index.html",
@@ -228,11 +269,17 @@
       "/events/2023-04-19_overdose-prevention-workshop-and-seminar/index.html",
       "/events/2022-11-14_letter-of-support-for-uaw-strike/index.html",
       "/events/2022-10-05_vaccine-equity-series-3-vaccine-equity-worldwide-analogies-to-the-hiv-pandemic/index.html",
+      "/events/2022-10-05_vaccine-equity-series-session-3-vaccine-equity-worldwide-analogies-to-the-hiv-pandemic/index.html",
       "/events/2022-10-03_vaccine-equity-series-2-vaccine-science-for-equity/index.html",
+      "/events/2022-10-03_vaccine-equity-series-session-2-vaccine-science-for-equity/index.html",
       "/events/2022-09-29_vaccine-equity-series-1-the-covid-vaccine-fiasco/index.html",
+      "/events/2022-09-29_vaccine-equity-series-session-1-the-covid-vaccine-fiasco/index.html",
       "/events/2022-09-15_welcome-picnic/index.html",
       "/events/2022-04-08_science-ethics-and-policy-symposium/index.html",
+      "/events/2021-10-13_hard-questions-series-session-3-the-future-of-ai/index.html",
+      "/events/2021-10-04_hard-questions-series-session-2-defunding-policing/index.html",
       "/events/2021-09-27_hard-questions-series-1-homelessness-housing-and-evictions-2-defunding-policing-3-the-future-of-ai/index.html",
+      "/events/2021-09-27_hard-questions-series-session-1-homelessness-housing-and-evictions/index.html",
       "/events/2021-09-08_welcome-picnic/index.html",
       "/events/2021-07-14_nspn-symposium-info-session/index.html",
       "/events/2021-02-12_state-science-policy-fellowship-panel/index.html",
@@ -248,6 +295,7 @@
       "/events/2020-01-14_scientists-in-sacramento-event-4-sacramento-advocacy-day/index.html",
       "/events/2020-01-09_scientists-in-sacramento-event-3-feedback/index.html",
       "/events/2019-12-10_scientists-in-sacramento-event-2/index.html",
+      "/events/event_2/index.html",
       "/events/2019-10-24_civic-engagement-career-talk/index.html",
       "/events/2019-10-21_sf-district-attorney-debate/index.html",
       "/events/2019-10-17_ballot-initiative-forum-sf-election-events/index.html",
@@ -260,6 +308,7 @@
       "/events/2019-05-31_science-policy-state-fellowship-alumni-panel/index.html",
       "/events/2019-05-15_federal-fellowship-alumni-panel/index.html",
       "/events/2019-04-15_writing-for-policymakers-event-3-policy-for-science/index.html",
+      "/events/event_1/index.html",
       "/events/2019-03-21_sacramento-advocacy-day/index.html",
       "/events/2019-03-04_writing-for-policymakers-event-2-science-for-policy/index.html",
       "/events/2019-02-21_writing-for-policymakers-event-1-panel/index.html",
