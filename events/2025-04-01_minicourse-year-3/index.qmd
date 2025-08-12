@@ -1,10 +1,16 @@
 ---
 title: |
   Minicourse Year 3
-subtitle: 'PCMB, VCV (MB)'
+subtitle: |
+  Location: PCMB, VCV (MB)
 date: '2025-04-01'
 categories: [Course]
+image: 'featured.png'
 date-format: medium 
 ---
 
 
+
+![Flyer for Minicourse Year 3 (2025-04-01) - Page: 1](featured.png){.lightbox group=‘minicourse-year-3’}
+
+![Flyer for Minicourse Year 3 (2025-04-01) - Page: 2](featured-2.png){.lightbox group=‘minicourse-year-3’}

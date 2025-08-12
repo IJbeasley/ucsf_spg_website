@@ -1,15 +1,16 @@
 ---
 title: |
   Advocating for Science: 1) Science Advocacy 101
-subtitle: ''
-description: 'UCSF government relations provided information, tools, and skills to better equip scientists to advocate for basic research, higher education, science funding, and scientific rigor in policy and decision-making. '
+description: 'UCSF government relations provided information, tools, and skills to better equip scientists to advocate for basic research, higher education, science funding, and scientific rigor in policy and decision-making.'
 date: '2017-03-27'
 categories: [Presentation]
 date-format: medium 
 ---
 
+
 ### Speakers  
 UCSF Community and Government Relations
 
 UCSF government relations provided information, tools, and skills to better equip scientists to advocate for basic research, higher education, science funding, and scientific rigor in policy and decision-making. Co-hosted with the Graduate Division as part of the Advocating for Science and Scientists series.
+
 

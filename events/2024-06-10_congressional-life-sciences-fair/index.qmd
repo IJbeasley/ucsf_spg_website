@@ -1,14 +1,17 @@
 ---
 title: |
   Congressional Life Sciences Fair
-subtitle: 'Washington, D.C.'
+subtitle: |
+  Location: Washington, D.C.
 date: '2024-06-10'
 categories: [Lobbying]
 date-format: medium 
 ---
 
+
 ### Speakers  
 SPG reps: Amelie Delcourt, Matt Ryan; Jared Khan, Cindy Ow;  
 Keith Yamamoto (OSPS), Eric Anthony (CGR)
+
 
 

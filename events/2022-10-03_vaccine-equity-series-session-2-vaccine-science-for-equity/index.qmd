@@ -1,0 +1,21 @@
+---
+title: |
+  Vaccine Equity Series
+  Session 2: Vaccine Science for Equity
+subtitle: |
+  Location: Hellen Diller (MB)
+description: '2) Microbiologist and Nobel Prize nominee Maria Elena Bottazzi will share efforts and motivations around the creation of a patent-free Covid vaccine, Corbevax.'
+date: '2022-10-03'
+categories: [Chat/Q&A, Hybrid Virtual]
+image: 'featured.png'
+date-format: medium 
+---
+
+
+### Speakers  
+Maria Elena Bottazzi (Professor, National School of Tropical Medicine, Baylor College of Medicine)
+
+2) Microbiologist and Nobel Prize nominee Maria Elena Bottazzi will share efforts and motivations around the creation of a patent-free Covid vaccine, Corbevax.
+
+![Flyer for Vaccine Equity Series
+Session 2: Vaccine Science for Equity (2022-10-03)](featured.png){.lightbox}

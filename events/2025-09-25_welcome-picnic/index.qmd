@@ -1,13 +1,20 @@
 ---
+draft: true 
 title: |
   Welcome Picnic
-subtitle: 'Koret Quad (MB)'
+subtitle: |
+  Location: Koret Quad (MB)
+author: '5:30pm'
+description: 'We invite you to our annual Welcome Picnic (food will be provided)! Meet our incredible team, learn about what we do, and find out how to get involved!'
 date: '2025-09-25'
 categories: [Social]
 date-format: medium 
 ---
+<a href=tinyurl.com/spg-picnic class='btn btn-danger'>RSVP Here</a>
 
 ### Speakers  
 SPG members
+
+We invite you to our annual Welcome Picnic (food will be provided)! Meet our incredible team, learn about what we do, and find out how to get involved!
 
 

@@ -1,10 +1,13 @@
 ---
 title: |
   Minicourse Year 2
-subtitle: 'Mission Hall (MB)'
+subtitle: |
+  Location: Mission Hall (MB)
 date: '2024-04-22'
 categories: [Course]
 date-format: medium 
 ---
+
+
 
 

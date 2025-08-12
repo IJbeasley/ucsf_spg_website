@@ -1,13 +1,17 @@
 ---
 title: |
   Welcome Picnic
-subtitle: 'Koret Quad (MB)'
+subtitle: |
+  Location: Koret Quad (MB)
 date: '2024-09-11'
 categories: [Social]
+image: 'featured.png'
 date-format: medium 
 ---
+
 
 ### Speakers  
 SPG members
 
 
+![Flyer for Welcome Picnic (2024-09-11)](featured.png){.lightbox}

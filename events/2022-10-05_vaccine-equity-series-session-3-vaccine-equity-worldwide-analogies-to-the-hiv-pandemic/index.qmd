@@ -1,0 +1,21 @@
+---
+title: |
+  Vaccine Equity Series
+  Session 3: Vaccine Equity Worldwide - Analogies to the HIV Pandemic
+subtitle: |
+  Location: Nursing Building (Parn)
+description: '3) UCSF’s own Monica Gandhi will discuss the landscape of global access to HIV treatment, and how lessons from HIV can be applied to the current Covid and MPX pandemics.'
+date: '2022-10-05'
+categories: [Presentation, Hybrid Virtual]
+image: 'featured.png'
+date-format: medium 
+---
+
+
+### Speakers  
+Monica Gandhi (Professor of Medicine, UCSF)
+
+3) UCSF’s own Monica Gandhi will discuss the landscape of global access to HIV treatment, and how lessons from HIV can be applied to the current Covid and MPX pandemics.
+
+![Flyer for Vaccine Equity Series
+Session 3: Vaccine Equity Worldwide - Analogies to the HIV Pandemic (2022-10-05)](featured.png){.lightbox}

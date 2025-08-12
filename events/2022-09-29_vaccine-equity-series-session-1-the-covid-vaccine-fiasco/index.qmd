@@ -1,0 +1,23 @@
+---
+title: |
+  Vaccine Equity Series
+  Session 1: The Covid Vaccine Fiasco
+subtitle: |
+  Location: Hellen Diller (MB)
+description: '"Could you patent the sun?" is a three-part speaker series examining the global rollout of mRNA vaccines during the Covid-19 pandemic.'
+date: '2022-09-29'
+categories: [Chat/Q&A, Hybrid Virtual]
+image: 'featured.png'
+date-format: medium 
+---
+
+
+### Speakers  
+Achal Prabhala (writer)
+
+"Could you patent the sun?" is a three-part speaker series examining the global rollout of mRNA vaccines during the Covid-19 pandemic. How can we address the gross disparities in access to vaccine technology and other therapeutics that resulted between Global North and South? What might an international collaborative approach to science look like? These cross-disciplinary conversations will explore the logistics of vaccine research, production, and distribution with attention to how legacies of global imperialism and intellectual property law have shaped who ultimately has access to lifesaving technologies. When Jonas Salk developed one of the first polio vaccines, he affirmed it as public domain.  When asked who owned the patent to the vaccine, he replied “Well, the people, I would say. There is no patent. Could you patent the sun?”. We invoke Salk’s rhetorical question to create an opening to reconsider our current trajectory and next steps for vaccine distribution.
+
+1) Achal Prabhala, a longtime advocate for equitable access to medicine in the Global South, will present a brief history of intellectual patent law and discuss its impact on the distribution of mRNA vaccines through the Covid-19 pandemic.
+
+![Flyer for Vaccine Equity Series
+Session 1: The Covid Vaccine Fiasco (2022-09-29)](featured.png){.lightbox}

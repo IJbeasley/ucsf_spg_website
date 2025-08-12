@@ -1,15 +1,16 @@
 ---
 title: |
   Scientists in Sacramento Event 5: Series Reflection Dinner
-subtitle: ''
-description: 'During a final Series Reflection Dinner, feedback from attendees and organizers of each event in this series was recorded and compiled into a document that can help guide future events. '
+description: 'During a final Series Reflection Dinner, feedback from attendees and organizers of each event in this series was recorded and compiled into a document that can help guide future events.'
 date: '2020-02-02'
 categories: [Social, Chat/Q&A]
 date-format: medium 
 ---
 
+
 ### Speakers  
 Participants in Sacramento Advocacy Day
 
 During a final Series Reflection Dinner, feedback from attendees and organizers of each event in this series was recorded and compiled into a document that can help guide future events. Happily, attendee reactions to this event were overwhelmingly positive, particularly from participants who had never before visited the State Capitol to advocate for science policy. In summary, participants in this series felt empowered to advocate for their science in the future, whether with SPG or independently.
+
 

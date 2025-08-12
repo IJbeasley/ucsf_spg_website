@@ -1,15 +1,16 @@
 ---
 title: |
   OpEd Writing Contest
-subtitle: ''
-description: 'Part of a series on communicating your expertise to the public and policy makers. '
+description: 'Part of a series on communicating your expertise to the public and policy makers.'
 date: '2018-11-06'
 categories: [Information]
 date-format: medium 
 ---
 
+
 ### Speakers  
 General community
 
 Part of a series on communicating your expertise to the public and policy makers. Submit a science related op-ed to a newspaper, journal, or online publisher to be eligible
+
 

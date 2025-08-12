@@ -1,15 +1,16 @@
 ---
 title: |
   Writing for Policymakers Event 3: Policy for Science
-subtitle: ''
 description: 'Spend tax day finding out how to influence what kind of research your taxes fund! Ever wonder how new research initiatives get started or how to disseminate your research to an audience beyond your specific field? In this hands-on workshop, learn about the different ways scientists can use their expertise to influence policy within the scientific community, including writing white papers and responding to requests for information from the National Academies and funding agencies.'
 date: '2019-04-15'
 categories: [Workshop]
 date-format: medium 
 ---
 
+
 ### Speakers  
 Dr. Mary Maxon (Former Assistant Director for Biological Research, White House OSTP under President Obama), Katy Christiansen (Biosciences Strategic Program Coordinator)
 
 Spend tax day finding out how to influence what kind of research your taxes fund! Ever wonder how new research initiatives get started or how to disseminate your research to an audience beyond your specific field? In this hands-on workshop, learn about the different ways scientists can use their expertise to influence policy within the scientific community, including writing white papers and responding to requests for information from the National Academies and funding agencies.
+
 

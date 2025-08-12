@@ -1,15 +1,16 @@
 ---
 title: |
   State Science Policy Fellowship Panel
-subtitle: ''
-description: 'Join the SPG and OCPD for our annual State-Level Science Policy Fellowships Panel. '
+description: 'Join the SPG and OCPD for our annual State-Level Science Policy Fellowships Panel.'
 date: '2021-02-12'
 categories: [Panel]
 date-format: medium 
 ---
 
+
 ### Speakers  
 Brittany Whitley (Education & Workforce Development Policy Fellow for the Missouri Science & Technology (MOST) Policy Initiative), Sandra Nakagawa (Consultant in the Assembly Housing and Community Development Committee, former CCST Fellow), Cristina Echeverría Palencia (Climate investments specialist at the California Air Resources Board, former CCST Fellow)
 
 Join the SPG and OCPD for our annual State-Level Science Policy Fellowships Panel. This event will feature a panel of former fellows of the California Council on Science & Technology (CCST) Science Fellows Program and a current inaugural fellow for the Missouri Science and Technology (MOST) Policy Initiative. The event will be a great chance both to get insights and advice whether you are interested in applying for a fellowship or curious to hear about career options in science policy and beyond.
+
 

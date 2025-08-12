@@ -1,0 +1,16 @@
+---
+title: |
+  Hard Questions Series
+  Session 2: Defunding Policing
+subtitle: |
+  Location: Zoom (virtual only)
+date: '2021-10-04'
+categories: [Panel, Virtual]
+image: 'featured.png'
+date-format: medium 
+---
+
+
+
+![Flyer for Hard Questions Series
+Session 2: Defunding Policing (2021-10-04)](featured.png){.lightbox}
