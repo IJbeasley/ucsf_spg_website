@@ -46,6 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-ee864f25af8d7b9e1cf43b2de47eaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-8cdd9aba62efa1263903cb53423c238b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-ee864f25af8d7b9e1cf43b2de47eaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -157,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><p>Overdose Prevention Workshop and Seminar</p></h1>
-<p class="subtitle lead">Byers Hall (MB)</p>
+<p class="subtitle lead"></p><p>Location: Byers Hall (MB)</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Presentation</div>
     <div class="quarto-category">Workshop</div>
@@ -194,6 +197,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Melisa Matheney (DOPE Project),<br>
 Dallas Augustine (Postdoc, UCSF Benioff Homelessness and Housing Initiative)</p>
 <p>In January, UCSF Student Health informed students that naloxone will be made available to all students. In response to this initiative, the Science Policy Group has organized a hands-on workshop and a seminar on harm reduction research to help train UCSF community members on overdose prevention strategies. Join us to get some free pizza and take home nasal narcan and fentanyl test strips!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="featured.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Flyer for Overdose Prevention Workshop and Seminar (2023-04-19)"><img src="featured.png" class="img-fluid figure-img" alt="Flyer for Overdose Prevention Workshop and Seminar (2023-04-19)"></a></p>
+<figcaption>Flyer for Overdose Prevention Workshop and Seminar (2023-04-19)</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -662,6 +671,38 @@ Medical Center, or any entities or units thereof.
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

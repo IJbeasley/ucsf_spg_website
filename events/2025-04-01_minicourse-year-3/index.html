@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-ee864f25af8d7b9e1cf43b2de47eaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-8cdd9aba62efa1263903cb53423c238b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-ee864f25af8d7b9e1cf43b2de47eaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -156,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><p>Minicourse Year 3</p></h1>
-<p class="subtitle lead">PCMB, VCV (MB)</p>
+<p class="subtitle lead"></p><p>Location: PCMB, VCV (MB)</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Course</div>
   </div>
@@ -182,6 +185,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="featured.png" class="lightbox" data-gallery="‘minicourse-year-3’" title="Flyer for Minicourse Year 3 (2025-04-01) - Page: 1"><img src="featured.png" class="img-fluid figure-img" alt="Flyer for Minicourse Year 3 (2025-04-01) - Page: 1"></a></p>
+<figcaption>Flyer for Minicourse Year 3 (2025-04-01) - Page: 1</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="featured-2.png" class="lightbox" data-gallery="‘minicourse-year-3’" title="Flyer for Minicourse Year 3 (2025-04-01) - Page: 2"><img src="featured-2.png" class="img-fluid figure-img" alt="Flyer for Minicourse Year 3 (2025-04-01) - Page: 2"></a></p>
+<figcaption>Flyer for Minicourse Year 3 (2025-04-01) - Page: 2</figcaption>
+</figure>
+</div>
 
 
 
@@ -649,6 +664,38 @@ Medical Center, or any entities or units thereof.
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
