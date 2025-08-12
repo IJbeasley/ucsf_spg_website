@@ -24,7 +24,7 @@ listing:
     max-description-length: 500
 
 # Image preview:
-    image-height: 150px
+    image-height: 500px
     
 ####### IMAGE PLACEHOLDER #########
 ###### ???? MAYBE FIX / ADD #########
@@ -32,9 +32,12 @@ listing:
     image-placeholder: logo/SPG_wTxt_Gray_RGB.jpg
     
 # What info does the user see? 
-    fields: [title, description, image, date]
+    fields: [title, subtitle, description, image, date, author, categories]
     field-display-names:
        title: Event
+       categories: Format
+       author: Time
+       subtitle: Location
 ---
 
 ::: {#lst-recent-events}
