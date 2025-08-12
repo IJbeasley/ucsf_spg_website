@@ -195,7 +195,6 @@ for (i in 1:nrow(events_spreadsheet)) {
                                       flyer_name = events_spreadsheet[[col_flyer_notes]][i],
                                       qmd_dir = qmd_dir)
   
-  print(title)
   image_embed = embed_event_flyer(flyer_photo_path = flyer_photo_path,
                                   qmd_dir = qmd_dir,
                                   title = title,

@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Night Science
 date: '2025-12-01'

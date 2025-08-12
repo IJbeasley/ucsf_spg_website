@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Minicourse Year 4
 date: '2025-12-01'
