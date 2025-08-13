@@ -58,6 +58,14 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   headshot_link <- stringr::str_trim(leadership_spreadsheet[[col_headshot_link]][i])
   headshot_name <- stringr::str_trim(leadership_spreadsheet[[col_headshot_name]][i])
   
+  googledrive::drive_auth(
+    token = gargle::secret_read_rds(
+      here::here(".secrets/gs4-drive-token.rds"),
+      key = "GDRIVE_KEY"
+    ),
+    scopes = "drive.readonly"
+  )
+  
   googledrive::drive_download(headshot_link,
                               path = paste0(qmd_dir, "/", headshot_name)
   )

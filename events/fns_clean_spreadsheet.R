@@ -204,10 +204,7 @@ get_event_flyer <- function(flyer_link,
     
     flyer_photo_path = paste0(qmd_dir, "/featured.", flyer_type)
     
-   #drive_email <- Sys.getenv('GDRIVE_EMAIL')
-    
    googledrive::drive_auth(
-      #email = drive_email,
       token = gargle::secret_read_rds(
         here::here(".secrets/gs4-drive-token.rds"),
         key = "GDRIVE_KEY"
