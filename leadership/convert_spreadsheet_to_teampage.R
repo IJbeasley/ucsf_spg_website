@@ -10,10 +10,20 @@
 
 
 {
-  googlesheets4::gs4_auth(token = gargle::secret_read_rds(
-    ".secrets/gs4-token.rds",
-    key = "GARGLE_OAUTH_KEY"
-  ))
+  
+  googledrive::drive_auth(
+    #email = drive_email,
+    token = gargle::secret_read_rds(
+      here::here(".secrets/gs4-drive-token.rds"),
+      key = "GDRIVE_KEY"
+    ),
+    scopes = "drive.readonly"
+  )
+  
+  # googlesheets4::gs4_auth(token = gargle::secret_read_rds(
+  #   ".secrets/gs4-token.rds",
+  #   key = "GARGLE_OAUTH_KEY"
+  # ))
   
   leadership_sheet_url <- Sys.getenv("LEADERSHIP_GSHEET_URL")
   leadership_spreadsheet <- googlesheets4::read_sheet(leadership_sheet_url)
