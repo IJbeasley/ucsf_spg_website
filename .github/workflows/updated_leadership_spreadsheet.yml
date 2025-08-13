@@ -9,6 +9,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: update-leadership-sheets
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pages: write
