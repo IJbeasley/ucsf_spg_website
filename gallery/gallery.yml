@@ -1,4 +1,9 @@
-- title: 'SPG Test Photo # 1'
+- title: 'Test trigger #2'
+  quarter: Fall 2021
+  description: Test Description
+  alt_text: Test Alt Text
+  path: ../images/b435cde2-74db-4ec2-be8d-ecae6e1648ba.JPG
+- title: Test trigger
   quarter: Fall 2021
   description: Test Description
   alt_text: Test Alt Text
