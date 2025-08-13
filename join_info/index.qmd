@@ -1,17 +1,27 @@
 ---
-title: "Join Us!"
+title: "Sign up for our mailing list!"
 editor: visual
 title-block-banner: false
 ---
 
-## Follow us on social media
+Each month we send out information about:
 
-## Sign up for our mailing list
+-   Up-coming events
+-   Science policy opportunities and programs
+-   Joining leadership meetings
 
-## Attend up-coming events
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczW9HAUeiq8EtQyXOTSWAPpTfPviB85fEU_0jHL1_kG3mdAg/viewform?embedded=true" width="640" height="1046" frameborder="0" marginheight="0" marginwidth="0">
 
-`<a href='event`{=html}s`/index.html' class='btn btn-success'>`{=html}See all our events </a>
+Loading…
 
-{{< include _events_widget.qmd >}}
+</iframe>
 
-## Join our bi-weekly leadership meetings
+<!-- ## Attend up-coming events -->
+
+<!-- `<a href='event`{=html}s`/index.html' class='btn btn-success'>`{=html}See all our events </a> -->
+
+<!-- {{< include _events_widget.qmd >}} -->
+
+<!-- ## Follow us on social media -->
+
+<!-- ## Join our bi-weekly leadership meetings -->
