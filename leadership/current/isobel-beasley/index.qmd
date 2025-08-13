@@ -1,0 +1,12 @@
+---
+title: |
+  Isobel Beasley
+subtitle: |
+  PhD Student - Biological and Medical Informatics
+image: 'IsobelBeasley.jpg'
+about: 
+  template: jolla 
+  image: 'IsobelBeasley.jpg'
+  image-alt: 'Headshot of Isobel Beasley'
+---
+

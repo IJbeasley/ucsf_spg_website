@@ -1,29 +1,30 @@
 ---
 title: "Leadership Team"
+subtitle: "In accordance with our values, our leadership structure is non-hierarchical. This means that any member is open to join our leadership team and help with organizing events and direct actions." 
 listing:
 
 # Current leadership team 
   - id: leadership-team
-    contents: "current/*.qmd"
+    contents: "current/**/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
     fields: [image, title, subtitle]
     field-display-names:
        title: Name
-       subtitle: Leadership Role
+       subtitle: UCSF Position
     grid-item-align: center
 
 # Alumni 
   - id: alumni
-    contents: "current/*.qmd"
+    contents: "alumni/**/*.qmd"
     type: table
     fields: [title, subtitle]
     sort-ui: false
     filter-ui: [title]
     field-display-names:
        title: Name
-       subtitle: Role/s
+       subtitle: UCSF Position
 ---
 ::: {#leadership-team}
 :::

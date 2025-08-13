@@ -36,11 +36,19 @@ mk_qmd_dir <- function(events_dir,
   
   ###################### Slugify: ##############
   ######### Converts title to lower case, and removes spaces etc. (used in make event folder, below) #######
+  if(!is.null(title)){
 
+    qmd_dir  = paste0(events_dir, 
+                      "/",slugify(date), "_", slugify(title)
+    )        
+    
+  } else {
+    
+    qmd_dir  = paste0(events_dir, 
+                      "/",slugify(date))
+    
+  }
                
-  qmd_dir  = paste0(events_dir, 
-                    "/",slugify(date), "_", slugify(title)
-                    )
   
   return(qmd_dir)
 

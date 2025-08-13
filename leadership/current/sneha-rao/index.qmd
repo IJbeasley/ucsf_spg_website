@@ -1,0 +1,10 @@
+---
+title: |
+  Sneha Rao
+image: 'SnehaRao.jpg'
+about: 
+  template: jolla 
+  image: 'SnehaRao.jpg'
+  image-alt: 'Headshot of Sneha Rao'
+---
+

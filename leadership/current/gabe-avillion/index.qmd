@@ -1,0 +1,10 @@
+---
+title: |
+  Gabe Avillion
+image: 'GabeAvillion.png'
+about: 
+  template: jolla 
+  image: 'GabeAvillion.png'
+  image-alt: 'Headshot of Gabe Avillion'
+---
+
