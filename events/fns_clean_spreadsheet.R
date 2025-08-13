@@ -209,8 +209,8 @@ get_event_flyer <- function(flyer_link,
    googledrive::drive_auth(
       email = drive_email,
       token = gargle::secret_read_rds(
-        ".secrets/gs4-token.rds",
-        key = "GARGLE_OAUTH_KEY"
+        here::here(".secrets/gs4-drive-token.rds"),
+        key = "GDRIVE_KEY"
       ),
       scopes = "drive.readonly"
     )

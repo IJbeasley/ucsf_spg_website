@@ -32,7 +32,7 @@ drive_email <- Sys.getenv('GDRIVE_EMAIL')
 googlesheets4::gs4_auth(
   email = drive_email,
   token = gargle::secret_read_rds(
-                                   ".secrets/gs4-token.rds",
+                                   here::here(".secrets/gs4-token.rds"),
                                    key = "GARGLE_OAUTH_KEY"
                                    ),
   scopes = "drive.readonly"
