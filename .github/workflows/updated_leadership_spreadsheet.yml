@@ -39,11 +39,14 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-      - name: Install system dependencies for magick
-        run: sudo apt-get update && sudo apt-get install -y \
-          libmagick++-dev \
-          libmagickwand-dev \
-          libmagickcore-dev
+      - name: Install ImageMagick dev libs (Ubuntu 24.04)
+        run: |
+              sudo apt-get update
+              sudo apt-get install -y \
+              imagemagick \
+              libmagick++-6.q16-dev \
+              libmagickwand-6.q16-dev \
+              libmagickcore-6.q16-dev
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
