@@ -7,6 +7,10 @@
   margin-top: -0.25em;
 }
 
+.extra-heading-up {
+  margin-top: -1.5em;
+}
+
 body.page-index section#recent-up-coming-events h1 {
   margin-top: 0rem; /* reduce vertical spacing */
 }
@@ -23,3 +27,5 @@ body.page-index {
 #quarto-document-content {
   padding-top: 0rem /*!important; /* or 0 if you're feeling bold */
 }
+
+
