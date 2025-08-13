@@ -10,6 +10,7 @@ output_file = here::here("gallery/gallery.yml")
   # ))
   # 
   googledrive::drive_auth(
+    email = Sys.getenv("GDRIVE_EMAIL"), 
     token = gargle::secret_read_rds(
       here::here(".secrets/gs4-drive-token.rds"),
       key = "GDRIVE_KEY"
