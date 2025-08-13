@@ -206,7 +206,7 @@ get_event_flyer <- function(flyer_link,
     
     drive_email <- Sys.getenv('GDRIVE_EMAIL')
     
-    googlesheets4::gs4_auth(
+   googledrive::drive_auth(
       email = drive_email,
       token = gargle::secret_read_rds(
         ".secrets/gs4-token.rds",
