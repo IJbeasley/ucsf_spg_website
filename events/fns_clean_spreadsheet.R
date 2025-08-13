@@ -204,6 +204,17 @@ get_event_flyer <- function(flyer_link,
     
     flyer_photo_path = paste0(qmd_dir, "/featured.", flyer_type)
     
+    drive_email <- Sys.getenv('GDRIVE_EMAIL')
+    
+    googlesheets4::gs4_auth(
+      email = drive_email,
+      token = gargle::secret_read_rds(
+        ".secrets/gs4-token.rds",
+        key = "GARGLE_OAUTH_KEY"
+      ),
+      scopes = "drive.readonly"
+    )
+    
     googledrive::drive_download(flyer_link,
                                 path = flyer_photo_path)
     
