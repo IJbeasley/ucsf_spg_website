@@ -34,7 +34,8 @@ googlesheets4::gs4_auth(
   token = gargle::secret_read_rds(
                                    ".secrets/gs4-token.rds",
                                    key = "GARGLE_OAUTH_KEY"
-                                   )
+                                   ),
+  scopes = "drive.readonly"
                          )
 
 events_sheet_url <- Sys.getenv("EVENTS_GSHEET_URL")
