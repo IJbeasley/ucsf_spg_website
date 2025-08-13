@@ -26,12 +26,21 @@ jobs:
         with:
         # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
           version: pre-release 
+          
+      - name: Install ImageMagick dev libs (Ubuntu 24.04)
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y \
+                  imagemagick \
+                  libmagick++-6.q16-dev \
+                  libmagickwand-6.q16-dev \
+                  libmagickcore-6.q16-dev
 
-      - name: Install system dependencies for magick
-        run: sudo apt-get update && sudo apt-get install -y \
-          libmagick++-dev \
-          libmagickwand-dev \
-          libmagickcore-dev
+      # - name: Install system dependencies for magick
+      #   run: sudo apt-get update && sudo apt-get install -y \
+      #     libmagick++-dev \
+      #     libmagickwand-dev \
+      #     libmagickcore-dev
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
