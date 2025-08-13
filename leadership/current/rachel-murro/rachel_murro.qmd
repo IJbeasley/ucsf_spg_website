@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "Rachel Murro" # Name
-subtitle: "Leadership Role" # Leadership role / tile
+subtitle: "UCSF Position/Department" # Leadership role / tile
 ########### REQUIRED CHANGE #############
 # Headshot image 
 # We need to put '../headshots' here to get the right folder
