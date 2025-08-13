@@ -63,7 +63,7 @@ jobs:
       - name: Generate leadership team webpage Quarto files from RScript
         run: Rscript leadership/convert_spreadsheet_to_teampage.R
         env:
-          EVENTS_GSHEET_URL: ${{ secrets.LEADERSHIP_GSHEET_URL }}
+          LEADERSHIP_GSHEET_URL: ${{ secrets.LEADERSHIP_GSHEET_URL }}
           GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
           GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
 

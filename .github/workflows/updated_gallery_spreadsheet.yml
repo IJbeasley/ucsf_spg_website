@@ -62,7 +62,7 @@ jobs:
       - name: Generate gallery webpage Quarto files from RScript
         run: Rscript gallery/build_gallery_yml.R
         env:
-          EVENTS_GSHEET_URL: ${{ secrets.GALLERY_GSHEET_URL }}
+          GALLERY_GSHEET_URL: ${{ secrets.GALLERY_GSHEET_URL }}
           GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
           GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
 
