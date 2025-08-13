@@ -25,8 +25,11 @@ jobs:
       - name: Mask github token
         run: echo "::add-mask::${{ secrets.EVENTS_GITHUB_TOKEN }}"        
 
-      - name: Mask gargle / Google drive email
-        run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_KEY }}"  
+      # - name: Mask gargle / Google drive email
+      #   run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_KEY }}"  
+        
+      - name: Mask gargle / Google drive token
+        run: echo "::add-mask::${{ secrets.GDRIVE_KEY }}"  
 
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -61,6 +64,7 @@ jobs:
         env:
           EVENTS_GSHEET_URL: ${{ secrets.GALLERY_GSHEET_URL }}
           GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
+          GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
