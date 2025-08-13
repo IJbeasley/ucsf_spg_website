@@ -1,22 +1,5 @@
 [
   {
-    "listing": "/leadership/index.html",
-    "items": [
-      "/leadership/current/rachel_murro.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/mcclintock_letters/index.html",
-      "/news/post-with-code/index.html"
-    ]
-  },
-  {
-    "listing": "/gallery/index.html",
-    "items": []
-  },
-  {
     "listing": "/events/index.html",
     "items": [
       "/events/2025-06-16_mcclintock-letters/index.html",
@@ -111,6 +94,25 @@
       "/events/2014-05-29_making-informed-decisions-for-career-development/index.html",
       "/events/2014-05-22_advocacy-101-how-to-advocate-for-science-at-ucsf-and-beyond/index.html",
       "/events/2014-04-24_the-significance-of-non-significance/index.html"
+    ]
+  },
+  {
+    "listing": "/gallery/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/mcclintock_letters/index.html",
+      "/news/post-with-code/index.html"
+    ]
+  },
+  {
+    "listing": "/leadership/index.html",
+    "items": [
+      "/leadership/current/gabe-avillion/index.html",
+      "/leadership/current/isobel-beasley/index.html",
+      "/leadership/current/sneha-rao/index.html"
     ]
   },
   {
