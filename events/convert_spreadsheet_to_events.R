@@ -27,10 +27,7 @@ col_draft <- "website_ready"
 ##################### Get google sheets of event #########################
 {
   
-#drive_email <- Sys.getenv('GDRIVE_EMAIL')
-
 googlesheets4::gs4_auth(
-  #email = drive_email,
   token = gargle::secret_read_rds(
     here::here(".secrets/gs4-drive-token.rds"),
     key = "GDRIVE_KEY"

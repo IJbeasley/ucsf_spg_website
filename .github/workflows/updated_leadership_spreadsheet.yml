@@ -27,6 +27,9 @@ jobs:
 
       # - name: Mask gargle / Google token
       #   run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_KEY }}"  
+      
+      # - name: Mask gargle / Google drive email
+      #   run: echo "::add-mask::${{ secrets.GRIVE_EMAIL }}"
 
       - name: Mask gargle / Google drive token
         run: echo "::add-mask::${{ secrets.GDRIVE_KEY }}"  
@@ -64,7 +67,6 @@ jobs:
         run: Rscript leadership/convert_spreadsheet_to_teampage.R
         env:
           LEADERSHIP_GSHEET_URL: ${{ secrets.LEADERSHIP_GSHEET_URL }}
-          GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
           GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
 
       - name: Set up Quarto

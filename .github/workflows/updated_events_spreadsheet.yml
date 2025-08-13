@@ -26,7 +26,7 @@ jobs:
         run: echo "::add-mask::${{ secrets.EVENTS_GITHUB_TOKEN }}"
 
       # - name: Mask gargle / Google drive email
-      #   run: echo "::add-mask::${{ secrets.GRIVE_EMAIL }}"   
+      #   run: echo "::add-mask::${{ secrets.GRIVE_EMAIL }}"
 
       # - name: Mask gargle / Google drive token
       #   run: echo "::add-mask::${{ secrets.GARGLE_OAUTH_KEY }}"  
@@ -67,8 +67,6 @@ jobs:
         run: Rscript events/convert_spreadsheet_to_events.R
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
-          # GARGLE_OAUTH_KEY: ${{ secrets.GARGLE_OAUTH_KEY }}
-          # GDRIVE_EMAIL: ${{ secrets.GARGLE_OAUTH_KEY }}
           GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
 
       - name: Set up Quarto

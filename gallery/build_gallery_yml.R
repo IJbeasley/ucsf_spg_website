@@ -4,13 +4,7 @@ library(yaml)
 output_file = here::here("gallery/gallery.yml")
 
 {
-  # googlesheets4::gs4_auth(token = gargle::secret_read_rds(
-  #   ".secrets/gs4-token.rds",
-  #   key = "GARGLE_OAUTH_KEY"
-  # ))
-  # 
-  googledrive::drive_auth(
-    email = Sys.getenv("GDRIVE_EMAIL"), 
+  googlesheets4::gs4_auth(
     token = gargle::secret_read_rds(
       here::here(".secrets/gs4-drive-token.rds"),
       key = "GDRIVE_KEY"
