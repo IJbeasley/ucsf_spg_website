@@ -12,7 +12,7 @@
 
 /* Font size of nav bar links */
 .navbar-nav .nav-link {
-  font-size: clamp(0.8em, -3.5em + 8vw, 1.15em);  /* Increase this value as needed */
+  font-size: clamp(0.75rem, -0.7rem + 3vw, 1em);
 }
 
 /* Font size of compact icon-only nav items */
@@ -20,38 +20,58 @@
   font-size: clamp(0.8em, -3.5em + 10vw, 1.25em);
 }
 
-
-
-/*
-h2 {
-  font-size: clamp(0.75em, -1.5em + 5vw, 1.75em);
-}
-
-h3 {
-  font-size: clamp(0.75em, -1.5em + 5vw, 1.45em);
-}
-*/
-
-p {
-  font-size: clamp(0.9rem, -0.5rem + 3vw, 1.25rem);
+.nav-item .btn {
+  font-size: clamp(0.75rem, -0.7rem + 3vw, 1em);
 }
 
 h1 {
-  font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);
+  font-size: clamp(1.1em, -0.5em + 5vw, 1.85em);
 }
 
-.content h2 {
-  font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);
+.quarto-title-banner .subtitle.lead {
+  font-size: clamp(0.75em, -0.7em + 5vw, 1.25em);
+  line-height: 1.5; 
 }
 
-.content h3 {
-  font-size: clamp(0.75em, -1.5em + 5vw, 1.25em);
+/* Optional: Adjust spacing for buttons inside subtitle */
+.quarto-title-banner .subtitle.lead a.btn {
+  margin-right: 0.1em;
+  margin-top: 0.1em;
+  font-size: clamp(0.75em, -1em + 5vw, 0.9em); /* Slightly smaller text inside buttons */
 }
 
 
-.content h4 {
-  font-size: clamp(0.75em, -1.5em + 5vw, 1.25em);
+h2 {
+  font-size: clamp(1em,  -0.5em + 5vw, 1.7em);
 }
+
+h3 {
+  font-size: clamp(0.95em, -0.5em + 5vw, 1.5em);
+}
+
+h4 {
+  font-size: clamp(0.85em, -0.5em + 5vw, 1.25em);
+}
+
+h5 {
+  font-size: clamp(0.8em, -0.5em + 5vw, 1.1em);
+}
+
+p {
+  font-size: clamp(0.75rem, -0.5rem + 3vw, 1em);
+}
+
+ul li {
+  font-size: clamp(0.75rem, -0.5rem + 3vw, 1em);
+}
+
+figcaption {
+  font-size: clamp(0.75rem, -0.5rem + 3vw, 1em);
+}
+
+
+
+
 
 .quarto-title-banner .title {
   /*font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);/* 1.25rem */ */
@@ -59,17 +79,4 @@ h1 {
   line-height: 1.5; 
 }
 
-/* Target the subtitle paragraph */
-/* in the title banner */ 
-.subtitle.lead p {
-  font-size: clamp(0.9rem, -0.5rem + 3vw, 1.25rem); /* 1.25rem */
-  /*clamp(1rem, -3.5rem + 6.65vw, 1.5rem); /* Responsive: ~16px to ~24px */ */
-  line-height: 1.5; 
-}
 
-/* Optional: Adjust spacing for buttons inside subtitle */
-.quarto-title-banner .subtitle.lead a.btn {
-  margin-right: 0.2em;
-  margin-top: 0.2em;
-  font-size: clamp(0.8em, -0.8em + 1.2vw, 0.9em); /* Slightly smaller text inside buttons */
-}
