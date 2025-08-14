@@ -2,7 +2,7 @@
 title: |
   Helena Mezgova
 subtitle: |
-  Staff - Research and Compliance Analyst
+  Research and Compliance Analyst
 description: |
   2019 - 2022
 ---
