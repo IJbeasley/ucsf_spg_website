@@ -58,6 +58,13 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   headshot_link <- stringr::str_trim(leadership_spreadsheet[[col_headshot_link]][i])
   headshot_name <- stringr::str_trim(leadership_spreadsheet[[col_headshot_name]][i])
   
+  # Default to NULL
+  headshot_block <- NULL
+  image_alt <- NULL
+  
+  # Only download and build blocks if link is non-missing and non-empty
+  if (!any_na_type(headshot_link) && nzchar(headshot_link)) {
+  
   googledrive::drive_auth(
     token = gargle::secret_read_rds(
       here::here(".secrets/gs4-drive-token.rds"),
@@ -79,6 +86,8 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   image_alt <- paste0("  ", "image-alt: ", 
                       shQuote(paste0("Headshot of ", team_name)), 
                       "\n")
+  
+  }
   
   bio <- stringr::str_trim(leadership_spreadsheet[[col_bio]][i])
   if (!any_na_type(bio)) {
