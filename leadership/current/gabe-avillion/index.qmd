@@ -1,6 +1,10 @@
 ---
 title: |
   Gabe Avillion
+subtitle: |
+  PhD Student - Developmental and Stem Cell Biology
+description: |
+  2024 - present
 image: 'GabeAvillion.png'
 about: 
   template: jolla 
