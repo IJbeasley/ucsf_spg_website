@@ -5,6 +5,7 @@
   col_ucsf_position <- "ucsf_position"
   col_bio <- "bio"
   col_status <- "current_or_alumni"
+  col_active_years <- "years"
   
 }
 
@@ -38,6 +39,7 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   title_block <- paste0("title: |\n  ", gsub("\n", "\n  ", team_name), "\n")
   
   ucsf_position <- stringr::str_trim(leadership_spreadsheet[[col_ucsf_position]][i])
+  
   if(any_na_type(ucsf_position)){
     
     subtitle_block <- NULL
@@ -47,7 +49,24 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   
   }
   
+  years_active <- stringr::str_trim(leadership_spreadsheet[[col_years_active]][i])
+  
+  if(any_na_type(years_active)){
+    
+    description_block <- NULL
+  } else {
+    
+    description_block <- paste0("description: |\n  ", gsub("\n", "\n  ", description), "\n")
+    
+  }
+  
   status <- stringr::str_trim(leadership_spreadsheet[[col_status]][i])
+  
+  if(any_na_type(status)){
+    
+    status <- "current"
+    
+  }
   
   qmd_dir <- mk_qmd_dir(here::here(paste0("leadership", "/", tolower(status))),
                         slugify(team_name),
@@ -107,6 +126,7 @@ for (i in 1:nrow(leadership_spreadsheet)) {
     "---\n",
     title_block,
     subtitle_block,
+    description_block, 
     headshot_block,
     image_alt, 
     "---\n",
