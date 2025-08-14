@@ -1,6 +1,7 @@
 ---
 title: "Leadership Team"
 subtitle: "In accordance with our values, our leadership structure is non-hierarchical. This means that any member is open to join our leadership team and help with organizing events and direct actions." 
+title-block-banner: false
 listing:
 
 # Current leadership team 

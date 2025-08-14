@@ -1,6 +1,7 @@
 ---
 title: Gallery
 page-layout: full
+title-block-banner: false
 listing:
   id: listing-gallery
   template: gallery.ejs

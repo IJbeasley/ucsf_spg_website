@@ -1,6 +1,7 @@
 ---
 title: "Events"
 subtitle: "Upcoming & Past Events Hosted by SPG"
+title-block-banner: false
 listing:
 
   - id: lst-all-events
