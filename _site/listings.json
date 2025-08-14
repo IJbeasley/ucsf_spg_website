@@ -1,38 +1,5 @@
 [
   {
-    "listing": "/leadership/index.html",
-    "items": [
-      "/leadership/current/brindha-rathinasabapathi/index.html",
-      "/leadership/current/chad-altobelli/index.html",
-      "/leadership/current/dan-karmelic/index.html",
-      "/leadership/current/elysse-phillips/index.html",
-      "/leadership/current/gabe-avillion/index.html",
-      "/leadership/current/isobel-beasley/index.html",
-      "/leadership/current/mackenzie-roberts/index.html",
-      "/leadership/current/rachel-murro/index.html",
-      "/leadership/current/sneha-rao/index.html",
-      "/leadership/current/yutaka-sprague/index.html",
-      "/leadership/current/zoe-grant/index.html",
-      "/leadership/alumni/antara-rao/index.html",
-      "/leadership/alumni/elina-kostyanovskaya/index.html",
-      "/leadership/alumni/helena-mezgova/index.html",
-      "/leadership/alumni/jack-stevenson/index.html",
-      "/leadership/alumni/larissa-maier/index.html",
-      "/leadership/alumni/thomas-pospiech/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/mcclintock_letters/index.html",
-      "/news/post-with-code/index.html"
-    ]
-  },
-  {
-    "listing": "/gallery/index.html",
-    "items": []
-  },
-  {
     "listing": "/events/index.html",
     "items": [
       "/events/2025-06-16_mcclintock-letters/index.html",
@@ -127,6 +94,39 @@
       "/events/2014-05-29_making-informed-decisions-for-career-development/index.html",
       "/events/2014-05-22_advocacy-101-how-to-advocate-for-science-at-ucsf-and-beyond/index.html",
       "/events/2014-04-24_the-significance-of-non-significance/index.html"
+    ]
+  },
+  {
+    "listing": "/leadership/index.html",
+    "items": [
+      "/leadership/current/brindha-rathinasabapathi/index.html",
+      "/leadership/current/chad-altobelli/index.html",
+      "/leadership/current/dan-karmelic/index.html",
+      "/leadership/current/elysse-phillips/index.html",
+      "/leadership/current/gabe-avillion/index.html",
+      "/leadership/current/isobel-beasley/index.html",
+      "/leadership/current/mackenzie-roberts/index.html",
+      "/leadership/current/rachel-murro/index.html",
+      "/leadership/current/sneha-rao/index.html",
+      "/leadership/current/yutaka-sprague/index.html",
+      "/leadership/current/zoe-grant/index.html",
+      "/leadership/alumni/antara-rao/index.html",
+      "/leadership/alumni/elina-kostyanovskaya/index.html",
+      "/leadership/alumni/helena-mezgova/index.html",
+      "/leadership/alumni/jack-stevenson/index.html",
+      "/leadership/alumni/larissa-maier/index.html",
+      "/leadership/alumni/thomas-pospiech/index.html"
+    ]
+  },
+  {
+    "listing": "/gallery/index.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/index.html",
+    "items": [
+      "/resources/post-with-code/index.html",
+      "/resources/welcome/index.html"
     ]
   },
   {
@@ -227,10 +227,10 @@
     ]
   },
   {
-    "listing": "/resources/index.html",
+    "listing": "/news/index.html",
     "items": [
-      "/resources/post-with-code/index.html",
-      "/resources/welcome/index.html"
+      "/news/mcclintock_letters/index.html",
+      "/news/post-with-code/index.html"
     ]
   }
 ]
