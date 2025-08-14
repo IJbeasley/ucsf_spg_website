@@ -3,6 +3,8 @@ title: |
   Isobel Beasley
 subtitle: |
   PhD Student - Biological and Medical Informatics
+description: |
+  2025 - present
 image: 'IsobelBeasley.jpg'
 about: 
   template: jolla 

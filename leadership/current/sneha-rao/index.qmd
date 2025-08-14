@@ -1,6 +1,10 @@
 ---
 title: |
   Sneha Rao
+subtitle: |
+  PhD Student - Developmental and Stem Cell Biology
+description: |
+  2021 - present
 image: 'SnehaRao.jpg'
 about: 
   template: jolla 
