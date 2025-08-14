@@ -1,0 +1,9 @@
+---
+title: |
+  Amelie Delcourt
+subtitle: |
+  PhD Student - Tetrad
+description: |
+  2023 - present
+---
+
