@@ -6,32 +6,33 @@
 /* Make events or news title bolder */
 .listing-title {
   font-weight: 700;  
-  font-size: clamp(1em, 0.5em + 5vw, 1.35em); 
+  font-size: clamp(1em,  -0.5em + 5vw, 1.6em);
 }
 
 /* Subtitle is the location */
 .listing-subtitle {
-  font-size: clamp(0.8em, 0.5em + 6vw, 1.25em);
+  font-size: clamp(0.8em, -0.7em + 5vw, 1.25em);
 }
 
 /* Date of the event */
 .listing-date {
-  font-size: clamp(1em, 0.5em + 5vw, 1.35em); /* Adjust as needed */
+  font-size: clamp(0.75em, -0.7em + 5vw, 1.35em); 
 }
 
 /* Time of the event */
 .listing-author {
-  font-size: clamp(1em, 0.5em + 5vw, 1.35em);
+  font-size: clamp(0.9em, -0.7em + 5vw, 1.35em); 
 }
 
 /* Description of event or news item */
 .listing-description{
-  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em);
+  font-size: clamp(0.75rem, -0.7rem + 5vw, 1em);
 }
+
 
 /* Format of the event, e.g. Q & A */
 .listing-categories {
-  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em);
+  font-size: clamp(0.85em, -0.7rem + 5vw, 1em);
 }
 
 
@@ -43,13 +44,16 @@
 }
 
 .thumbnail-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: clamp(100px, 80%, 600px); /* min 200px, ideal 50% of container, max 600px */
 }
 
-@media (min-width: 50px) {
-  .thumbnail-image {
-    height: 300px; /* larger screens keep fixed height if wanted */
-    width: auto;
-  }
-}
+
+
+
+
+
+
