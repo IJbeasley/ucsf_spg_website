@@ -157,6 +157,11 @@ for (i in 1:nrow(events_spreadsheet)) {
      !any_na_type(rsvp_link)
   ){
     
+    if (!grepl("^https?://", rsvp_link) && !grepl("^http?://", rsvp_link)) {
+      
+      rsvp_link <- paste0("https://", rsvp_link)
+    }
+    
     rsvp_link_button <- paste0("<a href=",
                                rsvp_link,
                                " class='btn btn-danger'>",
