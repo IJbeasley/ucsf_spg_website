@@ -24,7 +24,7 @@ listing:
     max-description-length: 500
 
 # Image preview:
-    image-height: 300px
+    # image-height: 300px
     
 ####### IMAGE PLACEHOLDER #########
 ###### ???? MAYBE FIX / ADD #########
