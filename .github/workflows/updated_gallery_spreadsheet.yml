@@ -1,5 +1,5 @@
 # .github/workflows/run-r-on-webhook.yml
-name: Update gallery page of website using updated GDrive gallery sheet 
+name: Update gallery Quarto files using GDrive sheet 
 
 on:
   repository_dispatch:
@@ -27,7 +27,7 @@ jobs:
         run: echo "::add-mask::${{ secrets.GALLERY_GSHEET_URL }}"
 
       - name: Mask github token
-        run: echo "::add-mask::${{ secrets.EVENTS_GITHUB_TOKEN }}" 
+        run: echo "::add-mask::${{ secrets.PUSH_GITHUB_TOKEN }}" 
 
       - name: Mask gargle / Google drive token
         run: echo "::add-mask::${{ secrets.GDRIVE_KEY }}"  
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.EVENTS_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://x-access-token:${{ secrets.PUSH_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Install ImageMagick dev libs (Ubuntu 24.04)
         run: |
@@ -67,20 +67,10 @@ jobs:
           GALLERY_GSHEET_URL: ${{ secrets.GALLERY_GSHEET_URL }}
           GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-        # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
-          version: pre-release 
-
-      - name: Render site
-        run: quarto render 
-
       - name: Commit & push changes
         run: |
           git add gallery/
           git add images/
-          git add _site/
           git status
           git commit -m "Update Gallery Page from SPG Gallery Google Sheet" || echo "No changes to commit"
           git push
