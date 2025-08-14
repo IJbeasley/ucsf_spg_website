@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Writing for Policymakers Event 3: Policy for Science
 description: 'Spend tax day finding out how to influence what kind of research your taxes fund! Ever wonder how new research initiatives get started or how to disseminate your research to an audience beyond your specific field? In this hands-on workshop, learn about the different ways scientists can use their expertise to influence policy within the scientific community, including writing white papers and responding to requests for information from the National Academies and funding agencies.'

@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Writing for Policymakers Event 2: Science for Policy
 description: 'Workshop to teach scientists how to write "one pagers" and white papers to help scientists communicate their research and help policymakers utilize it for evidence-based policy.'

@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Seminar with Keith Yamamoto: Science Policy at UCSF
 description: 'Keith Yamamoto spoke about his role as UCSF”s Vice Chancellor of Science Policy and Strategy.'

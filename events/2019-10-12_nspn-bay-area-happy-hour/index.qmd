@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   NSPN Bay Area happy hour
 description: 'Meet and mingle with the NSPN Western Region!'
