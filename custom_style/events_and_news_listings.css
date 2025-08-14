@@ -6,12 +6,12 @@
 /* Make events or news title bolder */
 .listing-title {
   font-weight: 700;  
-  font-size: clamp(1em, 0.5em + 5vw,1.35em); 
+  font-size: clamp(1em, 0.5em + 5vw, 1.35em); 
 }
 
 /* Subtitle is the location */
 .listing-subtitle {
-  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em);
+  font-size: clamp(0.8em, 0.5em + 6vw, 1.25em);
 }
 
 /* Date of the event */

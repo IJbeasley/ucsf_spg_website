@@ -30,33 +30,38 @@ h2 {
 h3 {
   font-size: clamp(0.75em, -1.5em + 5vw, 1.45em);
 }
-
-h4 {
-  font-size: clamp(0.75em, -1.5em + 5vw, 1.25em);
-}
 */
 
 p {
   font-size: clamp(0.9rem, -0.5rem + 3vw, 1.25rem);
 }
 
-/* max width is 1,245 pixels */
-/* min width is 250 px */
+h1 {
+  font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);
+}
+
+.content h2 {
+  font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);
+}
+
+.content h3 {
+  font-size: clamp(0.75em, -1.5em + 5vw, 1.25em);
+}
 
 
-.content h1 {
-  font-size: clamp(0.9rem, -0.25rem + 3.5vw, 2rem);
-} 
+.content h4 {
+  font-size: clamp(0.75em, -1.5em + 5vw, 1.25em);
+}
 
 .quarto-title-banner .title {
-  font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);/* 1.25rem */
+  /*font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);/* 1.25rem */ */
   /*clamp(1rem, -3.5rem + 6.65vw, 1.5rem); /* Responsive: ~16px to ~24px */ */
   line-height: 1.5; 
 }
 
 /* Target the subtitle paragraph */
 /* in the title banner */ 
-.quarto-title-banner .subtitle.lead {
+.subtitle.lead p {
   font-size: clamp(0.9rem, -0.5rem + 3vw, 1.25rem); /* 1.25rem */
   /*clamp(1rem, -3.5rem + 6.65vw, 1.5rem); /* Responsive: ~16px to ~24px */ */
   line-height: 1.5; 
