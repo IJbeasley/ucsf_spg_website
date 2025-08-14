@@ -1,0 +1,9 @@
+---
+title: |
+  Yutaka Sprague
+subtitle: |
+  Research Technician
+description: |
+  2022 - 2024
+---
+

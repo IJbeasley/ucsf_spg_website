@@ -4,6 +4,6 @@ title: |
 subtitle: |
   Phd Student - Chemistry and Chemical Biology
 description: |
-  20 - present
+  2020 - present
 ---
 

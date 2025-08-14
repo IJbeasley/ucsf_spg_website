@@ -4,6 +4,6 @@ title: |
 subtitle: |
   PhD Student - Developmental and Stem Cell Biology
 description: |
-  20 - 2022
+  2018 - 2022
 ---
 
