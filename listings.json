@@ -1,5 +1,32 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/events/2025-09-25_welcome-picnic/index.html",
+      "/events/2025-06-16_mcclintock-letters/index.html",
+      "/events/2025-04-01_minicourse-year-3/index.html"
+    ]
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/2025-09-25_welcome-picnic/index.html",
+      "/events/2025-06-16_mcclintock-letters/index.html",
+      "/events/2025-04-01_minicourse-year-3/index.html"
+    ]
+  },
+  {
+    "listing": "/gallery/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/mcclintock_letters/index.html",
+      "/news/post-with-code/index.html"
+    ]
+  },
+  {
     "listing": "/leadership/index.html",
     "items": [
       "/leadership/current/brindha-rathinasabapathi/index.html",
@@ -24,36 +51,10 @@
     ]
   },
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/mcclintock_letters/index.html",
-      "/news/post-with-code/index.html"
-    ]
-  },
-  {
-    "listing": "/gallery/index.html",
-    "items": []
-  },
-  {
-    "listing": "/events/index.html",
-    "items": [
-      "/events/2025-09-25_welcome-picnic/index.html",
-      "/events/2025-06-16_mcclintock-letters/index.html",
-      "/events/2025-04-01_minicourse-year-3/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/events/2025-09-25_welcome-picnic/index.html",
-      "/events/2025-06-16_mcclintock-letters/index.html",
-      "/events/2025-04-01_minicourse-year-3/index.html"
-    ]
-  },
-  {
     "listing": "/resources/index.html",
     "items": [
       "/resources/post-with-code/index.html",
+      "/resources/hello/index.html",
       "/resources/welcome/index.html"
     ]
   }
