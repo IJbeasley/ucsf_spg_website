@@ -3,21 +3,46 @@
 /* Note: comments in this file need to be denoted using '/*' /*
 /* Hastags (#) are not recognised as comments in css */
 
-
-/* Increase font size for listing date */
-/* see for e.g. events on homepage */
-.listing-date {
-  font-size: clamp(1em, 0.5em + 5vw,1.35em); /* Adjust as needed */
-}
-
 /* Make events or news title bolder */
 .listing-title {
   font-weight: 700;  
-  font-size: clamp(1em, 0.5em + 5vh, 1.35em);
+  font-size: clamp(1em, 0.5em + 5vw,1.35em); 
+}
+
+/* Subtitle is the location */
+.listing-subtitle {
+  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em);
+}
+
+/* Date of the event */
+.listing-date {
+  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em); /* Adjust as needed */
+}
+
+/* Time of the event */
+.listing-author {
+  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em);
+}
+
+/* Format of the event, e.g. Q & A */
+.listing-category {
+  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em);
 }
 
 /* shrink image included in bottom of gallery */
 .shrink-img {
   width: 200px;
   height: auto;
+}
+
+.thumbnail-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 100px) {
+  .thumbnail-image {
+    height: 300px; /* larger screens keep fixed height if wanted */
+    width: auto;
+  }
 }
