@@ -36,29 +36,34 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   
   # Get person name
   team_name <- stringr::str_trim(leadership_spreadsheet[[col_name]][i])
-  title_block <- paste0("title: |\n  ", gsub("\n", "\n  ", team_name), "\n")
-  
+  title_block <- check_and_build_block(team_name, "title")
+  # title_block <- paste0("title: |\n  ", gsub("\n", "\n  ", team_name), "\n")
+
+  # Get person position 
   ucsf_position <- stringr::str_trim(leadership_spreadsheet[[col_ucsf_position]][i])
+  subtitle_block <- check_and_build_block(ucsf_position, "subtitle")
   
-  if(any_na_type(ucsf_position)){
-    
-    subtitle_block <- NULL
-  } else {
+  # if(any_na_type(ucsf_position)){
+  #   
+  # subtitle_block <- NULL
+  # 
+  # } else {
+  # 
+  # subtitle_block <- paste0("subtitle: |\n  ", gsub("\n", "\n  ", ucsf_position), "\n")
+  # 
+  # }
   
-  subtitle_block <- paste0("subtitle: |\n  ", gsub("\n", "\n  ", ucsf_position), "\n")
+  years_active <- stringr::str_trim(leadership_spreadsheet[[col_active_years]][i])
+  description_block <- check_and_build_block(years_active, "description")
   
-  }
-  
-  years_active <- stringr::str_trim(leadership_spreadsheet[[col_years_active]][i])
-  
-  if(any_na_type(years_active)){
-    
-    description_block <- NULL
-  } else {
-    
-    description_block <- paste0("description: |\n  ", gsub("\n", "\n  ", description), "\n")
-    
-  }
+  # if(any_na_type(years_active)){
+  #   
+  #   description_block <- NULL
+  # } else {
+  #   
+  #   description_block <- paste0("description: |\n  ", gsub("\n", "\n  ", description), "\n")
+  #   
+  # }
   
   status <- stringr::str_trim(leadership_spreadsheet[[col_status]][i])
   
@@ -109,6 +114,7 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   }
   
   bio <- stringr::str_trim(leadership_spreadsheet[[col_bio]][i])
+  
   if (!any_na_type(bio)) {
     bio_block <- paste0(
       bio, "\n"

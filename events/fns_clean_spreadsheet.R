@@ -1,6 +1,22 @@
 # Functions to help converting sheets data to quarto documents 
 
-
+############## Checking  column info exists + build relevant row ##################
+check_and_build_block <- function(column,
+                                  yaml_name){
+  
+if(any_na_type(column)){
+  
+  column_block <- NULL
+  
+} else {
+  
+  column_block <- paste0(yaml_name, ": |\n  ", 
+                         gsub("\n", "\n  ", column), "\n")
+  
+}
+  
+return(column_block)  
+}
 
 ####################### Clean column names ############
 
