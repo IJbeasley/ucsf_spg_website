@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Scientists in Sacramento Event 1: Advocacy 101
 description: 'Learn to engage in science advocacy with Amiee Alden and Allie Jones of UCSF Community and Government Relations.'

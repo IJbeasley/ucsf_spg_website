@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Science Communication Seminar
 description: 'Shah spoke about his current job working as a science communication consultant on a team of Ph.D.'

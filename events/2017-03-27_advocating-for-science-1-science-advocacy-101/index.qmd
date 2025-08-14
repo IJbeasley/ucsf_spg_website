@@ -1,4 +1,5 @@
 ---
+draft: true 
 title: |
   Advocating for Science: 1) Science Advocacy 101
 description: 'UCSF government relations provided information, tools, and skills to better equip scientists to advocate for basic research, higher education, science funding, and scientific rigor in policy and decision-making.'
