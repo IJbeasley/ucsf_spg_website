@@ -4,6 +4,6 @@ title: |
 subtitle: |
   Phd Student - Epidemiology and Translational Science
 description: |
-  20 - present
+  2022 - present
 ---
 

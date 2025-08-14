@@ -4,6 +4,6 @@ title: |
 subtitle: |
   Phd Student - Chemistry and Chemical Biology
 description: |
-  20 - 2024
+  2019 - 2024
 ---
 
