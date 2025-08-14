@@ -139,12 +139,13 @@ for (i in 1:nrow(events_spreadsheet)) {
   # Is this page a draft? (i.e. not ready to be published on the webpage) #
   # Make sure the page is listed as a draft
   draft_val = tolower(events_spreadsheet[[col_draft]][i])
-  if(grepl("no|draft", draft_val)){
-    
-    draft_val <- "draft: true \n"
-  } else {
+  if(grepl("published", draft_val)){
     
     draft_val <- NULL
+    
+  } else {
+    
+    draft_val <- "draft: true \n"
   }
   
   
