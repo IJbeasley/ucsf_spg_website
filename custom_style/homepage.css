@@ -7,6 +7,7 @@
   margin-top: -0.25em;
 }
 
+/* Move headings even closer together - used only for the About US */
 .extra-heading-up {
   margin-top: -1.5em;
 }
@@ -27,5 +28,3 @@ body.page-index {
 #quarto-document-content {
   padding-top: 0rem /*!important; /* or 0 if you're feeling bold */
 }
-
-
