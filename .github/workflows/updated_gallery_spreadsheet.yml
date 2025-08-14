@@ -73,4 +73,5 @@ jobs:
           git add images/
           git status
           git commit -m "Update Gallery Page from SPG Gallery Google Sheet" || echo "No changes to commit"
+          git pull --rebase origin main
           git push

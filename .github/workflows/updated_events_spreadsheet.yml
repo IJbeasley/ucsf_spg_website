@@ -81,4 +81,5 @@ jobs:
           git add events/
           git status
           git commit -m "Build Events Quarto Pages from SPG Events Google Sheet" || echo "No changes to commit"
+          git pull --rebase origin main
           git push

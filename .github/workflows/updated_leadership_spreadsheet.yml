@@ -72,4 +72,5 @@ jobs:
           git add leadership/
           git status
           git commit -m "Update Team Page from SPG Leadership Google Sheet" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
