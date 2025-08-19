@@ -10,21 +10,21 @@ listing:
     contents:
       - "*.qmd"
 
-# How can users / viewers of the website see the events tab    
-    sort-ui: [date] # allow users to sort based on date
-    filter-ui: [date,title] # allow users to filter based on title
-    sort: date desc # automatically sort so the most recent events are up-top
+# How can users / viewers of the website see the events tab 
+    categories: true
+    sort-ui: [date, categories] # allow users to sort based on date - this changes the left tab
+    filter-ui: [date,title,categories] # allow users to filter based on title, this changes the right search bar
+    sort: date desc # automatically order events so the most recent events are up-top
   
 # How does each event appear?     
-    type: default
-    grid-item-border: false
+    type: default 
+    grid-item-border: false 
 
 # Maximum length of description in the events 
 # 500 characters
     max-description-length: 500
 
 # Image preview:
-    # image-height: 300px
     
 ####### IMAGE PLACEHOLDER #########
 ###### ???? MAYBE FIX / ADD #########
@@ -33,6 +33,7 @@ listing:
     
 # What info does the user see? 
     fields: [title, subtitle, description, image, date, author, categories]
+# What names should we call this info (e.g. title should be 'Event')
     field-display-names:
        title: Event
        categories: Format
