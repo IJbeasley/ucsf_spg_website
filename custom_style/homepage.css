@@ -4,28 +4,10 @@
 /* Move headings closer together */
 /* Prevent some of the weird gaps created by {{include}} */
 .heading-up {
-  margin-top: clamp(-0.45em, -0.25em + (100vw - 768px) / 2000, -0.35em);
- /* margin-top: -0.25em; */
+ margin-top: -0.25em; 
 }
 
 /* Move headings even closer together - used only for the About US */
 .extra-heading-up {
   margin-top: -1.5em;
-}
-
-body.page-index section#recent-up-coming-events h1 {
-  margin-top: 0rem; /* reduce vertical spacing */
-}
-
-/* Apply only to the homepage */
-body.page-index section#about-us h1 {
-  margin-top: 0rem; /* adjust as needed */
-}
-
-body.page-index {
-  margin-top: 0rem; /* reduce vertical spacing */
-}
-
-#quarto-document-content {
-  padding-top: 0rem /*!important; /* or 0 if you're feeling bold */
 }
