@@ -34,22 +34,33 @@ logo:
 color:
   # give colours human readable names:
   palette:
-     blue: "#1c84e5"
+     # Background colours: 
      white: "#ffffff"
+     light_grey: "#F2F3F4"
+     
+     # Text colours:
      black: "#000000"
-     light_grey: "#eeeeee"
-     mid_red: "#ad4242"
-     green: "#1e5c11"
-  # see explanations of what each of these change
+     
+     # Button colours: 
+     # 'danger' class button - join us button
+     red: "#aa1313"
+     # 'warning' class button - more info about us button
+     dark_grey: "#40444a"
+     # 'success' class button - see our events
+     blue: "#0F388A"
+     
+     green: "#0f8a67"
+     yellow: "#FEB80A"
+    # see explanations of what each of these change
   # under: full list of semantic colors 
   # https://quarto.org/docs/authoring/brand.html#applying-brand
   background: white
   foreground: black # typical font colour
   primary: light_grey # navigation bar (top of page) colour
   
-  secondary: blue # lighter text or disabled states
-  link: blue # hover link colour - e.g. on navigation bar
-  tertiary: blue
+  secondary: blue # lighter text, see captions on images on home pages
+  link: red # hover link colour - see navigation bar
+  tertiary: white
   
   # less likely to be edited colours:
   
@@ -61,13 +72,13 @@ color:
   # Button colours 
   # Applied when button created with: 
   # <button class='btn btn-danger'>  </button>
-  danger: mid_red
+  danger: red
   # this button colour is the actual button, for the colour of the text
   # in this button see styles.css
   
   # Call out colour:
-  warning: black
-  info: mid_red
+  warning: dark_grey
+  info: red
 
   # Alternative text colour 
   light: white # A bright color, used as a high-contrast foreground color on dark elements 

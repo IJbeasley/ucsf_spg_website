@@ -1,16 +1,24 @@
 /* custom changes to button css styles */
 
 /* Button text colour */
+
+/* the 'Join Us' button */ 
 /* Applied when button created with: */
 /* <button class='btn btn-danger'>  </button> */
-a.btn.btn-danger {
-  color: white !important;  /* or any color you'd like */
+.btn.btn-danger {
+  color: white !important;  
 }
 
-a.btn.btn-warning {
-  color: white !important;  /* or any color you'd like */
-}
-
+/* the 'Learn more about us' button */ 
+/* Applied when button created with: */
+/* <button class='btn btn-danger'>  </button> */
 a.btn.btn-success {
   color: white !important;  /* or any color you'd like */
+}
+
+/* the 'See all our events' button */ 
+/* Applied when button created with: */
+/* <button class='btn btn-warningr'>  </button> */
+.btn.btn-warning {
+  color: white !important;  
 }
