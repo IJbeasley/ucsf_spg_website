@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7644b595c506c9cc1325403ce7f93d5a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ee864f25af8d7b9e1cf43b2de47eaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-8cdd9aba62efa1263903cb53423c238b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-ee864f25af8d7b9e1cf43b2de47eaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a68cc0676bd725b96ce63f7e50aec745.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-ac1c94cbb1f298e8d4ea549bdd11c919.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a68cc0676bd725b96ce63f7e50aec745.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-description','listing-image','listing-date','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title"],
+      searchColumns: ["listing-date","listing-title","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -141,7 +141,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../custom_style/events_and_news_listings.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -209,7 +209,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q291cnNl">Course <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW5mb3JtYXRpb24=">Information <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFs">Social <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -246,6 +248,9 @@ window.Quarto = {
       <option value="listing-date-sort" data-direction="desc">
         Date - Newest
       </option>
+      <option value="listing-categories" data-direction="asc">
+        Format
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -254,7 +259,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U29jaWFs" data-listing-date-sort="1758758400000" data-listing-file-modified-sort="1755215357852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="quarto-post image-right" data-index="0" data-categories="U29jaWFs" data-listing-date-sort="1758758400000" data-listing-file-modified-sort="1755633255842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
 <div class="thumbnail"><a href="../events/2025-09-25_welcome-picnic/index.html" class="no-external">
 
 <p class="card-img-top"><img src="../logo/SPG_wTxt_Gray_RGB.jpg"  class="thumbnail-image card-img"/></p>
@@ -287,7 +292,7 @@ Sep 25, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="SW5mb3JtYXRpb24=" data-listing-date-sort="1750032000000" data-listing-file-modified-sort="1755215357851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="quarto-post image-right" data-index="1" data-categories="SW5mb3JtYXRpb24=" data-listing-date-sort="1750032000000" data-listing-file-modified-sort="1755633255842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <div class="thumbnail"><a href="../events/2025-06-16_mcclintock-letters/index.html" class="no-external">
 
 <img loading="lazy" src="../events/2025-06-16_mcclintock-letters/featured.png" class="thumbnail-image">
@@ -317,7 +322,7 @@ Jun 16, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q291cnNl" data-listing-date-sort="1743465600000" data-listing-file-modified-sort="1755215357850" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<div class="quarto-post image-right" data-index="2" data-categories="Q291cnNl" data-listing-date-sort="1743465600000" data-listing-file-modified-sort="1755633255841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
 <div class="thumbnail"><a href="../events/2025-04-01_minicourse-year-3/index.html" class="no-external">
 
 <img loading="lazy" src="../events/2025-04-01_minicourse-year-3/featured.png" class="thumbnail-image">

@@ -1,4 +1,6 @@
-/* navigation bar sizes */
+/************************/
+/* Navigation bar text & icon sizes */
+/***********************/
 
 /* navbar logo size */
 .navbar-logo {
@@ -7,76 +9,118 @@
 
 /* title: top left SPG at UCSF */
 .navbar-title {
-  font-size: clamp(0.8em, -0.5em + 5vw, 1.15em); /* Optional: make text larger */
+  font-size: clamp(1rem, 0.771rem + 0.882vw, 1.3rem);
 }
 
-/* Font size of nav bar links */
+/* Font size of nav bar text links */
+/* e.g. Team, Events etc. text */
 .navbar-nav .nav-link {
-  font-size: clamp(0.75rem, -0.7rem + 3vw, 1em);
+  font-size: clamp(0.95rem, 0.835rem + 0.441vw, 1.1rem);
 }
 
 /* Font size of compact icon-only nav items */
+/* i.e. bluesky and email links */
 .navbar-nav .nav-item .nav-link i {
-  font-size: clamp(0.8em, -3.5em + 10vw, 1.25em);
+  font-size: clamp(1.1rem, 0.947rem + 0.588vw, 1.3rem);
 }
 
+/* Font size of 'join us' link on navigation bar */
 .nav-item .btn {
-  font-size: clamp(0.75rem, -0.7rem + 3vw, 1em);
+  font-size: clamp(0.95rem, 0.835rem + 0.441vw, 1.1rem);
 }
 
+/* Homepage text sizes */
+
+
+/***********************/
+/* Common re-used text sizes */
+/***********************/
+
+/* h1 titles - used in headings of pages */
 h1 {
-  font-size: clamp(1.1em, -0.5em + 5vw, 1.85em);
+  font-size: clamp(1.4rem, 1.094rem + 1.176vw, 1.8rem);
 }
 
-.quarto-title-banner .subtitle.lead {
-  font-size: clamp(0.75em, -0.7em + 5vw, 1.25em);
+/* Line space on homepage for SPG at UCSF title (below navigation bar) */
+.quarto-title-banner .title {
   line-height: 1.5; 
 }
 
-/* Optional: Adjust spacing for buttons inside subtitle */
-.quarto-title-banner .subtitle.lead a.btn {
-  margin-right: 0.1em;
-  margin-top: 0.1em;
-  font-size: clamp(0.75em, -1em + 5vw, 0.9em); /* Slightly smaller text inside buttons */
+/* subtitle lead - subtitle in top of */
+/* e.g. in the homepage the text describing SPG */
+/* e.g. in the leadership page, the non-heirarchical leadership statement */ 
+.subtitle.lead {
+  font-size: clamp(0.95rem, 0.759rem + 0.735vw, 1.2rem);
 }
 
+/* Buttons on title page */
+.quarto-title-banner .subtitle.lead a.btn {
+  margin-right: 0.1em;
+  margin-bottom: clamp(0.1rem, 0.162rem + -0.27vw, 0rem);
+  margin-top: clamp(0.1rem, 0.162rem + -0.27vw, 0rem);
+  font-size: clamp(1rem, 0.847rem + 0.588vw, 1.2rem);
+}
 
 h2 {
-  font-size: clamp(1em,  -0.5em + 5vw, 1.7em);
+  font-size: clamp(1.1rem, 1.062rem + 0.147vw, 1.15rem);
 }
 
 h3 {
-  font-size: clamp(0.95em, -0.5em + 5vw, 1.5em);
+  font-size: clamp(1.1rem, 1.062rem + 0.147vw, 1.15rem);
 }
 
 h4 {
-  font-size: clamp(0.85em, -0.5em + 5vw, 1.25em);
+  font-size: clamp(1.05rem, 1.012rem + 0.147vw, 1.1rem);
 }
 
 h5 {
-  font-size: clamp(0.8em, -0.5em + 5vw, 1.1em);
+  font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
 }
 
 p {
-  font-size: clamp(0.75rem, -0.5rem + 3vw, 1em);
+  font-size: clamp(0.95rem, 0.912rem + 0.147vw, 1rem);
 }
 
 ul li {
-  font-size: clamp(0.75rem, -0.5rem + 3vw, 1em);
+  font-size: clamp(0.95rem, 0.912rem + 0.147vw, 1rem);
 }
 
 figcaption {
-  font-size: clamp(0.75rem, -0.5rem + 3vw, 1em);
+  font-size: clamp(0.95rem, 0.912rem + 0.147vw, 1rem);
 }
 
 
+/***********************/
+/* Font sizes in listings e.g. event listings */
+/***********************/
 
-
-
-.quarto-title-banner .title {
-  /*font-size: clamp(1rem, -0.25rem + 3.5vw, 2rem);/* 1.25rem */ */
-  /*clamp(1rem, -3.5rem + 6.65vw, 1.5rem); /* Responsive: ~16px to ~24px */ */
-  line-height: 1.5; 
+/* Events or news title */
+.listing-title a {
+  font-size: clamp(1.15rem, 1.112rem + 0.147vw, 1.2rem);
 }
 
+/* Subtitle is the location */
+.listing-subtitle a {
+  font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
+}
+
+/* Date of the event */
+.listing-date {
+ font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
+}
+
+/* Time of the event */
+.listing-author {
+ font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
+}
+
+/* Description of event or news item */
+.listing-description{
+  font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
+}
+
+/* Format of the event, e.g. Q & A */
+.listing-categories {
+  font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
+}
 

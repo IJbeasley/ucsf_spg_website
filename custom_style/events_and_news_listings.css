@@ -6,36 +6,7 @@
 /* Make events or news title bolder */
 .listing-title {
   font-weight: 700;  
-  font-size: clamp(1em,  -0.5em + 5vw, 1.6em);
 }
-
-/* Subtitle is the location */
-.listing-subtitle {
-  font-size: clamp(0.8em, -0.7em + 5vw, 1.25em);
-}
-
-/* Date of the event */
-.listing-date {
-  font-size: clamp(0.75em, -0.7em + 5vw, 1.35em); 
-}
-
-/* Time of the event */
-.listing-author {
-  font-size: clamp(0.9em, -0.7em + 5vw, 1.35em); 
-}
-
-/* Description of event or news item */
-.listing-description{
-  font-size: clamp(0.75rem, -0.7rem + 5vw, 1em);
-}
-
-
-/* Format of the event, e.g. Q & A */
-.listing-categories {
-  font-size: clamp(0.85em, -0.7rem + 5vw, 1em);
-}
-
-
 
 /* shrink image included in bottom of gallery */
 .shrink-img {
