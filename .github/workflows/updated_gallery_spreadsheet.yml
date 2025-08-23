@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
     branches:
       - main
+  schedule:
+    # Run every day at 4am Pacific Time (12pm UTC)
+    - cron: "0 12 * * *"
 
 concurrency:
   group: update-gallery-sheets
