@@ -14,4 +14,4 @@ Status of automation steps (sheets to webpages)
 
 Status of website building steps:   
 
-[![Render and Publish Webpage](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/publish.yml/badge.svg)](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/publish.yml)
+[![Render and Publish Webpage](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/render_website.yml)](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/render_website.yml)
