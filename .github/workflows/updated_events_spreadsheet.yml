@@ -1,10 +1,11 @@
-# .github/workflows/run-r-on-webhook.yml
 name: Update events Quarto files using GDrive sheet 
 
+# on sets up how this workflow can be triggered
 on:
+# set up can be triggered via webhook (i.e. zapier zap)
   repository_dispatch:
     types: [update-events-sheets]
-  # Allows you to run this workflow manually from the Actions tab
+# set up can be triggered through github (clicking workflow run)x
   workflow_dispatch:
     branches:
       - main
@@ -66,15 +67,6 @@ jobs:
         env:
           EVENTS_GSHEET_URL: ${{ secrets.EVENTS_GSHEET_URL }}
           GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
-
-      # - name: Set up Quarto
-      #   uses: quarto-dev/quarto-actions/setup@v2
-      #   with:
-      #   # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
-      #     version: pre-release 
-      # 
-      # - name: Render site
-      #   run: quarto render 
 
       - name: Commit & push changes
         run: |

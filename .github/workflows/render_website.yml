@@ -1,11 +1,12 @@
 name: Render Quarto Files into Published Website 
 
+# on sets up how this workflow can be triggered
 on:
-  # Allows you to run this workflow manually from the Actions tab
+# set up can be triggered through github (clicking workflow run)
   workflow_dispatch:
-  # This automatically runs when anything is pushed to the repository 
-  push:
+# set up - triggered everytime we push (upload changes) to the github repository
     branches: main
+# unless the change is one of these files / folders:
     paths-ignore:
       - '_freeze/**'
       - '_site/'
@@ -15,7 +16,6 @@ on:
       - '.gitignore'
       - '.github/workflows/*sheet*.yml'
       - '.github/workflows/*sheet*.yaml'
-      
       
 concurrency:
   group: render-website

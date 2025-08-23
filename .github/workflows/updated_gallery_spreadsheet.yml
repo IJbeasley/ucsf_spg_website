@@ -1,15 +1,16 @@
-# .github/workflows/run-r-on-webhook.yml
 name: Update gallery Quarto files using GDrive sheet 
 
+# on sets up how this workflow can be triggered
 on:
+# set up can be triggered via webhook (i.e. zapier zap)
   repository_dispatch:
     types: [update-gallery-sheets]
-  # Allows you to run this workflow manually from the Actions tab
+# set up can be triggered through github (clicking workflow run)
   workflow_dispatch:
     branches:
       - main
+# set up - is trigged every day at 4am Pacific Time (12pm UTC)
   schedule:
-    # Run every day at 4am Pacific Time (12pm UTC)
     - cron: "0 12 * * *"
 
 concurrency:
