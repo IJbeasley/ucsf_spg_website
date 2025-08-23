@@ -9,7 +9,7 @@ date: '2025-09-25'
 categories: [Social]
 date-format: medium 
 ---
-<a href=tinyurl.com/spg-picnic class='btn btn-danger'>RSVP Here</a>
+<a href=https://tinyurl.com/spg-picnic class='btn btn-danger'>RSVP Here</a>
 
 ### Speakers  
 SPG members
