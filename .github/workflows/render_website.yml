@@ -6,7 +6,17 @@ on:
   # This automatically runs when anything is pushed to the repository 
   push:
     branches: main
-    
+    paths-ignore:
+      - '_freeze/**'
+      - '_site/'
+      - 'renv.lock'
+      - 'README.md'
+      - '.nojekyll'
+      - '.gitignore'
+      - '.github/workflows/*sheet*.yml'
+      - '.github/workflows/*sheet*.yaml'
+      
+      
 concurrency:
   group: render-website
   cancel-in-progress: true
