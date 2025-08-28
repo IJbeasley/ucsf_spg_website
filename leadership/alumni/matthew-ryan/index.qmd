@@ -2,7 +2,8 @@
 title: |
   Matthew Ryan
 subtitle: |
-  MD-PhD Student - Biomedical Sciences
+  MD-PhD Student
+  Biomedical Sciences
 description: |
   2019 - 2024
 ---

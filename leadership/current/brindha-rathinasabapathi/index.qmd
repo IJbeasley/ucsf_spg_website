@@ -2,7 +2,8 @@
 title: |
   Brindha Rathinasabapathi
 subtitle: |
-  PhD Student - Developmental and Stem Cell Biology
+  PhD Student
+  Developmental and Stem Cell Biology
 description: |
   2024 - present
 image: 'BrindhaRathinasabapathi.jpg'

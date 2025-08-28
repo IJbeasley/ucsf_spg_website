@@ -2,7 +2,8 @@
 title: |
   Emma Alme
 subtitle: |
-  PhD Student - Tetrad
+  PhD Student
+  Tetrad
 description: |
   2015 - 2020
 ---
