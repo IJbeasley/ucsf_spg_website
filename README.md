@@ -10,6 +10,8 @@ Status of automation steps (sheets to webpages)
 
 [![Update events page of website using updated GDrive events sheet](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/updated_events_spreadsheet.yml/badge.svg)](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/updated_events_spreadsheet.yml)
 
+[![Update news page using GDrive sheet](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/updated_news_spreadsheet.yml/badge.svg)](https://github.com/IJbeasley/ucsf_spg_website/actions/workflows/updated_news_spreadsheet.yml)
+
 <br> 
 
 Status of website building steps:   
