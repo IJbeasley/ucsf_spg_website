@@ -6,13 +6,6 @@ listing:
   - id: news
     contents: 
       - news.yml
-      # - "*.qmd"
-      # - path: https://github.com/mcanouil/quarto-version-badge
-      #   image: /projects/quarto-extension.png
-      #   title: "Version Badge"
-      #   description: "Version Badge is an extension for Quarto to provide a shortcode to display software version."
-      #   date: "2023-06-20"
-      #   categories: [Quarto, Extension, HTML]
     sort: "date desc"
     type: table
     fields: [title, date]
