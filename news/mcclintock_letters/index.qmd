@@ -30,6 +30,9 @@ about:
 
 # Options to leave alone:
 date-format: medium
+
+path: https://blogs.cornell.edu/asap/events-initiatives/the-mcclintock-letters/published-mcclintock-letters/
+
 ---
 ATTN: **Federally funded scientists!**
 

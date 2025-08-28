@@ -1,23 +1,28 @@
 ---
 title: "News"
-subtitle: "News & posts from SPG. "
+subtitle: "Collected media mentions about our initiatives, team members and our partnered projects."
 title-block-banner: false
 listing:
   - id: news
-    contents: "*.qmd"
-  
+    contents: 
+      - news.yml
+      # - "*.qmd"
+      # - path: https://github.com/mcanouil/quarto-version-badge
+      #   image: /projects/quarto-extension.png
+      #   title: "Version Badge"
+      #   description: "Version Badge is an extension for Quarto to provide a shortcode to display software version."
+      #   date: "2023-06-20"
+      #   categories: [Quarto, Extension, HTML]
     sort: "date desc"
-    type: default
+    type: table
+    fields: [title, date]
+    field-display-names:
+       title: Title
+       description: Description
     categories: true
     sort-ui: false
-    filter-ui: false
-# Maximum length of description in the events 
+    filter-ui: [date,title,categories]
+# Maximum length of description  
 # 500 characters
-    max-description-length: 500
-  ####### IMAGE PLACEHOLDER #########
-  ###### ???? MAYBE FIX / ADD #########
-  # The default image for items if they have no image.
-    image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg
-# Image preview:
-    image-height: 150px
+    max-description-length: 200
 ---
