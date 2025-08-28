@@ -5,5 +5,10 @@ subtitle: |
   Postdoctoral Scholar
 description: |
   2020 - present
+image: 'DanKarmelic.JPG'
+about: 
+  template: jolla 
+  image: 'DanKarmelic.JPG'
+  image-alt: 'Headshot of Dan Karmelic'
 ---
 

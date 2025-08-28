@@ -4,6 +4,6 @@ title: |
 subtitle: |
   MD-PhD Student - Biomedical Sciences
 description: |
-  20 - 2024
+  2019 - 2024
 ---
 
