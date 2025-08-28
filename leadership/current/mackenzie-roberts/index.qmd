@@ -5,5 +5,10 @@ subtitle: |
   PhD Student - Biomedical Sciences
 description: |
   2023 - present
+image: 'MackenzieRoberts.jpg'
+about: 
+  template: jolla 
+  image: 'MackenzieRoberts.jpg'
+  image-alt: 'Headshot of Mackenzie Roberts'
 ---
 
