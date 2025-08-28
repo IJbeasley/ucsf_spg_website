@@ -1,6 +1,6 @@
 ---
 title: "News"
-subtitle: "Collected media mentions about our initiatives, team members and our partnered projects."
+subtitle: "Collected media mentions about our initiatives, team members and partnered projects."
 title-block-banner: false
 listing:
   - id: news
