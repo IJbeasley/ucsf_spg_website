@@ -41,10 +41,7 @@
   },
   {
     "listing": "/news/index.html",
-    "items": [
-      "/news/mcclintock_letters/index.html",
-      "/news/post-with-code/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/events/index.html",

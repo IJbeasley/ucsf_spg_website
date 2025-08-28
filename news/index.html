@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -211,14 +211,14 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3Q=">Clean Hands project <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Q29tbXVuaXR5">Community <span class="quarto-category-count">(10)</span></div><div class="category" data-category="TlNQTg==">NSPN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U05BUCUyMGNvYWxpdGlvbg==">SNAP coalition <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">News</h1>
-<p class="subtitle lead">News &amp; posts from SPG.</p>
+<p class="subtitle lead">Collected media mentions about our initiatives, team members and our partnered projects.</p>
 </div>
 
 
@@ -239,70 +239,151 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-news">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1750032000000" data-listing-file-modified-sort="1756400659518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
-<div class="thumbnail"><a href="../news/mcclintock_letters/index.html" class="no-external">
+<div class="quarto-listing quarto-listing-container-table" id="listing-news">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<img loading="lazy" src="../news/mcclintock_letters/thumbnail.jpg" class="thumbnail-image" style="height: 150px;">
+<th>
+Title
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/mcclintock_letters/index.html" class="no-external">McClintock Letters</a>
-</h3>
-<div class="listing-categories">
+<th>
+Date
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+</tr>
+</thead>
+<tbody class="list">
 
-</div>
-<div class="delink listing-description"><a href="../news/mcclintock_letters/index.html" class="no-external">
-ATTN: <strong>Federally funded scientists!</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../news/mcclintock_letters/index.html" class="no-external">
-<div class="listing-date">
-Jun 16, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1666656000000" data-listing-file-modified-sort="1756400659519" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="../news/post-with-code/index.html" class="no-external">
+<tr data-index="0" data-categories="U05BUCUyMGNvYWxpdGlvbg==" data-listing-date-sort="1750032000000" data-listing-title-sort="Published McClintock Letters">
+<td>
+<a href="https://blogs.cornell.edu/asap/events-initiatives/the-mcclintock-letters/published-mcclintock-letters/" class="title listing-title">Published McClintock Letters</a>
+</td>
+<td>
+<span class="listing-date">Jun 16, 2025</span>
+</td>
 
-<img loading="lazy" src="../news/post-with-code/image.jpg" class="thumbnail-image" style="height: 150px;">
+</tr>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../news/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="1" data-categories="TlNQTg==" data-listing-date-sort="1685923200000" data-listing-title-sort="NSPN Gathers in San Francisco to Hear from Science Diplomats in Person">
+<td>
+<a href="https://web.archive.org/web/20231003234719/https://www.scipolnetwork.org/events" class="title listing-title">NSPN Gathers in San Francisco to Hear from Science Diplomats in Person</a>
+</td>
+<td>
+<span class="listing-date">Jun 5, 2023</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
+<tr data-index="2" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1588723200000" data-listing-title-sort="How Can You Help People In Prison Right Now?">
+<td>
+<a href="https://www.kqed.org/news/11815458/draft-an-exonerated-incarceree-transitions-from-prison-to-shelter-in-place-heres-how-to-help-those-still-on-the-inside#4" class="title listing-title">How Can You Help People In Prison Right Now?</a>
+</td>
+<td>
+<span class="listing-date">May 6, 2020</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="../news/post-with-code/index.html" class="no-external">
-This is a post with executable code.
-</a></div>
-</div>
-<div class="metadata">
-<a href="../news/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Oct 25, 2022
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-</div>
+<tr data-index="3" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1588464000000" data-listing-title-sort="Clean Hands to Save Lives">
+<td>
+<a href="https://synapse.ucsf.edu/articles/2020/05/03/clean-hands-save-lives" class="title listing-title">Clean Hands to Save Lives</a>
+</td>
+<td>
+<span class="listing-date">May 3, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1587686400000" data-listing-title-sort="Marshawn Lynch delivers 110 gallons of hand sanitizer to UCSF: 'He instigates action'">
+<td>
+<a href="https://www.sfchronicle.com/sports/article/Marshawn-Lynch-delivers-110-gallons-of-hand-15225029.php?fbclid=IwAR3GC_A-1XLxmsJaeC3wbqckePjInN9wX1iAbl73gx_NmtD-ueVE84mjg1k" class="title listing-title">Marshawn Lynch delivers 110 gallons of hand sanitizer to UCSF: ‘He instigates action’</a>
+</td>
+<td>
+<span class="listing-date">Apr 24, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1587254400000" data-listing-title-sort="Hand Sanitizer for the People: The Allyship of an Actor and PhD Student">
+<td>
+<a href="https://www.kqed.org/news/11813091/hand-sanitizer-for-the-people-the-allyship-of-an-actor-and-phd-student" class="title listing-title">Hand Sanitizer for the People: The Allyship of an Actor and PhD Student</a>
+</td>
+<td>
+<span class="listing-date">Apr 19, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1587254400000" data-listing-title-sort="'We ran out': More than 1,000 show up for free face masks, hand sanitizer in San Francisco's Tenderloin">
+<td>
+<a href="https://abc7news.com/society/more-than-1000-show-up-for-free-face-masks-hand-sanitizer-in-sf/6116008/" class="title listing-title">‘We ran out’: More than 1,000 show up for free face masks, hand sanitizer in San Francisco’s Tenderloin</a>
+</td>
+<td>
+<span class="listing-date">Apr 19, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1587081600000" data-listing-title-sort="UCSF Graduate Students And Postdoctoral Fellows To Distribute Hand Sanitizer Friday">
+<td>
+<a href="https://www.sfgate.com/news/bayarea/article/Ucsf-Graduate-Students-And-Postdoctoral-Fellows-15207472.php" class="title listing-title">UCSF Graduate Students And Postdoctoral Fellows To Distribute Hand Sanitizer Friday</a>
+</td>
+<td>
+<span class="listing-date">Apr 17, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1587081600000" data-listing-title-sort="San Francisco's Fillmore District steps up to address COVID-19 racial disparities">
+<td>
+<a href="https://www.ktvu.com/news/disproportinate-covid-19-impacts-on-blacks" class="title listing-title">San Francisco’s Fillmore District steps up to address COVID-19 racial disparities</a>
+</td>
+<td>
+<span class="listing-date">Apr 17, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1587081600000" data-listing-title-sort="Graduate students, fellows hand out sanitizer, face masks in SF">
+<td>
+<a href="https://www.sfexaminer.com/photo-galleries/graduate-students-fellows-hand-out-sanitizer-face-masks-in-sf/" class="title listing-title">Graduate students, fellows hand out sanitizer, face masks in SF</a>
+</td>
+<td>
+<span class="listing-date">Apr 17, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1586995200000" data-listing-title-sort="UCSF Team of Scientists Produces, Distributes Hand Sanitizer for Bay Area's Incarcerated, Most Vulnerable Populations">
+<td>
+<a href="https://www.ucsf.edu/news/2020/04/417186/ucsf-team-scientists-produces-distributes-hand-sanitizer-bay-areas-incarcerated" class="title listing-title">UCSF Team of Scientists Produces, Distributes Hand Sanitizer for Bay Area’s Incarcerated, Most Vulnerable Populations</a>
+</td>
+<td>
+<span class="listing-date">Apr 16, 2020</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-categories="Q2xlYW4lMjBIYW5kcyUyMHByb2plY3QlMkNDb21tdW5pdHk=" data-listing-date-sort="1586908800000" data-listing-title-sort="A look inside UCSF's hand sanitizer factory">
+<td>
+<a href="https://missionlocal.org/2020/04/a-look-inside-ucsfs-hand-sanitizer-factory/" class="title listing-title">A look inside UCSF’s hand sanitizer factory</a>
+</td>
+<td>
+<span class="listing-date">Apr 15, 2020</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
