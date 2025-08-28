@@ -6,7 +6,7 @@ subtitle: |
   Location: Byers Auditorium
 description: 'For the first time in over a century in San Francisco, this year’s election is an open race with four visionary new candidates.'
 date: '2019-10-21'
-categories: [Debate]
+categories: []
 date-format: medium 
 ---
 

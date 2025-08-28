@@ -4,7 +4,7 @@ title: |
   Science Communication Seminar
 description: 'Shah spoke about his current job working as a science communication consultant on a team of Ph.D.'
 date: '2017-02-22'
-categories: [Presentation]
+categories: []
 date-format: medium 
 ---
 

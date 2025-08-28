@@ -4,7 +4,7 @@ title: |
   Celebrating scientific rigor: Two career perspectives
 description: 'Silberberg gave a personal retrospective about serendipity and passion.'
 date: '2014-10-27'
-categories: [Chat/Q&A]
+categories: []
 date-format: medium 
 ---
 

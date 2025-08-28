@@ -6,7 +6,7 @@ subtitle: |
   Location: Byers Auditorium (MB)
 description: 'Join us for an insightful conversation between two leaders in the global psychedelic Renaissance.'
 date: '2024-05-01'
-categories: [Chat/Q&A]
+categories: []
 image: 'featured.png'
 date-format: medium 
 ---

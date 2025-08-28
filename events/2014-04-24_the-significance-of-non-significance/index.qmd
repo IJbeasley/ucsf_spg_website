@@ -4,7 +4,7 @@ title: |
   The Significance of Non-Significance
 description: 'A mini symposium on reproducibility and negative results'
 date: '2014-04-24'
-categories: [Panel]
+categories: []
 date-format: medium 
 ---
 

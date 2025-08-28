@@ -4,7 +4,7 @@ title: |
   Scientists in Sacramento Event 3: Feedback
 description: 'Third event in our "Scientists in Sacramento" series.'
 date: '2020-01-09'
-categories: [Panel, Workshop]
+categories: []
 date-format: medium 
 ---
 

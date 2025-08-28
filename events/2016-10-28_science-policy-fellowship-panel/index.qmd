@@ -4,7 +4,7 @@ title: |
   Science Policy Fellowship Panel
 description: 'Past fellows shared their experiences working in science policy at both the state and national level.'
 date: '2016-10-28'
-categories: [Panel]
+categories: []
 date-format: medium 
 ---
 

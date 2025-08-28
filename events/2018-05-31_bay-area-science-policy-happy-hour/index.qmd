@@ -6,7 +6,7 @@ subtitle: |
   Location: Teeth Bar SF
 description: 'SPG hosted a happy hour at Teeth SF with the science policy groups at UC Berkeley and Stanford.'
 date: '2018-05-31'
-categories: [Social]
+categories: []
 date-format: medium 
 ---
 

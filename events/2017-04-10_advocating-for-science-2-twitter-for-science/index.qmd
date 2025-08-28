@@ -4,7 +4,7 @@ title: |
   Advocating for Science: 2) Twitter for Science
 description: 'A workshop on how to leverage social media to communicate science'
 date: '2017-04-10'
-categories: [Workshop]
+categories: []
 date-format: medium 
 ---
 

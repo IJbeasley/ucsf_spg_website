@@ -4,7 +4,7 @@ title: |
   Advocating for Science: 4) Developing your Scientific Elevator Pitch
 description: 'An interactive workshop on how to tailor your research to a specific audience, including legislators'
 date: '2017-07-27'
-categories: [Workshop]
+categories: []
 date-format: medium 
 ---
 

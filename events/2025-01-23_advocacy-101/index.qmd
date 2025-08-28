@@ -6,7 +6,7 @@ subtitle: |
   Location: Mission Hall (MB)
 description: "Are you passionate about making a difference but don't know where to start? Join us for Advocacy 101 to learn the basics of effective advocacy as scientists."
 date: '2025-01-23'
-categories: [Presentation, Panel, Social]
+categories: []
 image: 'featured.png'
 date-format: medium 
 ---

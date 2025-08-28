@@ -4,7 +4,7 @@ title: |
   Advocacy 101
 description: 'On National Voter Registration Day, learn how to engage in advocacy, best practices for doing so, and guidelines for how to engage with UCSF and on personal time.'
 date: '2020-09-22'
-categories: [Presentation]
+categories: []
 date-format: medium 
 ---
 

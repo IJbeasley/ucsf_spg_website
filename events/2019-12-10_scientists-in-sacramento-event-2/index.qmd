@@ -4,7 +4,7 @@ title: |
   Scientists in Sacramento Event 2
 description: 'The second event in the Science Policy Group’s "Scientists in Sacramento" series.'
 date: '2019-12-10'
-categories: [Presentation]
+categories: []
 date-format: medium 
 ---
 

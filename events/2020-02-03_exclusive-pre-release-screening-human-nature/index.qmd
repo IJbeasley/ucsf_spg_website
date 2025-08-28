@@ -4,7 +4,7 @@ title: |
   Exclusive Pre-Release Screening: "Human Nature"
 description: 'We invite you to join us for an exclusive pre-release screening of "Human Nature," a documentary discussing one of the biggest tech revolutions of the 21st Century: CRISPR.'
 date: '2020-02-03'
-categories: [Movie/livestream]
+categories: []
 date-format: medium 
 ---
 
