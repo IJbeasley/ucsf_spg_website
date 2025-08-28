@@ -8,6 +8,10 @@ on:
   workflow_dispatch:
     branches:
       - main
+# Possibly to be added later, just uncomment
+# set up - is trigged every day at 5am Pacific Time (12pm UTC)
+  # schedule:
+  #   - cron: "0 13 * * *"
 
 concurrency:
   group: update-news-sheets

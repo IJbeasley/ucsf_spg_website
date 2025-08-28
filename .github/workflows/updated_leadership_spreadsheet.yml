@@ -8,6 +8,10 @@ on:
   workflow_dispatch:
     branches:
       - main
+# Possibly to be added later, just uncomment
+# set up - is trigged every day at 6am Pacific Time (12pm UTC)
+  # schedule:
+  #   - cron: "0 14 * * *"
 
 concurrency:
   group: update-leadership-sheets
@@ -69,8 +73,8 @@ jobs:
 
       - name: Commit & push changes
         run: |
-          git add leadership/
           git status
+          git pull --rebase origin main || echo "No changes to rebase"
+          git add leadership/
           git commit -m "Update Team Page from SPG Leadership Google Sheet" || echo "No changes to commit"
-          git pull --rebase origin main
           git push

@@ -9,9 +9,10 @@ on:
   workflow_dispatch:
     branches:
       - main
+# Possibly to be added later, just uncomment
 # set up - is trigged every day at 4am Pacific Time (12pm UTC)
-  schedule:
-    - cron: "0 12 * * *"
+  # schedule:
+  #   - cron: "0 12 * * *"
 
 concurrency:
   group: update-gallery-sheets
@@ -73,9 +74,9 @@ jobs:
 
       - name: Commit & push changes
         run: |
+          git status
+          git pull --rebase origin main || echo "No changes to rebase"
           git add gallery/
           git add images/
-          git status
           git commit -m "Update Gallery Page from SPG Gallery Google Sheet" || echo "No changes to commit"
-          git pull --rebase origin main
           git push
