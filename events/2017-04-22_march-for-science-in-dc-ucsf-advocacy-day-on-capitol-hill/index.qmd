@@ -5,7 +5,7 @@ title: |
   UCSF Advocacy Day on Capitol Hill
 description: 'SPG fundraised to send 40 UCSF graduate students to DC for the March for Science and hosted sign making events on campus for the San Francisco satellite march.'
 date: '2017-04-22'
-categories: [Lobbying]
+categories: []
 date-format: medium 
 ---
 

@@ -1,0 +1,15 @@
+---
+title: |
+  Applying Science to Policymaking minicourse (Round 3!)
+subtitle: |
+  Location: PCMB, VCV (MB)
+description: "We offered our Science Policy minicourse for the third year running, further expanding our cohort of policy-trained graduate students at UCSF! Policy issues covered this year ranged from increasing representation in clinical trials to expanding funding for rare disease research and addressing the nation's physician shortage."
+date: '2025-04-01'
+categories: []
+date-format: medium 
+---
+
+
+We offered our Science Policy minicourse for the third year running, further expanding our cohort of policy-trained graduate students at UCSF! Policy issues covered this year ranged from increasing representation in clinical trials to expanding funding for rare disease research and addressing the nation's physician shortage. For this year's final showcase, students pitched their policy solutions to a panel of policy-engaged faculty and staff at UCSF acting as mock policymakers.
+
+

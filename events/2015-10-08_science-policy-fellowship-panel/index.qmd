@@ -4,7 +4,7 @@ title: |
   Science Policy Fellowship Panel
 description: 'A panel of former AAAS and CCST Science Policy Fellows discussed their experiences and answered audience questions.'
 date: '2015-10-08'
-categories: [Panel]
+categories: []
 date-format: medium 
 ---
 

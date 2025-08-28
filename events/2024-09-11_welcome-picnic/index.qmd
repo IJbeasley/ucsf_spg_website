@@ -5,7 +5,7 @@ title: |
 subtitle: |
   Location: Koret Quad (MB)
 date: '2024-09-11'
-categories: [Social]
+categories: []
 image: 'featured.png'
 date-format: medium 
 ---

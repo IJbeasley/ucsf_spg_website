@@ -3,7 +3,7 @@ draft: true
 title: |
   Empowering scientists in developing countries to conduct life-changing research
 date: '2015-04-22'
-categories: [Presentation]
+categories: []
 date-format: medium 
 ---
 

@@ -3,7 +3,7 @@ draft: true
 title: |
   My life in science policy
 date: '2014-12-04'
-categories: [Chat/Q&A]
+categories: []
 date-format: medium 
 ---
 

@@ -6,7 +6,7 @@ subtitle: |
   Location: Genentech Hall (MB)
 description: 'This Science Diplomacy Career Panel will feature local SF diplomats from four representative countries (United Kingdom, Japan, Chile, Switzerland).'
 date: '2023-05-18'
-categories: [Panel, Social]
+categories: []
 image: 'featured.png'
 date-format: medium 
 ---

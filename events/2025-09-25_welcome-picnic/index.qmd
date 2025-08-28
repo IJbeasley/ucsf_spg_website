@@ -6,7 +6,8 @@ subtitle: |
 author: '5:30pm'
 description: 'We invite you to our annual Welcome Picnic (food will be provided)! Meet our incredible team, learn about what we do, and find out how to get involved!'
 date: '2025-09-25'
-categories: [Social]
+categories: []
+image: 'featured.png'
 date-format: medium 
 ---
 <a href=https://tinyurl.com/spg-picnic class='btn btn-danger'>RSVP Here</a>
@@ -16,4 +17,4 @@ SPG members
 
 We invite you to our annual Welcome Picnic (food will be provided)! Meet our incredible team, learn about what we do, and find out how to get involved!
 
-
+![Flyer for Welcome Picnic (2025-09-25)](featured.png){.lightbox}

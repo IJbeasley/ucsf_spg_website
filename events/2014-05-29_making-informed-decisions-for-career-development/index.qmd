@@ -4,7 +4,7 @@ title: |
   Making Informed Decisions for Career Development
 description: 'Informational event about the UCSF MIND grant'
 date: '2014-05-29'
-categories: [Presentation]
+categories: []
 date-format: medium 
 ---
 

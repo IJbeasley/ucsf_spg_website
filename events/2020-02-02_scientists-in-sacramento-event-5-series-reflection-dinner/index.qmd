@@ -4,7 +4,7 @@ title: |
   Scientists in Sacramento Event 5: Series Reflection Dinner
 description: 'During a final Series Reflection Dinner, feedback from attendees and organizers of each event in this series was recorded and compiled into a document that can help guide future events.'
 date: '2020-02-02'
-categories: [Social, Chat/Q&A]
+categories: []
 date-format: medium 
 ---
 

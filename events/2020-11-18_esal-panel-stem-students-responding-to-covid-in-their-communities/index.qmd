@@ -4,7 +4,7 @@ title: |
   ESAL panel: STEM students responding to Covid in their communities
 description: 'Online panel discussion with STEM student groups that are leading Covid response efforts in their communities.'
 date: '2020-11-18'
-categories: [Panel, Virtual]
+categories: []
 date-format: medium 
 ---
 

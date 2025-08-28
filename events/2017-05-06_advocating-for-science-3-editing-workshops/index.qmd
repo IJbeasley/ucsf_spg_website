@@ -4,7 +4,7 @@ title: |
   Advocating for Science: 3) Editing Workshops
 description: 'Peer editing workshops for individuals writing Op-Eds for publication'
 date: '2017-05-06'
-categories: [Workshop]
+categories: []
 date-format: medium 
 ---
 

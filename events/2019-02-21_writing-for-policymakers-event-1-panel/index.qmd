@@ -4,7 +4,7 @@ title: |
   Writing for Policymakers Event 1: Panel
 description: 'Join us for a panel discussion on writing for grant-funding agencies and policymakers.'
 date: '2019-02-21'
-categories: [Panel]
+categories: []
 date-format: medium 
 ---
 

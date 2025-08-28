@@ -4,7 +4,7 @@ title: |
   What is the role of science policy in healthcare today?
 description: 'Miller discussed her experience and career trajectory, having worked with FDA, EMA, industry, community and academia'
 date: '2014-11-19'
-categories: [Presentation]
+categories: []
 date-format: medium 
 ---
 

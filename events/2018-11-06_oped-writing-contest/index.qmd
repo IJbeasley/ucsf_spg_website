@@ -4,7 +4,7 @@ title: |
   OpEd Writing Contest
 description: 'Part of a series on communicating your expertise to the public and policy makers.'
 date: '2018-11-06'
-categories: [Information]
+categories: []
 date-format: medium 
 ---
 
