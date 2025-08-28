@@ -4,6 +4,7 @@ name: Render Quarto Files into Published Website
 on:
 # set up can be triggered through github (clicking workflow run)
   workflow_dispatch:
+  push:
 # set up - triggered everytime we push (upload changes) to the github repository
     branches: main
 # unless the change is one of these files / folders:
@@ -16,6 +17,14 @@ on:
       - '.gitignore'
       - '.github/workflows/*sheet*.yml'
       - '.github/workflows/*sheet*.yaml'
+  workflow_run:
+    workflows: 
+      - "Update events Quarto files using GDrive sheet"
+      - "Update news Quarto files using GDrive sheet"
+      - "Update team/leadership Quarto files using GDrive sheet"
+      - "Update gallery Quarto files using GDrive sheet"
+    types:
+      - completed
 # Possibly to be added later, just uncomment
 # set up - is trigged every day at 7am Pacific Time (12pm UTC)
   # schedule:
