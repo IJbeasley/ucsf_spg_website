@@ -47,6 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-d709bf7dc8ee36983caf3f70bc3263b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-c7f1c31c5c5597d0fe68823c63ac86c7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-d709bf7dc8ee36983caf3f70bc3263b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -159,10 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title"><p>Welcome Picnic</p></h1>
 <p class="subtitle lead"></p><p>Location: Koret Quad (MB)</p><p></p>
-  <div class="quarto-categories">
-    <div class="quarto-category">Social</div>
-  </div>
-  </div>
+</div>
 
 <div>
   <div class="description">
@@ -200,6 +200,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="speakers">Speakers</h3>
 <p>SPG members</p>
 <p>We invite you to our annual Welcome Picnic (food will be provided)! Meet our incredible team, learn about what we do, and find out how to get involved!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="featured.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Flyer for Welcome Picnic (2025-09-25)"><img src="featured.png" class="img-fluid figure-img" alt="Flyer for Welcome Picnic (2025-09-25)"></a></p>
+<figcaption>Flyer for Welcome Picnic (2025-09-25)</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -668,6 +674,38 @@ Medical Center, or any entities or units thereof.
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
