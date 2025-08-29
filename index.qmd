@@ -5,7 +5,6 @@ subtitle: "The Science Policy Group at UCSF seeks to empower and educate people 
 <div style='display: flex; gap: 1rem; flex-wrap: wrap;'>
 <a href='join_info/index.html' class='btn btn-danger'>Join Us!</a>
 <a href='events/index.html' class='btn btn-success'>See all our events!</a>
-<a href='#about-us' class='btn btn-warning'>Learn more about us!</a>
 </div>
 "
 title-block-banner: true
@@ -17,11 +16,7 @@ lightbox:
   loop: true
 ---
 
-# Recent & Up-Coming Events {.heading-up}
-
-{{< include homepage/_events_widget.qmd >}}
-
-# About Us {.extra-heading-up}
+# About Us {.heading-up}
 
 :::: {.columns}
 
