@@ -1,0 +1,17 @@
+---
+draft: true 
+title: |
+  Welcome Picnic
+subtitle: |
+  Location: Koret Quad
+date: '2021-09-08'
+date-format: medium 
+---
+
+
+### Speakers  
+SPG members
+
+We invite you to our Fall Welcome Picnic! Meet our dynamic leadership team, learn about what we do, and find out how to get involved! The SPG at UCSF is a group of passionate individuals who want to make a difference in the world, whether by communicating science to inform policy, influencing policy to enable science, or initiating advocacy within and beyond UCSF. Our events and projects are completely determined by our members, so if you have an idea for an event, we can help you make it happen!
+
+

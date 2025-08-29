@@ -1,0 +1,15 @@
+---
+draft: true 
+title: |
+  Sacramento Advocacy Day
+date: '2019-03-21'
+date-format: medium 
+---
+
+
+### Speakers  
+SPG members
+
+Last month, Science Policy Group members from UC Berkeley and UCSF went to the California State House to talk about multiple bills on energy being put forth for this legislative year. SPG members chatted with over 12 different California Representatives and Senators from all over the state to gain a better understanding of where energy policy stands and how the state house plans to work towards meeting SB 100, which states that all of California’s electricity will come from clean power sources by 2045.
+
+

@@ -1,0 +1,17 @@
+---
+draft: true 
+title: |
+  Welcome Picnic
+subtitle: |
+  Location: Koret Quad (MB)
+date: '2023-09-26'
+image: 'featured.png'
+date-format: medium 
+---
+
+
+### Speakers  
+SPG members
+
+
+![Flyer for Welcome Picnic (2023-09-26)](featured.png){.lightbox}

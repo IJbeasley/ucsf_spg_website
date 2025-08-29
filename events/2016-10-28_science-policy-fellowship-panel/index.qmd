@@ -1,0 +1,15 @@
+---
+draft: true 
+title: |
+  Science Policy Fellowship Panel
+date: '2016-10-28'
+date-format: medium 
+---
+
+
+### Speakers  
+Former Science Policy Fellows
+
+Past fellows shared their experiences working in science policy at both the state and national level.
+
+

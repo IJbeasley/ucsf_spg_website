@@ -1,0 +1,19 @@
+---
+draft: true 
+title: |
+  Overdose Prevention Workshop and Seminar
+subtitle: |
+  Location: Byers Hall (MB)
+date: '2023-04-19'
+image: 'featured.png'
+date-format: medium 
+---
+
+
+### Speakers  
+Melisa Matheney (DOPE Project),  
+Dallas Augustine (Postdoc, UCSF Benioff Homelessness and Housing Initiative)
+
+In January, UCSF Student Health informed students that naloxone will be made available to all students. In response to this initiative, the Science Policy Group has organized a hands-on workshop and a seminar on harm reduction research to help train UCSF community members on overdose prevention strategies. Join us to get some free pizza and take home nasal narcan and fentanyl test strips!
+
+![Flyer for Overdose Prevention Workshop and Seminar (2023-04-19)](featured.png){.lightbox}

@@ -1,0 +1,14 @@
+---
+draft: true 
+title: |
+  Reproducibility in Scientific Research
+date: '2015-04-15'
+date-format: medium 
+---
+
+
+### Speakers  
+Vivian Siegel (Director of Education and Outreach, Broad institute)
+
+
+

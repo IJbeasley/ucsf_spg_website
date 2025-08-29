@@ -1,0 +1,15 @@
+---
+draft: true 
+title: |
+  Seminar with Dr. Schaffer
+date: '2015-02-10'
+date-format: medium 
+---
+
+
+### Speakers  
+Dr. Schaffer (Associate Professor, Biomedical Engineering, Cornell University)
+
+He discussed his sabbatical as a science policy advisor to senator Edward Markey and how scientists need to become more effective lobbyists for our own cause.
+
+

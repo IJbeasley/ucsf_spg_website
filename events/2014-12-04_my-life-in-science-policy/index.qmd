@@ -1,0 +1,14 @@
+---
+draft: true 
+title: |
+  My life in science policy
+date: '2014-12-04'
+date-format: medium 
+---
+
+
+### Speakers  
+Max Bronstein (Founder and CEO, Journal of Science Policy and Governance)
+
+
+

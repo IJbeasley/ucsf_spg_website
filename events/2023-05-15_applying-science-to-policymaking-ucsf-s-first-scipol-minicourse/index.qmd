@@ -1,0 +1,16 @@
+---
+draft: true 
+title: |
+  Applying Science to Policymaking: UCSF's first SciPol minicourse
+subtitle: |
+  Location: Genentech Hall (MB)
+date: '2023-05-15'
+date-format: medium 
+---
+
+
+From tackling pandemics to addressing climate change, we need scientific expertise to craft evidence-based policies to solve society’s big challenges. Designed to train scientists to engage with policymaking of all levels, this mini-course is a first step for anyone interested in science policy. We will focus on two core competencies: (1) knowledge of the policymaking process and (2) rhetorical skills for communicating with a variety of audiences, with special attention given to how these skills can be used in advocacy and social justice work. Each student will apply these skills to build a policy portfolio with an elevator pitch, letter to the editor, and policy brief on a selected science policy topic. This course is intended for students on any career trajectory and will provide opportunities to interact with expert guest speakers in a variety of career paths.
+
+We will be sharing some resources compiled from the minicourse. In the meantime, check out our twitter thread outlining the course!
+
+

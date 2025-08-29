@@ -1,0 +1,22 @@
+---
+draft: true 
+title: |
+  Hard Questions Series
+  Session 1: Homelessness, Housing, and Evictions
+subtitle: |
+  Location: Zoom (virtual only)
+date: '2021-09-27'
+image: 'featured.png'
+date-format: medium 
+---
+
+
+### Speakers  
+Margot Kushel, Shanti Singh, TJ Johnston, Rosemary Ndubuizu  
+Alec Karakatsanis, K. Agbebiyi, Alex Karim, Aditi Joshi  
+Alex London, Kristian Lum, Ramon Vilarino, Ria Kalluri
+
+This virtual panel will feature experts on the history and policy of housing, homelessness and evictions in the United States. We will ask hard questions as part of a discussion to better understand the current crisis and viable steps forward. Speakers were Dr. Margot Kushel director of the UCSF Center for Vulnerable Populations, TJ Johnston editor of Street Sheet, Rosemary Ndubizu Professor of African American Studies at Georgetown University, and Shanti Singh Legislative Director of Tenants Together. Moderated by Chad Altobelli and Toshio Meronek freelance housing journalist.
+
+![Flyer for Hard Questions Series
+Session 1: Homelessness, Housing, and Evictions (2021-09-27)](featured.png){.lightbox}

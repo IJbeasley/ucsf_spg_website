@@ -1,0 +1,12 @@
+---
+draft: true 
+title: |
+  Advocating for Science: 2) Twitter for Science
+date: '2017-04-10'
+date-format: medium 
+---
+
+
+A workshop on how to leverage social media to communicate science
+
+
