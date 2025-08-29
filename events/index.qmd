@@ -29,7 +29,7 @@ listing:
 ####### IMAGE PLACEHOLDER #########
 ###### ???? MAYBE FIX / ADD #########
     # The default image for items if they have no image.
-    image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg
+    # image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg
     
 # What info does the user see? 
     fields: [title, subtitle, image, date, author, categories]
