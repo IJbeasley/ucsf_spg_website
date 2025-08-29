@@ -22,7 +22,8 @@ listing:
     contents: "alumni/**/*.qmd"
     type: table
     fields: [title, subtitle, description]
-    sort-ui: false
+    sort: description desc
+    sort-ui: [description]
     filter-ui: [title]
     field-display-names:
        title: Name
