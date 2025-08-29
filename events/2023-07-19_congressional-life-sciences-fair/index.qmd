@@ -1,21 +1,21 @@
 ---
 draft: true 
-title: |
-  Congressional Life Sciences Fair
+title: 'Congressional Life Sciences Fair'
 subtitle: |
   Location: Washington, D.C.
 date: '2023-07-19'
-date-format: medium 
+rsvp_link: 
 ---
-
-
-### Speakers  
-SPG reps: Sneha Rao, Elysse Phillips, Daniel Sprague, Dan Karmelic;  
-Keith Yamamoto, Ben Rubin (OSPS), Eric Anthony (CGR)
 
 We are thrilled to have four UCSF representatives share cutting-edge UCSF research at the 2023 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! This year's representatives include organizers and TAs from our Science Policy minicourse - Daniel Sprague, Dan Karmelic, and Sneha Rao - as well as minicourse student, Elysse Phillips. These SPG leaders will also join Dr. Keith Yamamoto (Vice Chancellor of Science Policy and Strategy), Dr. Ben Rubin (Associate Director of Precision Medicine), and Eric Anthony (Director of Federal Government Relations) in meetings with congressional offices to advocate for federal support for biomedical research and training.
 
 - Sneha Rao and Elysse Phillips, two graduate students in the Weiner Lab at UCSF, study pre-implantation mouse embryo development to understand implantation defects in embryos of advanced maternal age. They will discuss how this research could reduce infertility and inform advancements to stem cell-based embryo models that can provide critical insight into early human development and disease. They aim to highlight why we need a new regulatory framework to keep up with rapidly advancing embryo models.
 - Daniel Sprague and Dan Karmelic, a Neuroscience researcher in the Foco Lab and postdoc in the Davis Lab, will explore why and how they use the humble C. elegans worm to answer fundamental neuroscience questions. They will zoom in on a fascinating study where worms were used to understand the role sleep may play in long term memory formation. Rashmi Chandra, lead author of this study and postdoc in the L'Etoile Lab, will join Daniel and Dan in presenting this work. They hope to demonstrate why investment in basic science is essential towards advancing our understanding of the human brain and what goes wrong in diseases that affect memory such as Alzheimer's Disease.
+
+<b>Speakers</b>  
+SPG reps: Sneha Rao, Elysse Phillips, Daniel Sprague, Dan Karmelic;  
+Keith Yamamoto, Ben Rubin (OSPS), Eric Anthony (CGR)
+
+
 
 

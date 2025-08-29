@@ -1,14 +1,14 @@
 ---
 draft: true 
-title: |
-  Developing a more productive, efficient, sustainable science enterprise
+title: 'Developing a more productive, efficient, sustainable science enterprise'
 date: '2015-04-30'
-date-format: medium 
+rsvp_link: 
 ---
 
 
-### Speakers  
+<b>Speakers</b>  
 Jon Lorsch (Director, NIGMS)
+
 
 
 

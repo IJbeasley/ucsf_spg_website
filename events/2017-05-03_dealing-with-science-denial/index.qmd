@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Dealing with Science Denial
+title: 'Dealing with Science Denial'
 date: '2017-05-03'
-date-format: medium 
+rsvp_link: 
 ---
 
+Dr. Ann Reid discussed “science denialism ” and why the issue is so difficult to diagnose.
 
-### Speakers  
+<b>Speakers</b>  
 Ann Reid (Executive Director, National Center for Science Education)
 
-Dr. Ann Reid discussed “science denialism ” and why the issue is so difficult to diagnose.
+
 
 

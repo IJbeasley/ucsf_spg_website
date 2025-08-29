@@ -1,14 +1,13 @@
 ---
 draft: true 
-title: |
-  Hard Questions Series
-  Session 2: Defunding Policing
+title: 'Hard Questions Series
+Session 2: Defunding Policing'
 subtitle: |
   Location: Zoom (virtual only)
 date: '2021-10-04'
-image: 'featured.png'
-date-format: medium 
+rsvp_link: 
 ---
+
 
 
 

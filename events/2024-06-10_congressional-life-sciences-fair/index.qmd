@@ -1,18 +1,18 @@
 ---
 draft: true 
-title: |
-  Congressional Life Sciences Fair
+title: 'Congressional Life Sciences Fair'
 subtitle: |
   Location: Washington, D.C.
 date: '2024-06-10'
-date-format: medium 
+rsvp_link: 
 ---
 
+We are thrilled to have five UCSF representatives showcase UCSF's innovative research at the 2024 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! This year's representatives include two TAs from our Science Policy minicourse, Matthew Ryan and Amelie Delcourt, as well as students from this year's minicourse cohort, Jared Khan, Wanjun Gu, and Cindy Ow. These SPG leaders will join Dr. Keith Yamamoto (Vice Chancellor of Science Policy and Strategy) and Eric Anthony (Director of Federal Government Relations) in meetings with congressional offices to advocate for federal support for biomedical research and training.
 
-### Speakers  
+<b>Speakers</b>  
 SPG reps: Amelie Delcourt, Matt Ryan; Jared Khan, Cindy Ow;  
 Keith Yamamoto (OSPS), Eric Anthony (CGR)
 
-We are thrilled to have five UCSF representatives showcase UCSF's innovative research at the 2024 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! This year's representatives include two TAs from our Science Policy minicourse, Matthew Ryan and Amelie Delcourt, as well as students from this year's minicourse cohort, Jared Khan, Wanjun Gu, and Cindy Ow. These SPG leaders will join Dr. Keith Yamamoto (Vice Chancellor of Science Policy and Strategy) and Eric Anthony (Director of Federal Government Relations) in meetings with congressional offices to advocate for federal support for biomedical research and training.
+
 
 

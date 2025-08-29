@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Summer Celebration
+title: 'Summer Celebration'
 date: '2019-08-07'
-date-format: medium 
+rsvp_link: 
 ---
 
+SPG invites you to a summer celebration! Come learn who we are, what we do, and how you can get involved.
 
-### Speakers  
+<b>Speakers</b>  
 SPG members
 
-SPG invites you to a summer celebration! Come learn who we are, what we do, and how you can get involved.
+
 
 

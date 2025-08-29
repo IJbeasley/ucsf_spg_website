@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  OpEd Writing Contest
+title: 'OpEd Writing Contest'
 date: '2018-11-06'
-date-format: medium 
+rsvp_link: 
 ---
 
+Part of a series on communicating your expertise to the public and policy makers. Submit a science related op-ed to a newspaper, journal, or online publisher to be eligible
 
-### Speakers  
+<b>Speakers</b>  
 General community
 
-Part of a series on communicating your expertise to the public and policy makers. Submit a science related op-ed to a newspaper, journal, or online publisher to be eligible
+
 
 

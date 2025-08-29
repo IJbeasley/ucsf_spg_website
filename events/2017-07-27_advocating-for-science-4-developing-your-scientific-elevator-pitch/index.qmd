@@ -1,12 +1,12 @@
 ---
 draft: true 
-title: |
-  Advocating for Science: 4) Developing your Scientific Elevator Pitch
+title: 'Advocating for Science: 4) Developing your Scientific Elevator Pitch'
 date: '2017-07-27'
-date-format: medium 
+rsvp_link: 
 ---
 
-
 An interactive workshop on how to tailor your research to a specific audience, including legislators
+
+
 
 

@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Advocacy 101: How to advocate for science at UCSF and beyond
+title: 'Advocacy 101: How to advocate for science at UCSF and beyond'
 date: '2014-05-22'
-date-format: medium 
+rsvp_link: 
 ---
 
+A brown bag lunch with UCSF’s government relations officials
 
-### Speakers  
+<b>Speakers</b>  
 UCSF Community and Government Relations officials
 
-A brown bag lunch with UCSF’s government relations officials
+
 
 

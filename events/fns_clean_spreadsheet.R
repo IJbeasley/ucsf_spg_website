@@ -1,5 +1,23 @@
 # Functions to help converting sheets data to quarto documents 
 
+########### Log missing information ##############
+
+log_missing <- function(field, rownum) {
+  
+  message(paste0("⚠️ Warning in Row ", rownum, ": Missing or invalid ", field, "."),
+          paste0("\n Thus, this field will be left blank")
+          )
+}
+
+########### Log that draft field was left blank - so set to true ##############
+
+log_missing_draft <- function(rownum) {
+  message(paste0("⚠️ Warning in Row ", rownum, ": Missing or invalid draft column."),
+          paste0("\n Thus, the corresponding quarto file will be labelled a draft "),
+          paste0("and will not be viewable on the website.")
+  )
+}
+
 ############## Checking  column info exists + build relevant row ##################
 check_and_build_block <- function(column,
                                   yaml_name){
@@ -20,7 +38,11 @@ check_and_build_block <- function(column,
 
 ####################### Clean column names ############
 
-# Normalize column names: trim spaces, convert to lowercase, replace spaces and punctuation with underscores
+# Normalize column names: 
+# 1. trim spaces,
+# 2. convert to lowercase, 
+# 3. replace spaces & punctuation with underscores
+
 clean_names <- function(colname) {
   
   clean_colname = 
@@ -37,6 +59,7 @@ clean_names <- function(colname) {
 
 ###################### Make event folder ##############
 #### In format: YYYY-MM-DD_event_name ########
+
 
 slugify <- function(text) {
   text <- tolower(text)
@@ -76,12 +99,14 @@ mk_qmd_dir <- function(events_dir,
 # Sometimes NAs are listed as empty "", NULL, or as strings / characters 
 
 any_na_type <- function(string) {
+  
+  na_strings <- c("NA", "N/A", "na", "n/a", "null", "NULL", "Null")
+  
   any(
     is.na(string) |
-      string == "NA" |
-      stringr::str_starts(string, "NA") |
-      !nzchar(string) |
-      is.null(string)
+    is.null(string) |
+    !nzchar(string) |
+    tolower(string) %in% tolower(na_strings) 
   )
 }
 
@@ -108,6 +133,31 @@ set_up_qmd <- function(qmd_dir,
 
 
 ############# Format date: ##############
+
+get_event_date <- function(date) {
+  
+  if (any_na_type(date)) return(NA)
+  
+  cleaned <- stringr::str_remove_all(as.character(date), 
+                                     "[~]|tentative|- Fall\\?")
+  
+  cleaned <- stringr::str_trim(cleaned)
+  
+  parsed <- suppressWarnings(
+    lubridate::parse_date_time(cleaned, 
+                               orders = c("mdy", "dmy", "B d Y", "B Y", "Y-m-d"))
+  )
+  
+  if (is.na(parsed)) {
+    warning(paste("⚠️ Could not parse date:", date, "— defaulting to Jan 1 of year"))
+    # Fallback: use just the year
+    year <- stringr::str_extract(cleaned, "\\d{4}")
+    parsed <- as.Date(paste0(year, "-01-01"))
+  }
+  
+  return(as.Date(parsed))
+}
+
 
 get_event_date <- function(date){
   
@@ -166,31 +216,6 @@ get_event_date <- function(date){
 } 
 
 
-########## Format event description #############
-
-format_event_description <- function(description){
-  
-  description <- stringr::str_trim(description)
-  description <- stringr::str_remove(description, '‍')
-  
-  return(description)
-  
-}
-
-
-########## Get event format ########
-# Remove white space around text, and where event format is document,
-# Change it to information 
-
-get_event_format <- function(format){
-  
-  format <- stringr::str_trim(format) 
-  format <- stringr::str_replace(format,"Document", "Information")
-  
-  return(format)
-}
-
-
 
 ############ Format flyer / image #########
 
@@ -228,8 +253,10 @@ get_event_flyer <- function(flyer_link,
       scopes = "drive.readonly"
     )
     
-    googledrive::drive_download(flyer_link,
+    suppressMessages(
+                     googledrive::drive_download(flyer_link,
                                 path = flyer_photo_path)
+    )
     
     # if pdf - convert to png
     if(flyer_type == "pdf" && 
@@ -325,10 +352,9 @@ embed_event_flyer <- function(flyer_photo_path,
       # label image section in yaml header
       image_section <- paste0( "image: ", 
                                shQuote(image),
-                               "\n"
-      )
+                               "\n")
       
-      # get code for embedding image inline
+      # no in text image for single image 
       in_text_image <- paste0(
         "![", "Flyer for ", title, " (", date, ")","]",
         "(", image, ")",
@@ -357,12 +383,23 @@ embed_event_flyer <- function(flyer_photo_path,
       in_text_images[page] <- paste0(
         "![", "Flyer for ", title, " (", date, ")", " - Page: ", page, "]",
         "(", images[page], ")", 
-        "{.lightbox group=", sQuote(slugify(title)), "}"
+        "{.lightbox group=", shQuote(slugify(title)), "}"
       )
     }
     
+    start <- paste0(in_text_images[1], "\n\n",
+                   '<div style="display:none;">\n\n'
+                   )
     
-    in_text_image <- paste(in_text_images, collapse = "\n\n")
+    end <- "\n\n</div>"
+    
+    in_text_image <- paste0(in_text_images[-1], 
+                           collapse = "\n\n"
+                           )
+    
+    in_text_image <- paste0(start,
+                            in_text_image,
+                            end)
     
   } 
   
@@ -370,38 +407,4 @@ embed_event_flyer <- function(flyer_photo_path,
                      "in_text_image" = in_text_image) 
   
   return(image_embed)
-}
-
-
-######### Make description section ###########
-
-
-make_desc_section <- function(description){
-  
-  ### Make description shown in listing 
-  # Do this by getting the first sentence only 
-  first_sentence_description <- stringr::str_extract(
-    description,
-    "(?s).*?(?<!\\b(?:Dr|Mr|Ms|Mrs|Prof|Sr|Jr))\\.(\\s|$)"
-  )
-  first_sentence_description <- stringr::str_trim(first_sentence_description)
-  
-  if (!any_na_type(first_sentence_description)) {
-    description_section <- paste0(
-      "description: ", shQuote(first_sentence_description), "\n"
-    )
-  } else if(any_na_type(first_sentence_description) && 
-            !any_na_type(description) &&
-            nzchar(description)) {
-    
-    description_section <- paste0(
-      "description: ", shQuote(description), "\n"
-    )
-    
-  } else {
-    
-    description_section <- NULL 
-  }
-  
-  return(description_section)
 }

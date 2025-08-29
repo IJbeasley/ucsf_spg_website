@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Seminar with Keith Yamamoto: Science Policy at UCSF
+title: 'Seminar with Keith Yamamoto: Science Policy at UCSF'
 date: '2016-03-03'
-date-format: medium 
+rsvp_link: 
 ---
 
+Keith Yamamoto spoke about his role as UCSF”s Vice Chancellor of Science Policy and Strategy.
 
-### Speakers  
+<b>Speakers</b>  
 Keith Yamamoto (Vice Chancellor for Science Policy and Strategy, UCSF)
 
-Keith Yamamoto spoke about his role as UCSF”s Vice Chancellor of Science Policy and Strategy.
+
 
 

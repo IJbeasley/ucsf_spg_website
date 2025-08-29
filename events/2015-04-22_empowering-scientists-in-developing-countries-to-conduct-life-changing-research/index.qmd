@@ -1,14 +1,14 @@
 ---
 draft: true 
-title: |
-  Empowering scientists in developing countries to conduct life-changing research
+title: 'Empowering scientists in developing countries to conduct life-changing research'
 date: '2015-04-22'
-date-format: medium 
+rsvp_link: 
 ---
 
 
-### Speakers  
+<b>Speakers</b>  
 Nina Dudnik (Seeding Labs)
+
 
 
 

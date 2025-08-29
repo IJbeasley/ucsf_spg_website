@@ -1,12 +1,12 @@
 ---
 draft: true 
-title: |
-  The Outlook of Science in the New Administration and Congress
+title: 'The Outlook of Science in the New Administration and Congress'
 date: '2017-01-26'
-date-format: medium 
+rsvp_link: 
 ---
 
-
 AAAS webinar screening
+
+
 
 

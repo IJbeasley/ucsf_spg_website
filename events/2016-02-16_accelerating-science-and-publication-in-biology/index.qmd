@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Accelerating Science and Publication in Biology
+title: 'Accelerating Science and Publication in Biology'
 date: '2016-02-16'
-date-format: medium 
+rsvp_link: 
 ---
 
+SPG live streamed the ASAPBio event in Washington DC, where representatives from all aspects of science communication, policy, funding and education discussed the use of preprint serves in publishing biological research.
 
-### Speakers  
+<b>Speakers</b>  
 ASAPBio in DC
 
-SPG live streamed the ASAPBio event in Washington DC, where representatives from all aspects of science communication, policy, funding and education discussed the use of preprint serves in publishing biological research.
+
 
 

@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Science Policy Fellowship Panel
+title: 'Science Policy Fellowship Panel'
 date: '2016-10-28'
-date-format: medium 
+rsvp_link: 
 ---
 
+Past fellows shared their experiences working in science policy at both the state and national level.
 
-### Speakers  
+<b>Speakers</b>  
 Former Science Policy Fellows
 
-Past fellows shared their experiences working in science policy at both the state and national level.
+
 
 

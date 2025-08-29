@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Engineering Biology & the Bioeconomy: Opportunity and Necessity of Policy Engagement
+title: 'Engineering Biology & the Bioeconomy: Opportunity and Necessity of Policy Engagement'
 date: '2019-09-26'
-date-format: medium 
+rsvp_link: 
 ---
 
+Discussion led by Dr. Douglas Friedman, Executive Director, Engineering Biology Research Consortium.
 
-### Speakers  
+<b>Speakers</b>  
 Dr. Douglas Friedman (Executive Director, Engineering Biology Research Consortium)
 
-Discussion led by Dr. Douglas Friedman, Executive Director, Engineering Biology Research Consortium.
+
 
 

@@ -1,17 +1,17 @@
 ---
 draft: true 
-title: |
-  Bay Area Science Policy Happy Hour
+title: 'Bay Area Science Policy Happy Hour'
 subtitle: |
   Location: Teeth Bar SF
 date: '2018-05-31'
-date-format: medium 
+rsvp_link: 
 ---
 
+SPG hosted a happy hour at Teeth SF with the science policy groups at UC Berkeley and Stanford. The event also acted as a fundraiser for the National Center for Science Education.
 
-### Speakers  
+<b>Speakers</b>  
 SPGs of UCSF, Berkeley, and Stanford
 
-SPG hosted a happy hour at Teeth SF with the science policy groups at UC Berkeley and Stanford. The event also acted as a fundraiser for the National Center for Science Education.
+
 
 

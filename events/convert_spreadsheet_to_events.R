@@ -5,26 +5,48 @@
 # replaces space & / with _, all lowercase, ( & ) are removed, 
 # you can test out how a given name will be converted with
 # clean_names("My example column name")
-{
-col_year       <- "year"
-col_event      <- "event"
-col_date       <- "dates"
-col_tags     <- "tags"
-col_location   <- "location"
-col_speakers   <- "speakers"
-col_description<- "full_description"
-col_rsvp       <- "rsvp_link"
-col_flyer_link <- "flyer_website_link"
-col_flyer_notes <- "flyer_notes"
-col_time       <- "time"
-col_draft <- "website_ready"
-}
+
+# Functions I custom built to process columns etc. are found in this
+# Rscript
+source(here::here("events/fns_clean_spreadsheet.R"))
 
 {
-  events_dir = here::here("events")
+col_year       <- clean_names("Year") # Year of event
+col_event      <- clean_names("Event") # Event name
+col_date       <- clean_names("Date(s)") # Event date
+col_time       <- clean_names("Time") # Event time
+
+col_tags     <- clean_names("Tags") # Event categories / tags 
+col_location   <- clean_names("Location") # Event location
+col_speakers   <- clean_names("Speakers") # Event Speakers
+col_description<- clean_names("Full Description") # Description
+
+col_rsvp       <- clean_names("RSVP Link") # Link to where you can RSVP to the event?
+
+col_flyer_link <- clean_names("Flyer (Website link)") # Google Drive link to where the Flyer is
+col_flyer_notes <- clean_names("Flyer/Notes") # Name of the flyer
+
+col_draft <- clean_names("Website ready?") # Should the event be hosted on the website yet?
 }
 
-##################### Get google sheets of event #########################
+
+
+
+######## Remove all old quarto event files before rebuilding site #########
+
+events_dir = here::here("events")
+
+# subfolders to delete:
+subdirs <- list.dirs(events_dir, full.names = TRUE, recursive = FALSE)
+
+# only delete folders that match the expected naming convention (YYYY-MM-DD_title)
+subdirs <- grep("^\\d{4}-\\d{2}-\\d{2}_.+", subdirs, value = TRUE)
+           
+unlink(subdirs, recursive = TRUE, force = TRUE)
+
+
+
+################ Download google sheet of SPG events #########################
 {
   
 googlesheets4::gs4_auth(
@@ -39,28 +61,65 @@ events_sheet_url <- Sys.getenv("EVENTS_GSHEET_URL")
 events_spreadsheet <- googlesheets4::read_sheet(events_sheet_url)
 }
 
-# Functions I custom built to process columns etc. are found in this
-# Rscript
-source(here::here("events/fns_clean_spreadsheet.R"))
 
-# Remove all old quarto files - needed because of changes from
-# current to alumni 
-events_folders <- here::here("events")
 
-subdirs <- list.dirs(events_folders, full.names = TRUE, recursive = FALSE)
 
-# delete subfolders
-unlink(subdirs, recursive = TRUE, force = TRUE)
 
-names(events_spreadsheet) <- clean_names(
-                                         names(events_spreadsheet)
-                                         )
+######## Clean up the spreadsheet names for analysis ########
 
-events_spreadsheet = events_spreadsheet |>
-  tidyr::fill(!!col_year, .direction = 'down')
+names(events_spreadsheet) <- clean_names(names(events_spreadsheet))
 
-# events_spreadsheet = events_spreadsheet |>
-#   dplyr::slice_sample(n = 10)
+events_spreadsheet <- events_spreadsheet |>
+                     tidyr::fill(!!col_year, .direction = 'down')
+
+
+
+######## Check necessary columns included ##########
+
+required_cols <- c(col_year = col_year, 
+                   col_event = col_event, 
+                   col_date = col_date)
+
+missing_required <- setdiff(required_cols, names(events_spreadsheet))
+
+names(missing_required) <- names(required_cols[required_cols %in% missing_required])
+
+if (length(missing_required) > 0) {
+  message(paste0("❌ Can't find shese required column/s in the Google sheet: ",
+                 paste(names(missing_required), collapse = ", ")),
+          paste("\n It is likely that the names of these column/s have changed in the sheet."),
+          paste("\n please update the expected column names at the top of this script to reflect this change.")
+  )
+}
+
+
+
+########### Check optional columns ###############
+
+optional_cols <- c(col_time, 
+                   col_description, col_location, col_speakers, col_tags, 
+                   col_rsvp, col_flyer_link, col_flyer_notes, 
+                   col_draft)
+
+missing_optional <- setdiff(optional_cols, names(events_spreadsheet))
+
+if (length(missing_optional) > 0) {
+  stop(paste0("⚠️ Warning: these column/s couldn't be found in the Google sheet: ",
+              paste(names(missing_required), collapse = ", ")),
+       paste("\n It is likely that the names of these column/s have changed in the sheet."),
+       paste("\n please update the expected column names at the top of this script to reflect this change."),
+       paste("\n Otherwise these details will remain blank on website for all events.")
+  )
+}
+
+# Add missing optional columns as empty to prevent errors later
+for (col in optional_cols) {
+  if (!col %in% names(events_spreadsheet)) {
+    events_spreadsheet[[col]] <- NA_character_
+  }
+}
+
+############# Required packages ##################
 
 library(stringr)
 library(here)
@@ -68,182 +127,47 @@ library(here)
 
 ##################### Process spreadsheet events files ###############
 # Loop through rows (each event) to generate .qmd files
-for (i in 1:nrow(events_spreadsheet)) {
-  
-###### Step 1.  #####
-  # Extract & process sheet columns
-  # required to make the quarto file and relevant event folder 
-  
-  # Get event title
-  title <- stringr::str_trim(events_spreadsheet[[col_event]][i])
 
-  # Get & tags event date
-  date <- get_event_date(events_spreadsheet[[col_date]][i]) 
-  if(any_na_type(as.character(date))){
+# This is where the function to process each event row is hosted
+source(here::here("events/build_events_page/process_events_sheet_row.R"))
+
+for (i in 1:nrow(events_spreadsheet)) {
+
+  # if this fails for one row, print a warning message, rather than
+  # stop the rest of the script from running - 
+  # you can see what the warning message looks like at the end of this script
+  event_row = events_spreadsheet[i,]
+  
+  tryCatch({
     
-    date <- get_event_date(events_spreadsheet[[col_year]][i])
+    withCallingHandlers({
+    process_events_sheet_row(event_row = event_row,
+                             rownum = i,
+                             events_dir = events_dir,
+                             qmd_dir = qmd_dir, 
+                             col_event = col_event,
+                             col_date = col_date,
+                             col_time = col_time,
+                             col_year = col_year,
+                             col_location = col_location,
+                             col_tags = col_tags,
+                             col_description = col_description,
+                             col_draft = col_draft,
+                             col_rsvp = col_rsvp,
+                             col_speakers = col_speakers,
+                             col_flyer_link = col_flyer_link,
+                             col_flyer_notes = col_flyer_notes 
+                             )  
+},
+ error = function(e) {
+  message(paste0("⚠️ Skipping row ", i, 
+                 " due to error: ", conditionMessage(e)))
+  message("This error ")
+   traceback()
+})
     
-  }
+}, error = function(e) NULL)
   
-  # Set up the file path for this event
-  qmd_dir <- mk_qmd_dir(events_dir =  events_dir,
-                        date = date,
-                        title = title)
-  
-  filepath = set_up_qmd(qmd_dir = qmd_dir)
-  
-  
-###### Step 2. ######
-  #### Get and process the required components for the quarto file #####
-  
-  # Format Title # 
-  title_block <- paste0("title: |\n  ", gsub("\n", "\n  ", title), "\n")
-  
-  # Subtitle  - is the location #
-  # Get event location
-  location <- stringr::str_trim(events_spreadsheet[[col_location]][i])
-  
-  if(!any_na_type(location)){
-    
-    subtitle_block <- paste0("subtitle: |\n  ", 
-                             gsub("\n", "\n  ", paste0('Location: ', location)), 
-                             "\n")
-    
-  } else {
-    
-  subtitle_block <- NULL
-  
-  }
-  
-  # Event category - is event tags
-  # Get event tags (e.g. Q&A)
-  tags <- get_event_format(events_spreadsheet[[col_tags]][i])
-  if(any_na_type(tags)){
-    
-    tags_block <- NULL
-  } else {
-    
-    tags_block <- paste0("categories: [", tags, "]", "\n")
-    
-  }
-  
-  # Event 'author' - is event time 
-  time <- events_spreadsheet[[col_time]][i]
-  if(!any_na_type(time)){
-    
-    time_block <- paste0("author: ", shQuote(time), "\n")
-    
-  } else {
-    
-    time_block <- NULL 
-  }
-  
-  # Brief description # 
-  description <- format_event_description(events_spreadsheet[[col_description]][i])
-  # Use description to make a brief 1-2 line description of the event shown
-  # in event summary / listing
-  description_section <- make_desc_section(description)
-  
-  
-  # Is this page a draft? (i.e. not ready to be published on the webpage) #
-  # Make sure the page is listed as a draft
-  draft_val = tolower(events_spreadsheet[[col_draft]][i])
-  if(grepl("published", draft_val)){
-    
-    draft_val <- NULL
-    
-  } else {
-    
-    draft_val <- "draft: true \n"
-  }
-  
-  
-  # Main text content: # 
-  # Include RSVP Link (if exists) # 
-  rsvp_link = stringr::str_trim(events_spreadsheet[[col_rsvp]][i])
-  
-  if(grepl("https|http|eventbrite|www|.com|url", rsvp_link) &&
-     !any_na_type(rsvp_link)
-  ){
-    
-    if (!grepl("^https?://", rsvp_link) && !grepl("^http?://", rsvp_link)) {
-      
-      rsvp_link <- paste0("https://", rsvp_link)
-    }
-    
-    rsvp_link_button <- paste0("<a href=",
-                               rsvp_link,
-                               " class='btn btn-danger'>",
-                               "RSVP Here</a>"
-    ) 
-  } else {
-    
-  rsvp_link_button <- NULL
-  }
-  
-  
-  # Add full event description to text section of listing in quarto file
-  if (!any_na_type(description)) {
-    text_section <- paste0(
-      description, "\n"
-    )
-  } else {
-    
-    text_section <- NULL
-  }
-  
-  # Get event speakers
-  speakers <- stringr::str_trim(events_spreadsheet[[col_speakers]][i])
-  # Make event speakers 'NA' if described in pdf, or includes NA in text
-  speakers <- ifelse(any_na_type(speakers), NA, speakers)
-  
-  # Conditionally build speaker section (don't build if speakers are NA)
-  if (!any_na_type(speakers) && !grepl(".pdf", speakers)) {
-    speaker_section <- paste0(
-      "### Speakers  \n",
-      gsub("\n", "  \n", speakers), "\n", "\n"
-    )
-  } else {
-    
-    speaker_section <- NULL
-    
-  }
-  
-  # Embed flyer image - where applicable 
-  flyer_photo_path <- get_event_flyer(flyer_link = events_spreadsheet[[col_flyer_link]][i],
-                                      flyer_name = events_spreadsheet[[col_flyer_notes]][i],
-                                      qmd_dir = qmd_dir)
-  
-  image_embed = embed_event_flyer(flyer_photo_path = flyer_photo_path,
-                                  qmd_dir = qmd_dir,
-                                  title = title,
-                                  date = date
-                                  )
-  
-  
-  
-  
-  ##### Step 3. Build / write the quarto file #### 
-  
-  content <- paste0(
-    "---\n",
-    draft_val, 
-    title_block,
-    subtitle_block,
-    time_block,
-    # description_section,
-    "date: ", shQuote(date), "\n",
-    tags_block,
-    image_embed$image_section,
-    "date-format: medium \n",
-    "---\n",
-    rsvp_link_button, "\n", "\n", 
-    speaker_section,
-    text_section, "\n",
-    image_embed$in_text_image
-  )
-  
-  writeLines(content, filepath)
 }
 
 cat(paste0("✅ Created ", 

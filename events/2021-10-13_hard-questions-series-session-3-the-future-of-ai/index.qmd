@@ -1,14 +1,13 @@
 ---
 draft: true 
-title: |
-  Hard Questions Series
-  Session 3: The Future of AI
+title: 'Hard Questions Series
+Session 3: The Future of AI'
 subtitle: |
   Location: Zoom (virtual only)
 date: '2021-10-13'
-image: 'featured.png'
-date-format: medium 
+rsvp_link: 
 ---
+
 
 
 

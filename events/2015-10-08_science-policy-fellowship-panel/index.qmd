@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Science Policy Fellowship Panel
+title: 'Science Policy Fellowship Panel'
 date: '2015-10-08'
-date-format: medium 
+rsvp_link: 
 ---
 
+A panel of former AAAS and CCST Science Policy Fellows discussed their experiences and answered audience questions. Preceding the panel, Bruce Alberts introduced the importance of PhD scientists to the policy decision-making process.
 
-### Speakers  
+<b>Speakers</b>  
 Bruce Alberts, Former AAAS and CCST Science Policy Fellows
 
-A panel of former AAAS and CCST Science Policy Fellows discussed their experiences and answered audience questions. Preceding the panel, Bruce Alberts introduced the importance of PhD scientists to the policy decision-making process.
+
 
 

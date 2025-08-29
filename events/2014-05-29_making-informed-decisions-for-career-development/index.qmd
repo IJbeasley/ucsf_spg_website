@@ -1,12 +1,12 @@
 ---
 draft: true 
-title: |
-  Making Informed Decisions for Career Development
+title: 'Making Informed Decisions for Career Development'
 date: '2014-05-29'
-date-format: medium 
+rsvp_link: 
 ---
 
-
 Informational event about the UCSF MIND grant
+
+
 
 

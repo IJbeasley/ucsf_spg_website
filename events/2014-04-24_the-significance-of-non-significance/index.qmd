@@ -1,16 +1,16 @@
 ---
 draft: true 
-title: |
-  The Significance of Non-Significance
+title: 'The Significance of Non-Significance'
 date: '2014-04-24'
-date-format: medium 
+rsvp_link: 
 ---
 
+A mini symposium on reproducibility and negative results
 
-### Speakers  
+<b>Speakers</b>  
 Elizabeth Lorns (Co-founder and CEO, Science Exchange),  
 Stanton Glantz (Director of the Center for Tobacco Control Research, UCSF)
 
-A mini symposium on reproducibility and negative results
+
 
 

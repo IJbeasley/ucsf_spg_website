@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Science Communication Seminar
+title: 'Science Communication Seminar'
 date: '2017-02-22'
-date-format: medium 
+rsvp_link: 
 ---
 
+Shah spoke about his current job working as a science communication consultant on a team of Ph.D. trained scientists at the Global Communications Firm, Weber Shandwick
 
-### Speakers  
+<b>Speakers</b>  
 Shah (Weber Shandwick)
 
-Shah spoke about his current job working as a science communication consultant on a team of Ph.D. trained scientists at the Global Communications Firm, Weber Shandwick
+
 
 

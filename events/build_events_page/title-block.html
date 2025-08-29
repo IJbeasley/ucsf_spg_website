@@ -1,0 +1,53 @@
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+  
+    $if(title)$
+      <h1 class="title">$title$</h1>
+    $endif$
+
+    $if(date)$
+      <p></p>
+      <div class="quarto-title-meta-contents">
+        <h5 class="date-author">
+          $date$
+          $if(by-author)$
+          , 
+            $for(by-author)$
+              $it.name.literal$
+              $sep$, 
+            $endfor$
+          $endif$
+        </h5>
+      </div>
+    $endif$
+
+    $if(subtitle)$
+      <p class="subtitle lead">$subtitle$</p>
+    $endif$
+    
+    $if(rsvp_link)$
+      <a href=$rsvp_link$ class='btn btn-danger'>RSVP Here</a>
+    $endif$    
+    
+<!--    $if(categories)$
+      $if(quarto-template-params.title-block-categories)$
+      <div class="quarto-categories">
+        $for(categories)$
+        <div class="quarto-category">$categories$</div>
+        $endfor$
+      </div>
+        $endif$
+      $endif$
+      </div>
+!-->      
+
+    $if(hide-description)$
+      $elseif(description)$
+      <div>
+        <div class="description">
+          $description$
+        </div>
+      </div>
+    $endif$
+
+</header>

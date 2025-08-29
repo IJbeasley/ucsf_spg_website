@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Bioethics of CRISPR
+title: 'Bioethics of CRISPR'
 date: '2017-01-25'
-date-format: medium 
+rsvp_link: 
 ---
 
+Stanford Law Professor Hank Greely lectured on the regulation of CRISPR and other genetic technologies.
 
-### Speakers  
+<b>Speakers</b>  
 Hank Greely (Law Professor, Stanford University)
 
-Stanford Law Professor Hank Greely lectured on the regulation of CRISPR and other genetic technologies.
+
 
 

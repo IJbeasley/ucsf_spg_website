@@ -1,14 +1,14 @@
 ---
 draft: true 
-title: |
-  National Science Policy
+title: 'National Science Policy'
 date: '2017-02-16'
-date-format: medium 
+rsvp_link: 
 ---
 
 
-### Speakers  
+<b>Speakers</b>  
 Mary Maxon (Biosciences Area Principal Deputy at LBNL, Former Assistant Director for Biological Research at White House OSTP)
+
 
 
 

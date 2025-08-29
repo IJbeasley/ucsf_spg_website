@@ -1,0 +1,9 @@
+date-format: medium 
+# about:
+#   template: solana
+#.  image: 'featured.png'
+#   image-width: 50%
+format:
+  html:
+    template-partials: 
+      -  ../events/build_events_page/title-block.html

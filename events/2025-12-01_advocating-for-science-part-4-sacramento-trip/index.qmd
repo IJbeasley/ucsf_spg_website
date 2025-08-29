@@ -1,10 +1,10 @@
 ---
 draft: true 
-title: |
-  Advocating for Science Part 4: Sacramento Trip
+title: 'Advocating for Science Part 4: Sacramento Trip'
 date: '2025-12-01'
-date-format: medium 
+rsvp_link: 
 ---
+
 
 
 

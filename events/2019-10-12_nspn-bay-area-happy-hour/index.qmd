@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  NSPN Bay Area happy hour
+title: 'NSPN Bay Area happy hour'
 date: '2019-10-12'
-date-format: medium 
+rsvp_link: 
 ---
 
+Meet and mingle with the NSPN Western Region!
 
-### Speakers  
+<b>Speakers</b>  
 NSPN Western Region members
 
-Meet and mingle with the NSPN Western Region!
+
 
 

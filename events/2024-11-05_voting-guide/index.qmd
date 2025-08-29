@@ -1,43 +1,46 @@
 ---
 draft: true 
-title: |
-  Voting Guide
+title: 'Voting Guide'
 date: '2024-11-05'
-image: 'featured.png'
-date-format: medium 
+rsvp_link: 
 ---
-
 
 We at SPG have put together this voting guide including our endorsements for the San Francisco, California, and Federal elections. We also included analysis of SF and California propositions, as well as East Bay State and Federal offices. Our positions are grounded in evidence-based information, with a specific focus on issues related to healthcare as relevant. If you are interested in learning more about any of the races or propositions, we have included links to sources with more comprehensive information. Though we are sharing our group's endorsements, we acknowledge the complexity behind many of the propositions on the ballot. Ultimately, our goal is to encourage everyone to participate in the democratic process and make informed voting decisions. Disclaimer: The positions we present in this voting guide are a reflection of our group's values and are not an official endorsement from UCSF.
 
-![Flyer for Voting Guide (2024-11-05) - Page: 1](featured.png){.lightbox group=‘voting-guide’}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 2](featured-2.png){.lightbox group=‘voting-guide’}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 3](featured-3.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 1](featured.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 4](featured-4.png){.lightbox group=‘voting-guide’}
+<div style="display:none;">
 
-![Flyer for Voting Guide (2024-11-05) - Page: 5](featured-5.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 2](featured-2.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 6](featured-6.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 3](featured-3.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 7](featured-7.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 4](featured-4.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 8](featured-8.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 5](featured-5.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 9](featured-9.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 6](featured-6.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 10](featured-10.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 7](featured-7.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 11](featured-11.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 8](featured-8.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 12](featured-12.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 9](featured-9.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 13](featured-13.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 10](featured-10.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 14](featured-14.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 11](featured-11.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 15](featured-15.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 12](featured-12.png){.lightbox group='voting-guide'}
 
-![Flyer for Voting Guide (2024-11-05) - Page: 16](featured-16.png){.lightbox group=‘voting-guide’}
+![Flyer for Voting Guide (2024-11-05) - Page: 13](featured-13.png){.lightbox group='voting-guide'}
+
+![Flyer for Voting Guide (2024-11-05) - Page: 14](featured-14.png){.lightbox group='voting-guide'}
+
+![Flyer for Voting Guide (2024-11-05) - Page: 15](featured-15.png){.lightbox group='voting-guide'}
+
+![Flyer for Voting Guide (2024-11-05) - Page: 16](featured-16.png){.lightbox group='voting-guide'}
+
+</div>

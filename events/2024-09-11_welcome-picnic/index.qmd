@@ -1,17 +1,16 @@
 ---
 draft: true 
-title: |
-  Welcome Picnic
+title: 'Welcome Picnic'
 subtitle: |
   Location: Koret Quad (MB)
 date: '2024-09-11'
-image: 'featured.png'
-date-format: medium 
+rsvp_link: 
 ---
 
 
-### Speakers  
+<b>Speakers</b>  
 SPG members
+
 
 
 ![Flyer for Welcome Picnic (2024-09-11)](featured.png){.lightbox}

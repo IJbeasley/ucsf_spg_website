@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Science Policy Career Lunch Seminar
+title: 'Science Policy Career Lunch Seminar'
 date: '2019-07-17'
-date-format: medium 
+rsvp_link: 
 ---
 
+Dr. Singla’s work focuses on reducing and preventing harmful environmental exposures for vulnerable populations. This seminar, intended for graduate students and postdocs, will use Dr. Singla’s experiences as a lens to discuss how to navigate science policy careers
 
-### Speakers  
+<b>Speakers</b>  
 Dr. Singla
 
-Dr. Singla’s work focuses on reducing and preventing harmful environmental exposures for vulnerable populations. This seminar, intended for graduate students and postdocs, will use Dr. Singla’s experiences as a lens to discuss how to navigate science policy careers
+
 
 

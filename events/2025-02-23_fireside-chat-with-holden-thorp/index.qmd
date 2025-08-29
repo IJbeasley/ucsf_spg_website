@@ -1,14 +1,14 @@
 ---
 draft: true 
-title: |
-  Fireside Chat with Holden Thorp
+title: 'Fireside Chat with Holden Thorp'
 date: '2025-02-23'
-date-format: medium 
+rsvp_link: 
 ---
 
 
-### Speakers  
+<b>Speakers</b>  
 Holden Thorp (Editor in Chief, Science Magazine)
+
 
 
 

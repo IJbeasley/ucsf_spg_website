@@ -1,12 +1,12 @@
 ---
 draft: true 
-title: |
-  Advocating for Science: 3) Editing Workshops
+title: 'Advocating for Science: 3) Editing Workshops'
 date: '2017-05-06'
-date-format: medium 
+rsvp_link: 
 ---
 
-
 Peer editing workshops for individuals writing Op-Eds for publication
+
+
 
 

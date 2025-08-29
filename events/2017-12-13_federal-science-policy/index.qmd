@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  Federal Science Policy
+title: 'Federal Science Policy'
 date: '2017-12-13'
-date-format: medium 
+rsvp_link: 
 ---
 
+Natalie Alpert, director of Federal Relations for UCSF discussed her work advocating for UCSF’s interests in DC and how students can engage with science policy
 
-### Speakers  
+<b>Speakers</b>  
 Natalie Alpert (Director of Federal Relations, UCSF)
 
-Natalie Alpert, director of Federal Relations for UCSF discussed her work advocating for UCSF’s interests in DC and how students can engage with science policy
+
 
 

@@ -1,15 +1,15 @@
 ---
 draft: true 
-title: |
-  NSPN Symposium Info Session
+title: 'NSPN Symposium Info Session'
 date: '2021-07-14'
-date-format: medium 
+rsvp_link: 
 ---
 
+The Science Policy Groups at UCSF and UC Berkeley won the bid to host the 2021 National Science Policy Network (NSPN) Symposium this November! Our theme is Science Ethics for the Modern Era, and our talks/workshops explore a variety of timely and controversial topics from gene editing therapies to criminal justice reform and drug overdose prevention. We are looking for volunteers to help reach out to speakers, raise funds, enhance attendee engagement, and more! If you are interested in helping, please come out to our NSPN Symposium Info Session on Wednesday, July 14, at 5:30pm in Byers Hall 215. Dinner will be provided! This event will be a hybrid in-person/virtual event. This is a great opportunity to meet science and policy experts in cutting-edge fields, get vital leadership experience, and have some fun along the way!
 
-### Speakers  
+<b>Speakers</b>  
 SPG members from UCSF and UC Berkeley
 
-The Science Policy Groups at UCSF and UC Berkeley won the bid to host the 2021 National Science Policy Network (NSPN) Symposium this November! Our theme is Science Ethics for the Modern Era, and our talks/workshops explore a variety of timely and controversial topics from gene editing therapies to criminal justice reform and drug overdose prevention. We are looking for volunteers to help reach out to speakers, raise funds, enhance attendee engagement, and more! If you are interested in helping, please come out to our NSPN Symposium Info Session on Wednesday, July 14, at 5:30pm in Byers Hall 215. Dinner will be provided! This event will be a hybrid in-person/virtual event. This is a great opportunity to meet science and policy experts in cutting-edge fields, get vital leadership experience, and have some fun along the way!
+
 
 
