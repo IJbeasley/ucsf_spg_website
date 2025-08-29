@@ -229,7 +229,7 @@ for (i in 1:nrow(events_spreadsheet)) {
     title_block,
     subtitle_block,
     time_block,
-    description_section,
+    # description_section,
     "date: ", shQuote(date), "\n",
     tags_block,
     image_embed$image_section,
