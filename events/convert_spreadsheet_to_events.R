@@ -9,7 +9,7 @@
 col_year       <- "year"
 col_event      <- "event"
 col_date       <- "dates"
-col_format     <- "format_tags"
+col_tags     <- "tags"
 col_location   <- "location"
 col_speakers   <- "speakers"
 col_description<- "full_description"
@@ -43,6 +43,13 @@ events_spreadsheet <- googlesheets4::read_sheet(events_sheet_url)
 # Rscript
 source(here::here("events/fns_clean_spreadsheet.R"))
 
+# Remove all old quarto files - needed because of changes from
+# current to alumni 
+events_folders <- here::here("events")
+
+# delete all files & subfolders inside, but keep the folder itself
+unlink(file.path(events_folders, "*"), recursive = TRUE, force = TRUE)
+
 names(events_spreadsheet) <- clean_names(
                                          names(events_spreadsheet)
                                          )
@@ -68,7 +75,7 @@ for (i in 1:nrow(events_spreadsheet)) {
   # Get event title
   title <- stringr::str_trim(events_spreadsheet[[col_event]][i])
 
-  # Get & format event date
+  # Get & tags event date
   date <- get_event_date(events_spreadsheet[[col_date]][i]) 
   if(any_na_type(as.character(date))){
     
@@ -106,15 +113,15 @@ for (i in 1:nrow(events_spreadsheet)) {
   
   }
   
-  # Event category - is event format
-  # Get event format (e.g. Q&A)
-  format <- get_event_format(events_spreadsheet[[col_format]][i])
-  if(any_na_type(format)){
+  # Event category - is event tags
+  # Get event tags (e.g. Q&A)
+  tags <- get_event_format(events_spreadsheet[[col_tags]][i])
+  if(any_na_type(tags)){
     
-    format_block <- NULL
+    tags_block <- NULL
   } else {
     
-    format_block <- paste0("categories: [", format, "]", "\n")
+    tags_block <- paste0("categories: [", tags, "]", "\n")
     
   }
   
@@ -224,7 +231,7 @@ for (i in 1:nrow(events_spreadsheet)) {
     time_block,
     description_section,
     "date: ", shQuote(date), "\n",
-    format_block,
+    tags_block,
     image_embed$image_section,
     "date-format: medium \n",
     "---\n",
