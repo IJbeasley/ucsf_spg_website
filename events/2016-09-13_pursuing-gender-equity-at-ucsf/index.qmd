@@ -4,9 +4,7 @@ title: |
   Pursuing Gender Equity at UCSF
 subtitle: |
   Location: Cole Hall (Parn)
-description: 'SPG & WiLS partnered to present a panel discussion between UCSF leadership and trainees on gender equity issues'
 date: '2016-09-13'
-categories: []
 date-format: medium 
 ---
 

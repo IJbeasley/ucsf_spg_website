@@ -4,9 +4,7 @@ title: |
   Overdose Prevention Workshop and Seminar
 subtitle: |
   Location: Byers Hall (MB)
-description: 'In January, UCSF Student Health informed students that naloxone will be made available to all students.'
 date: '2023-04-19'
-categories: []
 image: 'featured.png'
 date-format: medium 
 ---

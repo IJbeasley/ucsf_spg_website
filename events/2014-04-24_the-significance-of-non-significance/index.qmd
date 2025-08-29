@@ -2,9 +2,7 @@
 draft: true 
 title: |
   The Significance of Non-Significance
-description: 'A mini symposium on reproducibility and negative results'
 date: '2014-04-24'
-categories: []
 date-format: medium 
 ---
 

@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Ballot Initiative Forum: SF
-description: "Join the League of Women Voters of SF for a nonpartisan discussion about San Francisco's 13 ballot measures, including a sales tax to fund Caltrain, allowing 16 and 17-year-olds to vote in local elections, and issues such as affordable housing, policing, local businesses and more."
 date: '2020-10-14'
-categories: []
 date-format: medium 
 ---
 

@@ -4,9 +4,7 @@ title: |
   Congressional Life Sciences Fair
 subtitle: |
   Location: Washington, D.C.
-description: "We are thrilled to have five UCSF representatives showcase UCSF's innovative research at the 2024 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! This year's representatives include two TAs from our Science Policy minicourse, Matthew Ryan and Amelie Delcourt, as well as students from this year's minicourse cohort, Jared Khan, Wanjun Gu, and Cindy Ow."
 date: '2024-06-10'
-categories: []
 date-format: medium 
 ---
 

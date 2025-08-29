@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Fall Welcome Social
-description: 'SPG invites you to our Fall Welcome Social.'
 date: '2018-10-25'
-categories: []
 date-format: medium 
 ---
 

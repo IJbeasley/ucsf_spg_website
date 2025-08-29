@@ -5,7 +5,6 @@ title: |
 subtitle: |
   Location: Koret Quad (MB)
 date: '2022-09-15'
-categories: []
 image: 'featured.png'
 date-format: medium 
 ---

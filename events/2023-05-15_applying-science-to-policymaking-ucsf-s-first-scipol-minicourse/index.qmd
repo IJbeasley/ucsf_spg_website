@@ -4,9 +4,7 @@ title: |
   Applying Science to Policymaking: UCSF's first SciPol minicourse
 subtitle: |
   Location: Genentech Hall (MB)
-description: 'From tackling pandemics to addressing climate change, we need scientific expertise to craft evidence-based policies to solve society’s big challenges.'
 date: '2023-05-15'
-categories: []
 date-format: medium 
 ---
 

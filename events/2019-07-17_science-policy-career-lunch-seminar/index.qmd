@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Science Policy Career Lunch Seminar
-description: 'Dr. Singla’s work focuses on reducing and preventing harmful environmental exposures for vulnerable populations.'
 date: '2019-07-17'
-categories: []
 date-format: medium 
 ---
 

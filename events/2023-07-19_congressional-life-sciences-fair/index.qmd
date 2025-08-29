@@ -4,9 +4,7 @@ title: |
   Congressional Life Sciences Fair
 subtitle: |
   Location: Washington, D.C.
-description: "We are thrilled to have four UCSF representatives share cutting-edge UCSF research at the 2023 Congressional Life Sciences Fair on Capitol Hill, Washington D.C! This year's representatives include organizers and TAs from our Science Policy minicourse - Daniel Sprague, Dan Karmelic, and Sneha Rao - as well as minicourse student, Elysse Phillips."
 date: '2023-07-19'
-categories: []
 date-format: medium 
 ---
 

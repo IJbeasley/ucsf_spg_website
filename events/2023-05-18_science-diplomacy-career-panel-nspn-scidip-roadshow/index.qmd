@@ -4,9 +4,7 @@ title: |
   Science Diplomacy Career Panel (NSPN SciDip Roadshow)
 subtitle: |
   Location: Genentech Hall (MB)
-description: 'This Science Diplomacy Career Panel will feature local SF diplomats from four representative countries (United Kingdom, Japan, Chile, Switzerland).'
 date: '2023-05-18'
-categories: []
 image: 'featured.png'
 date-format: medium 
 ---

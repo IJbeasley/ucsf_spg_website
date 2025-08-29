@@ -3,7 +3,6 @@ draft: true
 title: |
   Reproducibility in Scientific Research
 date: '2015-04-15'
-categories: []
 date-format: medium 
 ---
 

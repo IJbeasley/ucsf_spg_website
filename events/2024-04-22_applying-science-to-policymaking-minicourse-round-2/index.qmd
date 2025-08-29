@@ -4,9 +4,7 @@ title: |
   Applying Science to Policymaking minicourse (Round 2!)
 subtitle: |
   Location: Mission Hall (MB)
-description: "We're thrilled to have offered our Science Policy minicourse to the UCSF graduate division for a second year! This year's cohort of students applied their scientific expertise to identify policy issues related to their research interests, tackling topics including sustainability in lab environments, coverage of assisted reproductive therapies, and regulation of genetic data."
 date: '2024-04-22'
-categories: []
 date-format: medium 
 ---
 

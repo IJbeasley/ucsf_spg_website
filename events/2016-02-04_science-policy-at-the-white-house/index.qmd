@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Science Policy at the White House
-description: 'Former White House Fellow Charina Choi spoke about her experience in the Office of Science and Technology Policy under the Obama administration.'
 date: '2016-02-04'
-categories: []
 date-format: medium 
 ---
 

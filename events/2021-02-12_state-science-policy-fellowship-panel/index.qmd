@@ -2,9 +2,7 @@
 draft: true 
 title: |
   State Science Policy Fellowship Panel
-description: 'Join the SPG and OCPD for our annual State-Level Science Policy Fellowships Panel.'
 date: '2021-02-12'
-categories: []
 date-format: medium 
 ---
 

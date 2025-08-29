@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Federal Fellowship Alumni Panel
-description: 'SPG has partnered with the Office of Career & Professional Development to present a two-part series of events featuring science policy fellowship alumni.'
 date: '2019-05-15'
-categories: []
 date-format: medium 
 ---
 

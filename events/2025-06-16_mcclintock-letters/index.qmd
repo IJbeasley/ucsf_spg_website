@@ -1,9 +1,8 @@
 ---
 title: |
   McClintock Letters
-description: 'ATTN: Federally funded scientists! Science is currently under attack in the US.'
 date: '2025-06-16'
-categories: []
+categories: [Community Engagement]
 image: 'featured.png'
 date-format: medium 
 ---
