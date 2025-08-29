@@ -2,7 +2,8 @@
 title: |
   Mackenzie Roberts
 subtitle: |
-  PhD Student - Biomedical Sciences
+  PhD Student
+  Biomedical Sciences
 description: |
   2023 - present
 image: 'MackenzieRoberts.jpg'

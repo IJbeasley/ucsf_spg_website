@@ -2,7 +2,8 @@
 title: |
   Elysse Phillips
 subtitle: |
-  PhD Student - Developmental and Stem Cell Biology
+  PhD Student
+  Developmental and Stem Cell Biology
 description: |
   2022 - present
 ---

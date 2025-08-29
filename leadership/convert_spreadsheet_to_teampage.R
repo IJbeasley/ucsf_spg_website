@@ -1,3 +1,8 @@
+# R Script to build Quarto Pages from the Team page Google sheet
+
+
+
+# Google sheet column names (after cleaning)
 {
   col_name      <- "name"
   col_headshot_link <- "headshot_link"
@@ -9,7 +14,8 @@
   
 }
 
-
+# Tell R what google account to log into to see the google sheet
+# And where the google sheet is
 {
   
   googlesheets4::gs4_auth(
@@ -24,13 +30,28 @@
   leadership_spreadsheet <- googlesheets4::read_sheet(leadership_sheet_url)
 }
 
+# Remove all old quarto files - needed because of changes from
+# current to alumni 
+leadership_folders <- c(
+                        here::here("leadership/current"),
+                        here::here("leadership/alumni")
+)
+
+# delete all files & subfolders inside, but keep the folder itself
+unlink(file.path(leadership_folders, "*"), recursive = TRUE, force = TRUE)
+
+
+
+##################### Process spreadsheet leadership files ###############
+# get the functions to do this
 source(here::here("events/fns_clean_spreadsheet.R"))
 
+# process the column names of the google sheet
 names(leadership_spreadsheet) <- clean_names(
   names(leadership_spreadsheet)
 )
 
-##################### Process spreadsheet leadership files ###############
+
 # Loop through rows (each person) to generate .qmd files
 for (i in 1:nrow(leadership_spreadsheet)) {
   
@@ -43,40 +64,28 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   ucsf_position <- stringr::str_trim(leadership_spreadsheet[[col_ucsf_position]][i])
   subtitle_block <- check_and_build_block(ucsf_position, "subtitle")
   
-  # if(any_na_type(ucsf_position)){
-  #   
-  # subtitle_block <- NULL
-  # 
-  # } else {
-  # 
-  # subtitle_block <- paste0("subtitle: |\n  ", gsub("\n", "\n  ", ucsf_position), "\n")
-  # 
-  # }
-  
+  # Get years active 
   years_active <- stringr::str_trim(leadership_spreadsheet[[col_active_years]][i])
   description_block <- check_and_build_block(years_active, "description")
   
-  # if(any_na_type(years_active)){
-  #   
-  #   description_block <- NULL
-  # } else {
-  #   
-  #   description_block <- paste0("description: |\n  ", gsub("\n", "\n  ", description), "\n")
-  #   
-  # }
-  
+
+  # Get membership status? - Are they a current or alumni member?
   status <- stringr::str_trim(leadership_spreadsheet[[col_status]][i])
   
+  # if not status is avaliable, assume current: 
   if(any_na_type(status)){
     
     status <- "current"
     
   }
   
+  # Get headshot information 
+  # this is where the quarto file will be saved
+  # and also the headshot, where relevant
   qmd_dir <- mk_qmd_dir(here::here(paste0("leadership", "/", tolower(status))),
                         slugify(team_name),
                         NULL
-                        )
+  )
   filepath = set_up_qmd(qmd_dir = qmd_dir)
   
   headshot_link <- stringr::str_trim(leadership_spreadsheet[[col_headshot_link]][i])
@@ -124,9 +133,11 @@ for (i in 1:nrow(leadership_spreadsheet)) {
     bio_block  <- NULL
   }
     
+
   
   
-  ##### Step 3. Build / write the quarto file #### 
+  ##### Step 3. Build / write the quarto file ####
+
   
   content <- paste0(
     "---\n",

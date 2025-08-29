@@ -2,7 +2,8 @@
 title: |
   Rachel Murro
 subtitle: |
-  Phd Student - Epidemiology and Translational Science
+  Phd Student
+  Epidemiology and Translational Science
 description: |
   2022 - present
 ---

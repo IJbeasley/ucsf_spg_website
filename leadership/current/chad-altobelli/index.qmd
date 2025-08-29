@@ -2,7 +2,8 @@
 title: |
   Chad Altobelli
 subtitle: |
-  Phd Student - Chemistry and Chemical Biology
+  Phd Student
+  Chemistry and Chemical Biology
 description: |
   2020 - present
 ---
