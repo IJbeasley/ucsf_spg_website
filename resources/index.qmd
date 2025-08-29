@@ -2,11 +2,4 @@
 title: "Resources"
 subtitle: "Resources for getting started with science policy."
 title-block-banner: false
-listing:
-  contents: "*.qmd"
-  sort: "date desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
 ---
