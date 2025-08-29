@@ -32,7 +32,7 @@ listing:
     image-placeholder: ../logo/SPG_wTxt_Gray_RGB.jpg
     
 # What info does the user see? 
-    fields: [title, subtitle, description, image, date, author, categories]
+    fields: [title, subtitle, image, date, author, categories]
 # What names should we call this info (e.g. title should be 'Event')
     field-display-names:
        title: Event
