@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Dealing with Science Denial
-description: 'Dr. Ann Reid discussed “science denialism ” and why the issue is so difficult to diagnose.'
 date: '2017-05-03'
-categories: []
 date-format: medium 
 ---
 

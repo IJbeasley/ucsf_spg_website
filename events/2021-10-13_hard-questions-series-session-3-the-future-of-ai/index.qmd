@@ -6,7 +6,6 @@ title: |
 subtitle: |
   Location: Zoom (virtual only)
 date: '2021-10-13'
-categories: []
 image: 'featured.png'
 date-format: medium 
 ---

@@ -2,9 +2,7 @@
 draft: true 
 title: |
   The Outlook of Science in the New Administration and Congress
-description: 'AAAS webinar screening'
 date: '2017-01-26'
-categories: []
 date-format: medium 
 ---
 

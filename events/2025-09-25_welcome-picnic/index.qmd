@@ -4,9 +4,8 @@ title: |
 subtitle: |
   Location: Koret Quad (MB)
 author: '5:30pm'
-description: 'We invite you to our annual Welcome Picnic (food will be provided)! Meet our incredible team, learn about what we do, and find out how to get involved!'
 date: '2025-09-25'
-categories: []
+categories: [Social]
 image: 'featured.png'
 date-format: medium 
 ---

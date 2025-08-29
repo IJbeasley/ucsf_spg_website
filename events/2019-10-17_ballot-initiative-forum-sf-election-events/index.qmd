@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Ballot Initiative Forum: SF Election Events
-description: 'Are you ready for November 5? The non-partisan organization League of Women Voters of SF is hosting a San Francisco ballot initiative forum.'
 date: '2019-10-17'
-categories: []
 date-format: medium 
 ---
 

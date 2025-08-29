@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Summer Celebration
-description: 'SPG invites you to a summer celebration! Come learn who we are, what we do, and how you can get involved.'
 date: '2019-08-07'
-categories: []
 date-format: medium 
 ---
 

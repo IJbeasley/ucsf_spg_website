@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Letter of Support for UAW strike
-description: 'SRU-UAW SPG Support Letter for KRY BR'
 date: '2022-11-14'
-categories: []
 date-format: medium 
 ---
 

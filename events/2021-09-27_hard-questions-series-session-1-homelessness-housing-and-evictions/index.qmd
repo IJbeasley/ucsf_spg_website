@@ -5,9 +5,7 @@ title: |
   Session 1: Homelessness, Housing, and Evictions
 subtitle: |
   Location: Zoom (virtual only)
-description: 'This virtual panel will feature experts on the history and policy of housing, homelessness and evictions in the United States.'
 date: '2021-09-27'
-categories: []
 image: 'featured.png'
 date-format: medium 
 ---

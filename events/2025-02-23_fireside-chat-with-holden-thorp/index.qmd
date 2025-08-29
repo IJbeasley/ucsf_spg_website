@@ -3,7 +3,6 @@ draft: true
 title: |
   Fireside Chat with Holden Thorp
 date: '2025-02-23'
-categories: []
 date-format: medium 
 ---
 

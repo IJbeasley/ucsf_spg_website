@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Voting Guide
-description: 'We at SPG have put together this voting guide including our endorsements for the San Francisco, California, and Federal elections.'
 date: '2024-11-05'
-categories: []
 image: 'featured.png'
 date-format: medium 
 ---

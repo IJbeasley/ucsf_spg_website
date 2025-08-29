@@ -3,7 +3,6 @@ draft: true
 title: |
   Developing a more productive, efficient, sustainable science enterprise
 date: '2015-04-30'
-categories: []
 date-format: medium 
 ---
 

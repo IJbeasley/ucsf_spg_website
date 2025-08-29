@@ -2,9 +2,7 @@
 draft: true 
 title: |
   Cinnamon Rolls at the Polls
-description: 'Voting gives you the opportunity to decide who will represent your interests and what issues are important to you.'
 date: '2020-03-03'
-categories: []
 date-format: medium 
 ---
 
