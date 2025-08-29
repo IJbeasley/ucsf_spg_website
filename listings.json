@@ -32,18 +32,6 @@
     "items": []
   },
   {
-    "listing": "/resources/index.html",
-    "items": [
-      "/resources/post-with-code/index.html",
-      "/resources/hello/index.html",
-      "/resources/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": []
-  },
-  {
     "listing": "/events/index.html",
     "items": [
       "/events/2025-09-25_welcome-picnic/index.html",
@@ -53,12 +41,7 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/events/2025-09-25_welcome-picnic/index.html",
-      "/events/2025-06-16_mcclintock-letters/index.html",
-      "/events/2025-04-01_applying-science-to-policymaking-minicourse-round-3/index.html",
-      "/events/2025-04-01_minicourse-year-3/index.html"
-    ]
+    "listing": "/news/index.html",
+    "items": []
   }
 ]
