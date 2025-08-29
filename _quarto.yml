@@ -30,7 +30,8 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   draft-mode: unlinked
-  title: "SPG at UCSF"
+  title: "Science Policy Group 
+          <br> at UCSF"
   
   search: 
     location: navbar
@@ -41,8 +42,7 @@ website:
     pinned: true
     search: true
     
-    
-    left:
+    right:
       # Leadership page
       - href: leadership/index.qmd
         text: "Team"
@@ -58,8 +58,6 @@ website:
       # Gallery
       - href: gallery/index.qmd
         text: Gallery
-
-    right:
       # social media icons / links - 
       # icons are retrieved from:
       # https://icons.getbootstrap.com/
