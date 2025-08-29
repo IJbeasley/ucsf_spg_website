@@ -7,16 +7,11 @@
       "/leadership/current/chad-altobelli/index.html",
       "/leadership/current/dan-karmelic/index.html",
       "/leadership/current/elysse-phillips/index.html",
-      "/leadership/current/emma-alme/index.html",
-      "/leadership/current/erika-meza/index.html",
       "/leadership/current/gabe-avillion/index.html",
       "/leadership/current/isobel-beasley/index.html",
       "/leadership/current/mackenzie-roberts/index.html",
-      "/leadership/current/pamela-concepcion/index.html",
       "/leadership/current/rachel-murro/index.html",
       "/leadership/current/sneha-rao/index.html",
-      "/leadership/current/yutaka-sprague/index.html",
-      "/leadership/current/zoe-grant/index.html",
       "/leadership/alumni/antara-rao/index.html",
       "/leadership/alumni/clio-korn/index.html",
       "/leadership/alumni/elina-kostyanovskaya/index.html",
@@ -25,6 +20,7 @@
       "/leadership/alumni/jack-stevenson/index.html",
       "/leadership/alumni/larissa-maier/index.html",
       "/leadership/alumni/matthew-ryan/index.html",
+      "/leadership/alumni/narayan-sankaran/index.html",
       "/leadership/alumni/pamela-concepcion/index.html",
       "/leadership/alumni/thomas-pospiech/index.html",
       "/leadership/alumni/yutaka-sprague/index.html",
@@ -32,25 +28,7 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/events/2025-09-25_welcome-picnic/index.html",
-      "/events/2025-06-16_mcclintock-letters/index.html",
-      "/events/2025-04-01_applying-science-to-policymaking-minicourse-round-3/index.html",
-      "/events/2025-04-01_minicourse-year-3/index.html"
-    ]
-  },
-  {
-    "listing": "/events/index.html",
-    "items": [
-      "/events/2025-09-25_welcome-picnic/index.html",
-      "/events/2025-06-16_mcclintock-letters/index.html",
-      "/events/2025-04-01_applying-science-to-policymaking-minicourse-round-3/index.html",
-      "/events/2025-04-01_minicourse-year-3/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
+    "listing": "/gallery/index.html",
     "items": []
   },
   {
@@ -62,7 +40,25 @@
     ]
   },
   {
-    "listing": "/gallery/index.html",
+    "listing": "/news/index.html",
     "items": []
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/2025-09-25_welcome-picnic/index.html",
+      "/events/2025-06-16_mcclintock-letters/index.html",
+      "/events/2025-04-01_applying-science-to-policymaking-minicourse-round-3/index.html",
+      "/events/2025-04-01_minicourse-year-3/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/events/2025-09-25_welcome-picnic/index.html",
+      "/events/2025-06-16_mcclintock-letters/index.html",
+      "/events/2025-04-01_applying-science-to-policymaking-minicourse-round-3/index.html",
+      "/events/2025-04-01_minicourse-year-3/index.html"
+    ]
   }
 ]
