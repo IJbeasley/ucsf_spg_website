@@ -1,15 +1,10 @@
 ---
-title: |
-  Brindha Rathinasabapathi
-subtitle: |
-  PhD Student
-  Developmental and Stem Cell Biology
-description: |
-  2024 - present
+title: 'Brindha Rathinasabapathi'
+subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
+description: '2024 - present'
 image: 'BrindhaRathinasabapathi.jpg'
+image-alt: 'Headshot of Brindha Rathinasabapathi'
 about: 
-  template: jolla 
-  image: 'BrindhaRathinasabapathi.jpg'
-  image-alt: 'Headshot of Brindha Rathinasabapathi'
+  template: solana 
 ---
 

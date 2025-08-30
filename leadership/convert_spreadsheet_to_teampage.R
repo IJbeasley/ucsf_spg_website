@@ -1,16 +1,23 @@
 # R Script to build Quarto Pages from the Team page Google sheet
 
+# Google sheet column names 
+# get the functions to clean column names
+source(here::here("events/fns_clean_spreadsheet.R"))
 
-
-# Google sheet column names (after cleaning)
 {
-  col_name      <- "name"
-  col_headshot_link <- "headshot_link"
-  col_headshot_name <- "headshot_name"
-  col_ucsf_position <- "ucsf_position"
-  col_bio <- "bio"
-  col_status <- "current_or_alumni"
-  col_active_years <- "years"
+  col_name      <- clean_names("Name")
+  
+  col_headshot_link <- clean_names("Headshot link")
+  col_headshot_name <- clean_names("Headshot name")
+  
+  col_ucsf_position <- clean_names("UCSF position")
+  col_program <- clean_names("Program")
+  
+  col_bio <- clean_names("Bio")
+  col_social <- clean_names("Social Media or LinkedIn Link")
+  
+  col_status <- clean_names("Current or Alumni?")
+  col_active_years <- clean_names("Years")
   
 }
 
@@ -38,13 +45,48 @@ leadership_folders <- c(
 )
 
 # delete all files & subfolders inside, but keep the folder itself
-unlink(file.path(leadership_folders, "*"), recursive = TRUE, force = TRUE)
+unlink(list.files(leadership_folders, full.names = TRUE), 
+       recursive = TRUE, force = TRUE)
+
+
+guess_icon <- function(href) {
+  # mapping of common domains to icons
+  patterns <- list(
+    bluesky = "bsky.app",
+    twitter = "twitter.com",
+    "twitter-x" = "x.com",
+    linkedin = "linkedin.com",
+
+    
+    github = "github.com",
+    gitlab = "gitlab.com",
+
+    "threads-fill" = "threads.com",
+    facebook = "facebook.com",
+    instagram = "instagram.com",
+    youtube = "youtube.com",
+    mastodon = "mastodon.social"
+#? Maybe add orcid &/or google scholar
+    
+  )
+  
+  # check each pattern
+  for (icon in names(patterns)) {
+    if (grepl(patterns[[icon]], href, ignore.case = TRUE)) {
+      return(icon)
+    }
+  }
+  
+  # fallback if no match
+  return("globe2")
+}
+
+
 
 
 
 ##################### Process spreadsheet leadership files ###############
-# get the functions to do this
-source(here::here("events/fns_clean_spreadsheet.R"))
+
 
 # process the column names of the google sheet
 names(leadership_spreadsheet) <- clean_names(
@@ -55,27 +97,59 @@ names(leadership_spreadsheet) <- clean_names(
 # Loop through rows (each person) to generate .qmd files
 for (i in 1:nrow(leadership_spreadsheet)) {
   
-  # Get person name
-  team_name <- stringr::str_trim(leadership_spreadsheet[[col_name]][i])
-  title_block <- check_and_build_block(team_name, "title")
-  # title_block <- paste0("title: |\n  ", gsub("\n", "\n  ", team_name), "\n")
-
-  # Get person position 
-  ucsf_position <- stringr::str_trim(leadership_spreadsheet[[col_ucsf_position]][i])
-  subtitle_block <- check_and_build_block(ucsf_position, "subtitle")
   
-  # Get years active 
-  years_active <- stringr::str_trim(leadership_spreadsheet[[col_active_years]][i])
-  description_block <- check_and_build_block(years_active, "description")
-  
-
   # Get membership status? - Are they a current or alumni member?
   status <- stringr::str_trim(leadership_spreadsheet[[col_status]][i])
   
-  # if not status is avaliable, assume current: 
+  # if status is not available, skip:
   if(any_na_type(status)){
     
-    status <- "current"
+    message("Row Number", i, ": ", "Invalid or missing information provided",
+            "for whether this team member is current or alumni.",
+            "\n Skipping ... ")
+    next
+    
+  }
+  
+  # Get person name
+  team_name <- stringr::str_trim(leadership_spreadsheet[[col_name]][i])
+  
+  if(any_na_type(title)){
+    
+    stop("Problem with person name: Is missing or NA")
+    
+  }
+  
+  title_block <- paste0("title: ", shQuote(team_name))
+  
+  # Get person position 
+  ucsf_position <- stringr::str_trim(leadership_spreadsheet[[col_ucsf_position]][i])
+  if(any_na_type(ucsf_position)){
+    ucsf_position <- NULL
+  }
+  
+  
+  # Get person program or deparment
+  ucsf_program <- stringr::str_trim(leadership_spreadsheet[[col_program]][i])
+  if(any_na_type(ucsf_program)){
+    ucsf_program <- NULL
+  }
+  
+  
+  subtitle_block <- paste0("subtitle: ", 
+                           shQuote(paste0(ucsf_position, "<br>", ucsf_program))
+                           )
+  
+  # Get years active 
+  years_active <- stringr::str_trim(leadership_spreadsheet[[col_active_years]][i])
+  if(!any_na_type(years_active)){
+    
+    description_block <- paste0("description: ",
+                                shQuote(years_active))
+      
+  } else {
+    
+    description_block <- NULL
     
   }
   
@@ -85,7 +159,7 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   qmd_dir <- mk_qmd_dir(here::here(paste0("leadership", "/", tolower(status))),
                         slugify(team_name),
                         NULL
-  )
+                        )
   filepath = set_up_qmd(qmd_dir = qmd_dir)
   
   headshot_link <- stringr::str_trim(leadership_spreadsheet[[col_headshot_link]][i])
@@ -106,31 +180,48 @@ for (i in 1:nrow(leadership_spreadsheet)) {
     scopes = "drive.readonly"
   )
   
+  suppressMessages(  
   googledrive::drive_download(headshot_link,
-                              path = paste0(qmd_dir, "/", headshot_name)
-  )
+                              path = paste0(qmd_dir, "/", headshot_name))
+                    )
   
-  headshot_block <- paste0("image: ", shQuote(headshot_name), "\n",
-                           "about: \n",
-                           "  ", "template: jolla \n",
-                           "  ", "image: ", shQuote(headshot_name), "\n"
-                           )
+  headshot_block <- paste0("image: ", shQuote(headshot_name), "\n")
   
-  image_alt <- paste0("  ", "image-alt: ", 
+  image_alt <- paste0("image-alt: ", 
                       shQuote(paste0("Headshot of ", team_name)), 
                       "\n")
   
   }
   
-  bio <- stringr::str_trim(leadership_spreadsheet[[col_bio]][i])
+  social_link <- stringr::str_trim(leadership_spreadsheet[[col_social]][i])
   
-  if (!any_na_type(bio)) {
-    bio_block <- paste0(
-      bio, "\n"
+  if(!any_na_type(social_link)){
+    
+    link_block <- paste0("  ", "links: \n",
+                         "    ", "- icon: ", guess_icon(social_link), "\n",
+                         "      ", "text: ", "Social Media Link", "\n",
+                         "      ", "href: ", social_link, "\n"
     )
   } else {
     
+    link_block <- NULL
+    
+  }
+  
+  about_block <- paste0("about: \n",
+                        "  ", "template: solana \n",
+                        link_block
+                        )
+  
+  bio <- stringr::str_trim(leadership_spreadsheet[[col_bio]][i])
+  
+  if (!any_na_type(bio)) {
+    
+    bio_block <- paste0(bio, "\n")
+  } else {
+    
     bio_block  <- NULL
+    
   }
     
 
@@ -141,11 +232,12 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   
   content <- paste0(
     "---\n",
-    title_block,
-    subtitle_block,
-    description_block, 
+    title_block, "\n",
+    subtitle_block, "\n",
+    description_block, "\n", 
     headshot_block,
     image_alt, 
+    about_block,
     "---\n",
     bio_block
   )

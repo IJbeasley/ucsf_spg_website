@@ -1,9 +1,8 @@
 ---
-title: |
-  Narayan Sankaran
-subtitle: |
-  Postdoctoral Scholar
-description: |
-  2021 - 2022
+title: 'Narayan Sankaran'
+subtitle: 'Postdoctoral Scholar<br>'
+description: '2021 - 2022'
+about: 
+  template: solana 
 ---
 

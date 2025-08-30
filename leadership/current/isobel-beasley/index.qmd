@@ -1,15 +1,15 @@
 ---
-title: |
-  Isobel Beasley
-subtitle: |
-  PhD Student
-  Biological and Medical Informatics
-description: |
-  2025 - present
+title: 'Isobel Beasley'
+subtitle: 'PhD Student<br>Biological and Medical Informatics'
+description: '2025 - present'
 image: 'IsobelBeasley.jpg'
+image-alt: 'Headshot of Isobel Beasley'
 about: 
-  template: jolla 
-  image: 'IsobelBeasley.jpg'
-  image-alt: 'Headshot of Isobel Beasley'
+  template: solana 
+  links: 
+    - icon: bluesky
+      text: Social Media Link
+      href: https://bsky.app/profile/ijbeasley.bsky.social
 ---
+A
 

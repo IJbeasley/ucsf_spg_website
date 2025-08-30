@@ -1,9 +1,8 @@
 ---
-title: |
-  Clio Korn
-subtitle: |
-  Postdoctoral Scholar
-description: |
-  2019 - 2020
+title: 'Clio Korn'
+subtitle: 'Postdoctoral Scholar<br>'
+description: '2019 - 2020'
+about: 
+  template: solana 
 ---
 

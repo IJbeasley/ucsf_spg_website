@@ -1,10 +1,8 @@
 ---
-title: |
-  Emma Alme
-subtitle: |
-  PhD Student
-  Tetrad
-description: |
-  2015 - 2020
+title: 'Emma Alme'
+subtitle: 'PhD Student<br>Tetrad'
+description: '2015 - 2020'
+about: 
+  template: solana 
 ---
 

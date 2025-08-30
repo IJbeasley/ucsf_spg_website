@@ -1,9 +1,8 @@
 ---
-title: |
-  Yutaka Sprague
-subtitle: |
-  Research Technician
-description: |
-  2022 - 2024
+title: 'Yutaka Sprague'
+subtitle: 'Research Technician<br>'
+description: '2022 - 2024'
+about: 
+  template: solana 
 ---
 

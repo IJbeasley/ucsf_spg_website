@@ -1,14 +1,10 @@
 ---
-title: |
-  Dan Karmelic
-subtitle: |
-  Postdoctoral Scholar
-description: |
-  2020 - present
+title: 'Dan Karmelic'
+subtitle: 'Postdoctoral Scholar<br>'
+description: '2020 - present'
 image: 'DanKarmelic.JPG'
+image-alt: 'Headshot of Dan Karmelic'
 about: 
-  template: jolla 
-  image: 'DanKarmelic.JPG'
-  image-alt: 'Headshot of Dan Karmelic'
+  template: solana 
 ---
 

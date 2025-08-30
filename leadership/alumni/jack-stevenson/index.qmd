@@ -1,10 +1,8 @@
 ---
-title: |
-  Jack Stevenson
-subtitle: |
-  Phd Student
-  Chemistry and Chemical Biology
-description: |
-  2019 - 2024
+title: 'Jack Stevenson'
+subtitle: 'PhD Student<br>Chemistry and Chemical Biology'
+description: '2019 - 2024'
+about: 
+  template: solana 
 ---
 

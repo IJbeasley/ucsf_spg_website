@@ -8,19 +8,21 @@ listing:
   - id: leadership-team
     contents: "current/**/*.qmd"
     type: grid
-    image-height: 225px
+    image-height: 275px
     grid-columns: 3
+    grid-item-border: false
+    grid-item-align: center
     fields: [image, title, subtitle]
     field-display-names:
        title: Name
        subtitle: UCSF Position
        description: Years active 
-    grid-item-align: center
 
 # Alumni 
   - id: alumni
     contents: "alumni/**/*.qmd"
     type: table
+    table-hover: true
     fields: [title, subtitle, description]
     sort: description desc
     sort-ui: [description]

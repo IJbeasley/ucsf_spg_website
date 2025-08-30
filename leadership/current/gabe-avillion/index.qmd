@@ -1,15 +1,10 @@
 ---
-title: |
-  Gabe Avillion
-subtitle: |
-  PhD Student
-  Developmental and Stem Cell Biology
-description: |
-  2024 - present
+title: 'Gabe Avillion'
+subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
+description: '2024 - present'
 image: 'GabeAvillion.png'
+image-alt: 'Headshot of Gabe Avillion'
 about: 
-  template: jolla 
-  image: 'GabeAvillion.png'
-  image-alt: 'Headshot of Gabe Avillion'
+  template: solana 
 ---
 

@@ -1,9 +1,8 @@
 ---
-title: |
-  Thomas Pospiech
-subtitle: |
-  Visiting Graduate Student
-description: |
-  2019 - 2022
+title: 'Thomas Pospiech'
+subtitle: 'Visiting Graduate Student<br>'
+description: '2019 - 2022'
+about: 
+  template: solana 
 ---
 
