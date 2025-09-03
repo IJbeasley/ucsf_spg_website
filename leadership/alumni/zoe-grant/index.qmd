@@ -2,7 +2,5 @@
 title: 'Zoe Grant'
 subtitle: 'Postdoctoral Scholar<br>'
 description: '2021 - 2023'
-about: 
-  template: solana 
 ---
 

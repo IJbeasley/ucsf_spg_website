@@ -2,7 +2,5 @@
 title: 'Matthew Ryan'
 subtitle: 'MD-PhD Student<br>Biomedical Sciences'
 description: '2019 - 2024'
-about: 
-  template: solana 
 ---
 

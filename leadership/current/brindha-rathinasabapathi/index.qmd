@@ -4,7 +4,5 @@ subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
 description: '2024 - present'
 image: 'BrindhaRathinasabapathi.jpg'
 image-alt: 'Headshot of Brindha Rathinasabapathi'
-about: 
-  template: solana 
 ---
 

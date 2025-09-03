@@ -110,7 +110,7 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   # if status is not available, skip:
   if(any_na_type(status)){
     
-    message("Row Number", i, ": ", "Invalid or missing information provided",
+    message("Row Number ", i, ": ", "Invalid or missing information provided",
             "for whether this team member is current or alumni.",
             "\n Skipping ... ")
     next
@@ -236,19 +236,56 @@ for (i in 1:nrow(leadership_spreadsheet)) {
                          "      ", "aria-label: ", "Link to ", social_icon, " account of", team_name, "\n"
                          )
     
-  } else {
+    
+    # use metadata for about section from leadership/_metadata.yml - 
+    # if available
+    metadata_file <- here::here('leadership/_metadata.yml')
+    
+    if(file.exists(metadata_file)){
+    
+    yaml_metadata <- suppressWarnings(yaml::read_yaml(metadata_file))
+    meta_about <- yaml_metadata$about 
+    
+    about_defaults <- purrr::imap_chr(meta_about, 
+                                     function(meta_value, 
+                                              meta_name) { 
+                                                            paste0("  ", 
+                                                                   meta_name, ": ", 
+                                                                   meta_value) 
+                                                           }
+                                     )
+    } else {
+      
+    about_defaults <- character()  
+    
+    }
+    
+    # if template not included in metadata (or no metadata)
+    if(!"template" %in% names(meta_about)){
+      
+      about_defaults["template"] <- paste0("  ", "template: solana \n")
+      
+    }
+
+    # Creates about block structure   
+    about_defaults <- unname(about_defaults)
+    about_defaults <- paste(about_defaults, collapse = "\n")
+    
+
+    about_block <- paste0("about: \n",
+                          about_defaults, "\n",
+                          link_block)
+    
+    } else {
     
     link_block <- NULL
+    about_block <- NULL
     
-  }
+    }
   
-  # This creates the about block structure 
-  about_block <- paste0("about: \n",
-                        "  ", "template: solana \n",
-                        link_block
-                        )
+
   
-  # Add biography, where avaliable to about page
+  # Add biography, where available to about page
   bio <- stringr::str_trim(leadership_spreadsheet[[col_bio]][i])
   
   if (!any_na_type(bio)) {

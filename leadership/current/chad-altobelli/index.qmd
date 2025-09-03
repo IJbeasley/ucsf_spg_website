@@ -2,7 +2,5 @@
 title: 'Chad Altobelli'
 subtitle: 'PhD Student<br>Chemistry and Chemical Biology'
 description: '2020 - present'
-about: 
-  template: solana 
 ---
 

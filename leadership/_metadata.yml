@@ -1,0 +1,6 @@
+# Metadata that defines the structure of how each team page is structured / looks like
+# See here for more info: https://quarto.org/docs/websites/website-about.html#partial-page-content
+about: 
+  template: solana # the potentional template options (and what they look like): https://quarto.org/docs/websites/website-about.html#templates
+  image-shape: rounded # image options: https://quarto.org/docs/websites/website-about.html#image
+  image-width: 300px

@@ -2,7 +2,5 @@
 title: 'Yutaka Sprague'
 subtitle: 'Research Technician<br>'
 description: '2022 - 2024'
-about: 
-  template: solana 
 ---
 

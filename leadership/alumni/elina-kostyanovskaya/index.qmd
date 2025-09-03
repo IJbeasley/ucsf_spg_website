@@ -2,7 +2,5 @@
 title: 'Elina Kostyanovskaya'
 subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
 description: '2018 - 2022'
-about: 
-  template: solana 
 ---
 

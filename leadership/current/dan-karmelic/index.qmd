@@ -4,7 +4,5 @@ subtitle: 'Postdoctoral Scholar<br>'
 description: '2020 - present'
 image: 'DanKarmelic.JPG'
 image-alt: 'Headshot of Dan Karmelic'
-about: 
-  template: solana 
 ---
 

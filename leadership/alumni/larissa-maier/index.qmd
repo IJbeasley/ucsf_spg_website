@@ -2,7 +2,5 @@
 title: 'Larissa Maier'
 subtitle: 'Postdoctoral Scholar<br>'
 description: '2018 - 2021'
-about: 
-  template: solana 
 ---
 

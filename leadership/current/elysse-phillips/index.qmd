@@ -2,7 +2,5 @@
 title: 'Elysse Phillips'
 subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
 description: '2022 - present'
-about: 
-  template: solana 
 ---
 

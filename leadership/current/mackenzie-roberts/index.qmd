@@ -4,7 +4,5 @@ subtitle: 'PhD Student<br>Biomedical Sciences'
 description: '2023 - present'
 image: 'MackenzieRoberts.jpg'
 image-alt: 'Headshot of Mackenzie Roberts'
-about: 
-  template: solana 
 ---
 

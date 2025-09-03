@@ -5,7 +5,9 @@ description: '2025 - present'
 image: 'IsobelBeasley.jpg'
 image-alt: 'Headshot of Isobel Beasley'
 about: 
-  template: solana 
+  template: solana
+  image-shape: rounded
+  image-width: 300px
   links: 
     - icon: bluesky
       text: Social Media Link

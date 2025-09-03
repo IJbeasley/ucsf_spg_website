@@ -2,7 +2,5 @@
 title: 'Helena Mezgova'
 subtitle: 'Research and Compliance Analyst<br>'
 description: '2019 - 2022'
-about: 
-  template: solana 
 ---
 

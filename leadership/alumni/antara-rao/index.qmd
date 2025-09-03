@@ -2,7 +2,5 @@
 title: 'Antara Rao'
 subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
 description: '2018 - 2023'
-about: 
-  template: solana 
 ---
 

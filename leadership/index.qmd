@@ -2,35 +2,76 @@
 title: "Leadership Team"
 subtitle: "In accordance with our values, our leadership structure is non-hierarchical. This means that any member is open to join our leadership team and help with organizing events and direct actions." 
 title-block-banner: false
+
+# the leadership page of our website is a kind of quarto listing page
+# it contains two lists, current & alumni 
+# complete documentation explaining how quarto listings work: https://quarto.org/docs/websites/website-listings.html#overview
+
+# both the current & alumni lists are built from the SPG Leadership Members Google Sheet
+# the code to build the current & alumni lists is in the leadership/convert_spreadsheet_to_teampage.R
+
 listing:
 
-# Current leadership team 
+
+# Current leadership team - listing
   - id: leadership-team
-    contents: "current/**/*.qmd"
-    type: grid
-    image-height: 275px
-    grid-columns: 3
-    grid-item-border: false
-    grid-item-align: center
+    contents: "current/**/*.qmd" # current members are in the leadership/current folder
+    
+    # how does this list appear - see options & examples here:
+    # https://quarto.org/docs/websites/website-listings.html#listing-types
+    type: grid 
+    
+    # How does this listing of current team members look 
+    image-height: 275px # size of images in - automatically adjusts on mobile
+    grid-columns: 3 # number of columns 
+    grid-item-border: false # no borders between rows or columns
+    grid-item-align: center # text and images are centered within columns
+    
+    # What information about current team members should we show on the team page?
+    # see documentation here for more info: 
+    # https://quarto.org/docs/websites/website-listings.html#listing-fields
     fields: [image, title, subtitle]
+    # How should we label this information?
     field-display-names:
-       title: Name
+       title: Name # E.g. the title for a team member is their name
        subtitle: UCSF Position
        description: Years active 
+       image: Headshot
+    
+    # How to order & search for current team members?
+    # Options here: https://quarto.org/docs/websites/website-listings.html#sorting-items
+    sort: title # currently sorting alphabetically by name
 
-# Alumni 
-  - id: alumni
-    contents: "alumni/**/*.qmd"
-    type: table
-    table-hover: true
+
+
+
+# Alumni - listing 
+  - id: alumni 
+    contents: "alumni/**/*.qmd" # alumni members are in the leadership/alumni folder
+    
+    # how does this list appear - see options & examples here:
+    # https://quarto.org/docs/websites/website-listings.html#listing-types
+    type: table 
+    table-hover: true 
+    
+    # What information about current team members should we show on the team page?
+    # see documentation here for more info: 
+    # https://quarto.org/docs/websites/website-listings.html#listing-fields    
     fields: [title, subtitle, description]
-    sort: description desc
-    sort-ui: [description]
-    filter-ui: [title]
     field-display-names:
        title: Name
        subtitle: UCSF Position
        description: Years active
+    
+    # How to order & search for current team members?
+    # Options here: https://quarto.org/docs/websites/website-listings.html#sorting-items   
+    sort: description desc # currently sorting by year joined SPG
+    sort-ui: [title, subtitle, description] # allow users to re-order members by:
+    # - first name 
+    # - ucsf position
+    # - year joined SPG
+    filter-ui: [title] # allow users to search for team member name       
+       
 ---
 ::: {#leadership-team}
 :::
