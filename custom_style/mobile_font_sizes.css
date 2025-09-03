@@ -4,12 +4,12 @@
 
 /* navbar logo size */
 .navbar-logo {
-  max-height: clamp(40px,-10px + 8vw, 80px); /* Scales with screen width */
+  max-height: clamp(40px, 8px + 5.714vw, 80px);
 }
 
 /* title: top left SPG at UCSF */
 .navbar-title {
-  font-size: clamp(1rem, 0.771rem + 0.882vw, 1.3rem);
+  font-size: clamp(0.95rem, 0.781rem + 0.648vw, 1.3rem);
 }
 
 /* Font size of nav bar text links */
