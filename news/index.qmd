@@ -32,8 +32,8 @@ listing:
     # Maximum length of description  
     # 200 characters
     max-description-length: 200 
+    date-format: medium
     
-          
     # How to order & search for news items?
     # Options here: https://quarto.org/docs/websites/website-listings.html#sorting-items  
     sort: "date desc"   
