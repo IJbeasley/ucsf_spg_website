@@ -2,20 +2,43 @@
 title: "News"
 subtitle: "Collected media mentions about our initiatives, team members and partnered projects."
 title-block-banner: false
+
+# the news page of our website is a kind of quarto listing page
+# it contains one list, in the news/news.yml file 
+
+# for complete documentation explaining how quarto listings work: 
+# https://quarto.org/docs/websites/website-listings.html#overview
+
 listing:
   - id: news
     contents: 
       - news.yml
-    sort: "date desc"
+      
+    # how does this list appear - see options & examples here:
+    # https://quarto.org/docs/websites/website-listings.html#listing-types  
     type: table
+    table-hover: true 
+    
+    # What information about news items should we show on the news page?
+    # see documentation here for more info: 
+    # https://quarto.org/docs/websites/website-listings.html#listing-fields            
     fields: [title, date]
     field-display-names:
        title: Title
        description: Description
+       categories: Tags
     categories: true
+
+    # Maximum length of description  
+    # 200 characters
+    max-description-length: 200 
+    
+          
+    # How to order & search for news items?
+    # Options here: https://quarto.org/docs/websites/website-listings.html#sorting-items  
+    sort: "date desc"   
     sort-ui: false
     filter-ui: [date,title,categories]
-# Maximum length of description  
-# 500 characters
-    max-description-length: 200
+    
+
 ---
