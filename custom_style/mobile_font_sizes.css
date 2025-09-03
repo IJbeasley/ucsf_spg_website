@@ -62,11 +62,11 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.1rem, 1.062rem + 0.147vw, 1.15rem);
+  font-size: clamp(1.3rem, 1.224rem + 0.294vw, 1.4rem);
 }
 
 h3 {
-  font-size: clamp(1.1rem, 1.062rem + 0.147vw, 1.15rem);
+  font-size: clamp(1.1rem, 1.024rem + 0.294vw, 1.2rem)
 }
 
 h4 {
@@ -123,4 +123,14 @@ figcaption {
 .listing-categories {
   font-size: clamp(1rem, 0.962rem + 0.147vw, 1.05rem);
 }
+
+@media (max-width: 768px) {
+  .desktop-only { display: none !important; }
+  .mobile-only { display: block !important; }
+}
+@media (min-width: 769px) {
+  .desktop-only { display: block !important; }
+  .mobile-only { display: none !important; }
+}
+
 

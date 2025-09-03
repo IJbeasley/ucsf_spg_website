@@ -4,10 +4,14 @@
 /* Move headings closer together */
 /* Prevent some of the weird gaps created by {{include}} */
 .heading-up {
- margin-top: -0.25em; 
+ margin-top: -0.01rem; 
+ border-bottom: none;
 }
 
 /* Move headings even closer together - used only for the About US */
 .extra-heading-up {
-  margin-top: -1.5em;
+  margin-top: -1rem;
+  border-bottom: none;
+  margin-bottom: 1rem;
 }
+
