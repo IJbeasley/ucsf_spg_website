@@ -5,19 +5,22 @@
 source(here::here("events/fns_clean_spreadsheet.R"))
 
 {
-  col_name      <- clean_names("Name")
   
-  col_headshot_link <- clean_names("Headshot link")
-  col_headshot_name <- clean_names("Headshot name")
+  col_name      <- clean_names("Name") # Persons name
   
-  col_ucsf_position <- clean_names("UCSF position")
-  col_program <- clean_names("Program")
+  col_headshot_link <- clean_names("Headshot link") # Google drive link to headshot
+  col_headshot_name <- clean_names("Headshot name") # Name of headshot file
   
-  col_bio <- clean_names("Bio")
-  col_social <- clean_names("Social Media or LinkedIn Link")
+  col_ucsf_position <- clean_names("UCSF position") # UCSF Position (e.g. PhD student)
+  col_program <- clean_names("Program") # UCSF Program name (e.g. PSPG, BMI etc.)
   
-  col_status <- clean_names("Current or Alumni?")
-  col_active_years <- clean_names("Years")
+  col_bio <- clean_names("Bio") # Biography / Policy Interests
+  
+  col_social <- clean_names("Social Media or LinkedIn Link") # Link to Person Professional Social Media 
+  col_social_icon <- clean_names("Social Media Icon") # Name of Social Media Icon
+  
+  col_status <- clean_names("Current or Alumni?") # Is this person a current or alumni member?
+  col_active_years <- clean_names("Years") # What years have they been an active member?
   
 }
 
@@ -35,6 +38,7 @@ source(here::here("events/fns_clean_spreadsheet.R"))
 
   leadership_sheet_url <- Sys.getenv("LEADERSHIP_GSHEET_URL")
   leadership_spreadsheet <- googlesheets4::read_sheet(leadership_sheet_url)
+  
 }
 
 # Remove all old quarto files - needed because of changes from
@@ -42,11 +46,12 @@ source(here::here("events/fns_clean_spreadsheet.R"))
 leadership_folders <- c(
                         here::here("leadership/current"),
                         here::here("leadership/alumni")
-)
+                        )
 
 # delete all files & subfolders inside, but keep the folder itself
 unlink(list.files(leadership_folders, full.names = TRUE), 
-       recursive = TRUE, force = TRUE)
+       recursive = TRUE, 
+       force = TRUE)
 
 
 guess_icon <- function(href) {
@@ -57,7 +62,6 @@ guess_icon <- function(href) {
     "twitter-x" = "x.com",
     linkedin = "linkedin.com",
 
-    
     github = "github.com",
     gitlab = "gitlab.com",
 
@@ -66,7 +70,9 @@ guess_icon <- function(href) {
     instagram = "instagram.com",
     youtube = "youtube.com",
     mastodon = "mastodon.social"
-#? Maybe add orcid &/or google scholar
+    
+#? Maybe add orcid &/or google scholar - required academicons 
+# using this extension: https://github.com/schochastics/academicons?tab=readme-ov-file
     
   )
   
@@ -114,12 +120,13 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   # Get person name
   team_name <- stringr::str_trim(leadership_spreadsheet[[col_name]][i])
   
-  if(any_na_type(title)){
+  if(any_na_type(team_name)){
     
     stop("Problem with person name: Is missing or NA")
     
   }
   
+  # Title is persons name
   title_block <- paste0("title: ", shQuote(team_name))
   
   # Get person position 
@@ -129,15 +136,18 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   }
   
   
-  # Get person program or deparment
+  # Get person program or department
   ucsf_program <- stringr::str_trim(leadership_spreadsheet[[col_program]][i])
   if(any_na_type(ucsf_program)){
     ucsf_program <- NULL
   }
   
-  
+  # Subtitle is UCSF Position + Program / Department
   subtitle_block <- paste0("subtitle: ", 
-                           shQuote(paste0(ucsf_position, "<br>", ucsf_program))
+                           shQuote(paste0(ucsf_position, 
+                                          "<br>", 
+                                          ucsf_program)
+                                   )
                            )
   
   # Get years active 
@@ -169,8 +179,8 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   headshot_block <- NULL
   image_alt <- NULL
   
-  # Only download and build blocks if link is non-missing and non-empty
-  if (!any_na_type(headshot_link) && nzchar(headshot_link)) {
+  # Only download and link in headshot (and alt text) if headshot link is non-empty
+  if (!any_na_type(headshot_link)) {
   
   googledrive::drive_auth(
     token = gargle::secret_read_rds(
@@ -182,37 +192,63 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   
   suppressMessages(  
   googledrive::drive_download(headshot_link,
-                              path = paste0(qmd_dir, "/", headshot_name))
+                              path = paste0(qmd_dir, 
+                                            "/", 
+                                            headshot_name)
+                              )
                     )
   
-  headshot_block <- paste0("image: ", shQuote(headshot_name), "\n")
+  # Add in headshot image
+  headshot_block <- paste0("image: ", 
+                           shQuote(headshot_name), 
+                           "\n")
   
+  # Alternative text for headshot
   image_alt <- paste0("image-alt: ", 
                       shQuote(paste0("Headshot of ", team_name)), 
                       "\n")
   
   }
   
+  # Professional social media link for team members
   social_link <- stringr::str_trim(leadership_spreadsheet[[col_social]][i])
   
+  # Name of social media icon - 
+  # name from https://icons.getbootstrap.com/
+  social_icon <-stringr::str_trim(leadership_spreadsheet[[col_social_icon]][i])
+  social_icon <- tolower(social_icon)
+  
+  # if no icon is listed, but a social link is provided
+  # guess the name of the icon
+  if(any_na_type(social_icon) & !any_na_type(social_link)){
+    
+    social_icon <- guess_icon(tolower(social_link))
+    
+  }
+  
+  # If a social link is provided, include it in the text 
   if(!any_na_type(social_link)){
     
     link_block <- paste0("  ", "links: \n",
-                         "    ", "- icon: ", guess_icon(social_link), "\n",
+                         "    ", "- icon: ", social_icon, "\n",
                          "      ", "text: ", "Social Media Link", "\n",
-                         "      ", "href: ", social_link, "\n"
-    )
+                         "      ", "href: ", social_link, "\n",
+                         "      ", "aria-label: ", "Link to ", social_icon, " account of", team_name, "\n"
+                         )
+    
   } else {
     
     link_block <- NULL
     
   }
   
+  # This creates the about block structure 
   about_block <- paste0("about: \n",
                         "  ", "template: solana \n",
                         link_block
                         )
   
+  # Add biography, where avaliable to about page
   bio <- stringr::str_trim(leadership_spreadsheet[[col_bio]][i])
   
   if (!any_na_type(bio)) {
@@ -228,7 +264,6 @@ for (i in 1:nrow(leadership_spreadsheet)) {
   
   
   ##### Step 3. Build / write the quarto file ####
-
   
   content <- paste0(
     "---\n",
