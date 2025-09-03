@@ -10,15 +10,16 @@ on:
 # unless the change is one of these files / folders:
     paths-ignore:
       - '_freeze/**'
-      - '_site/'
+      - '_site/**'
       - 'renv.lock'
       - 'README.md'
       - '.nojekyll'
       - '.gitignore'
       - '.github/workflows/*sheet*.yml'
       - '.github/workflows/*sheet*.yaml'
+# also trigger everytime we run one of the workflows building a page using a GDrive sheet
   workflow_run:
-    workflows: 
+     workflows: 
       - "Update events Quarto files using GDrive sheet"
       - "Update news Quarto files using GDrive sheet"
       - "Update team/leadership Quarto files using GDrive sheet"
@@ -51,8 +52,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-        # pre-release currently needed for bluesky icons - perhaps best to set a specific version later
-          version: pre-release 
+          version: 'pre-release' # pre-release currently needed for bluesky icons - set a specific version when version 1.8.23 (or later) is stable
           
 ######### Publish ##################
       - name: Publish to GitHub Pages
