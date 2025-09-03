@@ -1,4 +1,5 @@
 ---
+# for complete options in this header see: https://quarto.org/docs/reference/formats/html.html#title-author
 title: "Science Policy Group (SPG) at UCSF"
 subtitle: "The Science Policy Group at UCSF seeks to empower and educate people to advance and advocate (science) policy within and beyond our community.
 <br>
@@ -7,49 +8,58 @@ subtitle: "The Science Policy Group at UCSF seeks to empower and educate people 
 <a href='events/index.html' class='btn btn-success'>See all our events!</a>
 </div>
 "
-title-block-banner: true
+
+# title block (top of page settings)
+# for full detail see: https://quarto.org/docs/authoring/title-blocks.html
+
+title-block-banner: true # set to true to have a banner (different colour) at the top of the page
+# if you want to change this banner colour, you can do so by providing a HEX colour code, for e.g.
+#  title-block-banner-color: "#FFDDFF" 
+# or, you can use an image as the banner background by
+# by putting an image in the image folder, and telling quarto what its name is, for e.g.
+#  title-block-banner-image: "images/banner_image.png"
+
 title-block-style: default
+
+# Help images formatting nicely into galleries - for this page
+# for explaination of these options see: https://quarto.org/docs/output-formats/html-lightbox-figures.html
 lightbox:
   match: auto
   effect: zoom
   desc-position: bottom
   loop: true
 ---
+<!-- Here is where you can add text / content -->
+<!-- If editing in RStudio, you can use the visual editor to add content -->
+<!-- in a way that is more user friendly than raw markdown -->
+<!-- Otherwise, another easy option is to create a google doc or word doc -->
+<!-- with the content, and then convert it to markdown using https://word2md.com/ -->
+<!-- or using ChatGPT, and then just paste this content below -->
 
-# About Us {.heading-up}
+# About Us {.extra-heading-up}
+<!-- not the most intuitive, but to match format of current website homepage -->
+<!-- About Us information is split into two columns when on a medium or larger screen -->
+<!-- and a single column on a small screen -->
 
-:::: {.columns}
+<div class="grid" style="--bs-gap: 1rem;">
 
-::: {.column width="60%"}
-{{< include homepage/_about_us_widget.qmd >}}
-:::
+<!-- row 1 -->
 
-::: {.column width="2%"}
-<!-- empty column to create gap -->
-:::
+{{< include homepage/_about_us_row1.qmd >}} 
 
-::: {.column width="38%"}
-![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
-:::
+<!-- row 2 -->
 
-::::
+{{< include homepage/_about_us_row2.qmd >}} 
+
+<!-- row 3 -->
+
+{{< include homepage/_about_us_row3.qmd >}} 
+
+<!-- row 4 -->
+
+{{< include homepage/_about_us_row4.qmd >}} 
 
 
-:::: {.columns}
 
-<br>
+</div>
 
-::: {.column width="38%"}
-![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
-:::
-
-::: {.column width="2%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="60%"}
-{{< include homepage/_what_do_we_do.qmd >}}
-:::
-
-::::
-  
