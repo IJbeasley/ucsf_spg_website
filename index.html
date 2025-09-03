@@ -176,12 +176,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="about-us" class="level1 heading-up">
-<h1 class="heading-up">About Us</h1>
-<div class="columns">
-<div class="column" style="width:60%;">
-<section id="who-are-we" class="level3 heading-up">
-<h3 class="heading-up anchored" data-anchor-id="who-are-we">Who are we?</h3>
+<!-- Here is where you can add text / content -->
+<!-- If editing in RStudio, you can use the visual editor to add content -->
+<!-- in a way that is more user friendly than raw markdown -->
+<!-- Otherwise, another easy option is to create a google doc or word doc -->
+<!-- with the content, and then convert it to markdown using https://word2md.com/ -->
+<!-- or using ChatGPT, and then just paste this content below -->
+<section id="about-us" class="level1 extra-heading-up">
+<h1 class="extra-heading-up">About Us</h1>
+<!-- not the most intuitive, but to match format of current website homepage -->
+<!-- About Us information is split into two columns when on a medium or larger screen -->
+<!-- and a single column on a small screen -->
+<div class="grid" style="--bs-gap: 1rem;">
+<!-- row 1 -->
+<!-- left column -->
+<section id="who-are-we" class="level2 heading-up g-col-12 g-col-md-6">
+<h2 class="heading-up anchored" data-anchor-id="who-are-we">Who are we?</h2>
 <p>SPG at UCSF serves as a platform for discussing science policy issues, providing resources &amp; training for science policy education, and initiating advocacy within and beyond UCSF.</p>
 <p>Our events and projects are entirely shaped by the interests of our incredible leadership members!</p>
 <p>Example topics include:</p>
@@ -193,9 +203,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Gender equity</li>
 </ul>
 </section>
-</div><div class="column" style="width:2%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:38%;">
+<!-- right column -->
+<div class="g-col-12 g-col-md-6">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/SPG_Advocacy_Photo.png" class="lightbox" data-gallery="homepage-gallery" title="SPG Advocacy Photo"><img src="images/SPG_Advocacy_Photo.png" class="img-fluid figure-img" alt="SPG Advocacy Photo"></a></p>
@@ -203,68 +212,88 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-</div>
-<div class="columns">
-<p><br></p><div class="column" style="width:38%;">
+<!-- row 2 -->
+<!-- left column -->
+<div class="g-col-12 g-col-md-6">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/SPG_Advocacy_Photo.png" class="lightbox" data-gallery="homepage-gallery" title="SPG Advocacy Photo"><img src="images/SPG_Advocacy_Photo.png" class="img-fluid figure-img" alt="SPG Advocacy Photo"></a></p>
 <figcaption>SPG Advocacy Photo</figcaption>
 </figure>
 </div>
-</div><div class="column" style="width:2%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:60%;">
-<section id="what-do-we-do" class="level3 heading-up">
-<h3 class="heading-up anchored" data-anchor-id="what-do-we-do">What do we do?</h3>
-<section id="professional-development" class="level4">
-<h4 class="anchored" data-anchor-id="professional-development"><strong>Professional Development</strong></h4>
+</div>
+<!-- right column -->
+<section id="what-do-we-do" class="level2 heading-up g-col-12 g-col-md-6">
+<h2 class="heading-up anchored" data-anchor-id="what-do-we-do">What do we do?</h2>
+<section id="professional-development" class="level3">
+<h3 class="anchored" data-anchor-id="professional-development"><strong>Professional Development</strong></h3>
 <p>Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.</p>
-<div style="margin-left: 2em;">
-<section id="skill-building" class="level5">
-<h5 class="anchored" data-anchor-id="skill-building"><strong>Skill building</strong></h5>
+<div style="margin-left: 0.5em;">
+<section id="skill-building" class="level4">
+<h4 class="anchored" data-anchor-id="skill-building"><strong>Skill building</strong></h4>
 <p>We have held workshops on communication and advocacy skills, including effective use of social media and persuasive writing for elected officials and the public.</p>
 </section>
-<section id="policy-career-exploration" class="level5">
-<h5 class="anchored" data-anchor-id="policy-career-exploration"><strong>Policy career exploration</strong></h5>
+<section id="policy-career-exploration" class="level4">
+<h4 class="anchored" data-anchor-id="policy-career-exploration"><strong>Policy career exploration</strong></h4>
 <p>We have invited speakers to discuss their careers in science policy fields and help our members follow in their footsteps.</p>
 </section>
 </div>
 </section>
-<section id="advocacy" class="level4">
-<h4 class="anchored" data-anchor-id="advocacy"><strong>Advocacy</strong></h4>
+</section>
+<!-- row 3 -->
+<!-- left column -->
+<section id="advocacy" class="level3 heading-up g-col-12 g-col-md-6">
+<h3 class="heading-up anchored" data-anchor-id="advocacy"><strong>Advocacy</strong></h3>
 <p>Beyond hosting events at UCSF, we advocate for issues we care about directly to people in power.</p>
-<div style="margin-left: 2em;">
-<section id="advocacy-training" class="level5">
-<h5 class="anchored" data-anchor-id="advocacy-training"><strong>Advocacy training</strong></h5>
+<!-- Indent examples of advocacy -->
+<div style="margin-left: 0.5em;">
+<section id="advocacy-training" class="level4">
+<h4 class="anchored" data-anchor-id="advocacy-training"><strong>Advocacy training</strong></h4>
 <p>We have hosted a variety of workshops to prepare members with no prior experience to visit the State Capitol and advocate for an issue of their choice, including an Advocacy 101 workshop, a Civic Engagement workshop series, and a policy Memo Writing workshop.</p>
 </section>
-<section id="advocacy-opportunities" class="level5">
-<h5 class="anchored" data-anchor-id="advocacy-opportunities"><strong>Advocacy opportunities</strong></h5>
+<section id="advocacy-opportunities" class="level4">
+<h4 class="anchored" data-anchor-id="advocacy-opportunities"><strong>Advocacy opportunities</strong></h4>
 <p>In addition to phone banking campaigns, we have organized advocacy visits to the CA State Capitol in Sacramento and have participated in the March For Science (D.C.) and CASE workshops.</p>
 </section>
 </div>
 </section>
-<section id="community-engagement" class="level4">
-<h4 class="anchored" data-anchor-id="community-engagement"><strong>Community Engagement</strong></h4>
+<div class="g-col-12 g-col-md-6">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/SPG_Advocacy_Photo.png" class="lightbox" data-gallery="homepage-gallery" title="SPG Advocacy Photo"><img src="images/SPG_Advocacy_Photo.png" class="img-fluid figure-img" alt="SPG Advocacy Photo"></a></p>
+<figcaption>SPG Advocacy Photo</figcaption>
+</figure>
+</div>
+</div>
+<!-- row 4 -->
+<!-- left column -->
+<div class="g-col-12 g-col-md-6">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/SPG_Advocacy_Photo.png" class="lightbox" data-gallery="homepage-gallery" title="SPG Advocacy Photo"><img src="images/SPG_Advocacy_Photo.png" class="img-fluid figure-img" alt="SPG Advocacy Photo"></a></p>
+<figcaption>SPG Advocacy Photo</figcaption>
+</figure>
+</div>
+</div>
+<!-- right column -->
+<section id="community-engagement" class="level3 heading-up g-col-12 g-col-md-6">
+<h3 class="heading-up anchored" data-anchor-id="community-engagement"><strong>Community Engagement</strong></h3>
 <p>Many of our best and biggest events aim to engage the public.</p>
-<div style="margin-left: 2em;">
-<section id="mutual-aid" class="level5">
-<h5 class="anchored" data-anchor-id="mutual-aid"><strong>Mutual aid</strong></h5>
+<div style="margin-left: 0.5em;">
+<section id="mutual-aid" class="level4">
+<h4 class="anchored" data-anchor-id="mutual-aid"><strong>Mutual aid</strong></h4>
 <p>Our biggest mutual aid action was a year-long Clean Hands project, where we distributed 2,200+ gallons of hand sanitizer in over 62,000 bottles to CA jails/prisons, the Navajo Nation and other underserved COVID-vulnerable communities.</p>
 </section>
-<section id="engaging-with-the-democratic-process" class="level5">
-<h5 class="anchored" data-anchor-id="engaging-with-the-democratic-process"><strong>Engaging with the democratic process</strong></h5>
+<section id="engaging-with-the-democratic-process" class="level4">
+<h4 class="anchored" data-anchor-id="engaging-with-the-democratic-process"><strong>Engaging with the democratic process</strong></h4>
 <p>We have moderated the 2019 Last District Attorney debate, provided information about voting and voter registration, and hosted ballot measure pros &amp; cons sessions.</p>
 </section>
-<section id="community-education" class="level5">
-<h5 class="anchored" data-anchor-id="community-education"><strong>Community education</strong></h5>
+<section id="community-education" class="level4">
+<h4 class="anchored" data-anchor-id="community-education"><strong>Community education</strong></h4>
 <p>We have provided many opportunities for the public to learn more about science and science policy, including a public screening of the documentary “Human Nature” and a series of panels about controversial “Hard Questions” like defunding the police and SF’s housing crisis.</p>
 </section>
 </div>
 </section>
-</section>
-</div>
 </div>
 
 
