@@ -5,7 +5,11 @@ editor: visual
 lightbox:
   match: auto
 ---
-### Who are we? {.heading-up}
+
+<!-- left column -->
+
+::: {.g-col-12 .g-col-md-6}
+## Who are we? {.heading-up}
 
 SPG at UCSF serves as a platform for discussing science policy issues, providing resources & training for science policy education, and initiating advocacy within and beyond UCSF.
 
@@ -18,3 +22,10 @@ Example topics include:
 -   Criminal legal system policy
 -   Drug policy/harm reduction
 -   Gender equity
+:::
+
+<!-- right column -->
+
+::: {.g-col-12 .g-col-md-6}
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
+:::

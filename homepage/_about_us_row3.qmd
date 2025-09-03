@@ -1,0 +1,29 @@
+---
+format: html
+editor: visual
+#title-block-banner: false
+lightbox:
+  match: auto
+---
+<!-- left column -->
+:::: {.g-col-12 .g-col-md-6}
+### **Advocacy** {.heading-up}
+
+Beyond hosting events at UCSF, we advocate for issues we care about directly to people in power.
+
+<!-- Indent examples of advocacy -->
+
+::: {style="margin-left: 0.5em;"}
+#### **Advocacy training**
+
+We have hosted a variety of workshops to prepare members with no prior experience to visit the State Capitol and advocate for an issue of their choice, including an Advocacy 101 workshop, a Civic Engagement workshop series, and a policy Memo Writing workshop.
+
+#### **Advocacy opportunities**
+
+In addition to phone banking campaigns, we have organized advocacy visits to the CA State Capitol in Sacramento and have participated in the March For Science (D.C.) and CASE workshops.
+:::
+::::
+
+::: {.g-col-12 .g-col-md-6}
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
+:::

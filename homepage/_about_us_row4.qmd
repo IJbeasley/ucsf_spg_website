@@ -1,0 +1,34 @@
+---
+format: html
+editor: visual
+lightbox:
+  match: auto
+---
+
+<!-- left column -->
+
+::: {.g-col-12 .g-col-md-6}
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
+:::
+
+<!-- right column -->
+
+:::: {.g-col-12 .g-col-md-6}
+### **Community Engagement** {.heading-up}
+
+Many of our best and biggest events aim to engage the public.
+
+::: {style="margin-left: 0.5em;"}
+#### **Mutual aid**
+
+Our biggest mutual aid action was a year-long Clean Hands project, where we distributed 2,200+ gallons of hand sanitizer in over 62,000 bottles to CA jails/prisons, the Navajo Nation and other underserved COVID-vulnerable communities.
+
+#### **Engaging with the democratic process**
+
+We have moderated the 2019 Last District Attorney debate, provided information about voting and voter registration, and hosted ballot measure pros & cons sessions.
+
+#### **Community education**
+
+We have provided many opportunities for the public to learn more about science and science policy, including a public screening of the documentary "Human Nature" and a series of panels about controversial “Hard Questions” like defunding the police and SF’s housing crisis.
+:::
+::::

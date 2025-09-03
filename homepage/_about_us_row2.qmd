@@ -1,0 +1,32 @@
+---
+format: html
+editor: visual
+lightbox:
+  match: auto
+---
+
+<!-- left column -->
+
+::: {.g-col-12 .g-col-md-6}
+![SPG Advocacy Photo](images/SPG_Advocacy_Photo.png){.lightbox group="homepage-gallery"}
+:::
+
+<!-- right column -->
+
+:::: {.g-col-12 .g-col-md-6}
+## What do we do? {.heading-up}
+
+### **Professional Development**
+
+Our professional development events help prepare our members to engage with policy as scientists, whether as a potential career or as a supplementary interest.
+
+::: {style="margin-left: 0.5em;"}
+#### **Skill building**
+
+We have held workshops on communication and advocacy skills, including effective use of social media and persuasive writing for elected officials and the public.
+
+#### **Policy career exploration**
+
+We have invited speakers to discuss their careers in science policy fields and help our members follow in their footsteps.
+:::
+::::
