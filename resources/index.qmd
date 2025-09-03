@@ -3,3 +3,9 @@ title: "Resources"
 subtitle: "Resources for getting started with science policy."
 title-block-banner: false
 ---
+<!-- Here is where you can add text / content -->
+<!-- If editing in RStudio, you can use the visual editor to add content -->
+<!-- in a way that is more user friendly than raw markdown -->
+<!-- Otherwise, another easy option is to create a google doc or word doc -->
+<!-- with the content, and then convert it to markdown using https://word2md.com/ -->
+<!-- or using ChatGPT, and then just paste this content below -->
