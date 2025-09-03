@@ -2,11 +2,9 @@ name: Update events Quarto files using GDrive sheet
 
 # on sets up how this workflow can be triggered
 on:
-# set up can be triggered via webhook (i.e. zapier zap)
-  repository_dispatch:
+  repository_dispatch: # set up can be triggered via webhook (i.e. zapier zap)
     types: [update-events-sheets]
-# set up can be triggered through github (clicking workflow run)x
-  workflow_dispatch:
+  workflow_dispatch: # set up can be triggered through github (clicking workflow run)
     branches:
       - main
 # Possibly to be added later, just uncomment

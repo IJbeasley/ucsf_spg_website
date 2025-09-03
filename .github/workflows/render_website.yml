@@ -2,13 +2,10 @@ name: Render Quarto Files into Published Website
 
 # on sets up how this workflow can be triggered
 on:
-# set up can be triggered through github (clicking workflow run)
-  workflow_dispatch:
-  push:
-# set up - triggered everytime we push (upload changes) to the github repository
+  workflow_dispatch: # can be triggered through github (clicking workflow run)
+  push: # is triggered every time we push (upload changes) to the github repository
     branches: main
-# unless the change is one of these files / folders:
-    paths-ignore:
+    paths-ignore: # unless the change is one of these files / folders:
       - '_freeze/**'
       - '_site/**'
       - 'renv.lock'
@@ -17,8 +14,7 @@ on:
       - '.gitignore'
       - '.github/workflows/*sheet*.yml'
       - '.github/workflows/*sheet*.yaml'
-# also trigger everytime we run one of the workflows building a page using a GDrive sheet
-  workflow_run:
+  workflow_run: # trigger every time we run one of the workflows building a page using a GDrive sheet
      workflows: 
       - "Update events Quarto files using GDrive sheet"
       - "Update news Quarto files using GDrive sheet"
