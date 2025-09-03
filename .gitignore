@@ -39,3 +39,5 @@ rsconnect/
 /.quarto/
 /renv
 .secrets
+# .DS_Store
+*.DS_Store
