@@ -62,31 +62,40 @@ events_spreadsheet <- googlesheets4::read_sheet(events_sheet_url)
 }
 
 
-
+############# Check sheet not empty #######################
+if (nrow(events_spreadsheet) == 0) {
+  stop("⚠️ The events spreadsheet is empty. \n
+        It's likely that the URL of the google sheet has changed. \n
+        Please update the EVENTS_GSHEET_URL in the github repository secrets. \n
+        Otherwise, if the URL is correct, and the sheet is indeed empty, \n
+        then please add some rows to the sheet before running this script.")
+}
 
 
 ######## Clean up the spreadsheet names for analysis ########
 
+
 names(events_spreadsheet) <- clean_names(names(events_spreadsheet))
 
 events_spreadsheet <- events_spreadsheet |>
-                     tidyr::fill(!!col_year, .direction = 'down')
-
+                      tidyr::fill(!!col_year, 
+                                  .direction = 'down')
 
 
 ######## Check necessary columns included ##########
 
-required_cols <- c(col_year = col_year, 
-                   col_event = col_event, 
-                   col_date = col_date)
+req_cols <- c(col_year = col_year, 
+              col_event = col_event, 
+              col_date = col_date
+              )
 
-missing_required <- setdiff(required_cols, names(events_spreadsheet))
+missing_req <- setdiff(req_cols, names(events_spreadsheet))
 
-names(missing_required) <- names(required_cols[required_cols %in% missing_required])
+names(missing_req) <- names(req_cols[req_cols %in% missing_req])
 
-if (length(missing_required) > 0) {
+if (length(missing_req) > 0) {
   message(paste0("❌ Can't find shese required column/s in the Google sheet: ",
-                 paste(names(missing_required), collapse = ", ")),
+                 paste(names(missing_req), collapse = ", ")),
           paste("\n It is likely that the names of these column/s have changed in the sheet."),
           paste("\n please update the expected column names at the top of this script to reflect this change.")
   )
@@ -96,24 +105,36 @@ if (length(missing_required) > 0) {
 
 ########### Check optional columns ###############
 
-optional_cols <- c(col_time, 
-                   col_description, col_location, col_speakers, col_tags, 
-                   col_rsvp, col_flyer_link, col_flyer_notes, 
-                   col_draft)
+opt_cols <- c(col_time = col_time, 
+              col_description = col_description,
+              col_location = col_location,
+              col_speakers = col_speakers,
+              col_tags = col_tags,
+              col_rsvp = col_rsvp,
+              col_flyer_link = col_flyer_link,
+              col_flyer_notes = col_flyer_notes,
+              col_draft = col_draft
+              )
 
-missing_optional <- setdiff(optional_cols, names(events_spreadsheet))
+missing_opt <- setdiff(opt_cols, names(events_spreadsheet))
 
-if (length(missing_optional) > 0) {
-  stop(paste0("⚠️ Warning: these column/s couldn't be found in the Google sheet: ",
-              paste(names(missing_required), collapse = ", ")),
+names(missing_opt) <- names(opt_cols[opt_cols %in% missing_opt])
+
+if (length(missing_opt) > 0) {
+  
+  missing_opt <- paste(names(missing_opt), collapse = ", ")
+  
+  warning(paste0("⚠️ Warning: these column/s couldn't be found in the Google sheet: "),
+       missing_opt,
        paste("\n It is likely that the names of these column/s have changed in the sheet."),
        paste("\n please update the expected column names at the top of this script to reflect this change."),
        paste("\n Otherwise these details will remain blank on website for all events.")
-  )
+       )
+  
 }
 
 # Add missing optional columns as empty to prevent errors later
-for (col in optional_cols) {
+for (col in opt_cols) {
   if (!col %in% names(events_spreadsheet)) {
     events_spreadsheet[[col]] <- NA_character_
   }
@@ -123,7 +144,6 @@ for (col in optional_cols) {
 
 library(stringr)
 library(here)
-
 
 ##################### Process spreadsheet events files ###############
 # Loop through rows (each event) to generate .qmd files
@@ -144,7 +164,6 @@ for (i in 1:nrow(events_spreadsheet)) {
     process_events_sheet_row(event_row = event_row,
                              rownum = i,
                              events_dir = events_dir,
-                             qmd_dir = qmd_dir, 
                              col_event = col_event,
                              col_date = col_date,
                              col_time = col_time,

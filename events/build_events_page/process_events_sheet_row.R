@@ -3,7 +3,6 @@
 process_events_sheet_row <- function(event_row,
                                      rownum,
                                      events_dir,
-                                     qmd_dir,
                                      col_event,
                                      col_date,
                                      col_time,
