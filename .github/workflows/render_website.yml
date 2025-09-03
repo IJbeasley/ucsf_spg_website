@@ -15,7 +15,7 @@ on:
       - '.github/workflows/*sheet*.yml'
       - '.github/workflows/*sheet*.yaml'
   workflow_run: # trigger every time we run one of the workflows building a page using a GDrive sheet
-     workflows: 
+    workflows: 
       - "Update events Quarto files using GDrive sheet"
       - "Update news Quarto files using GDrive sheet"
       - "Update team/leadership Quarto files using GDrive sheet"
