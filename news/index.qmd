@@ -22,7 +22,7 @@ listing:
     # What information about news items should we show on the news page?
     # see documentation here for more info: 
     # https://quarto.org/docs/websites/website-listings.html#listing-fields            
-    fields: [title, date]
+    fields: [date, title]
     field-display-names:
        title: Title
        description: Description
