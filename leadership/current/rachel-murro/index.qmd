@@ -2,5 +2,7 @@
 title: 'Rachel Murro'
 subtitle: 'PhD Student<br>Epidemiology and Translational Science'
 description: '2022 - present'
+image: 'RachelMurro.jpg'
+image-alt: 'Headshot of Rachel Murro'
 ---
 

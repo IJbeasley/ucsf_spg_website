@@ -2,5 +2,7 @@
 title: 'Elysse Phillips'
 subtitle: 'PhD Student<br>Developmental and Stem Cell Biology'
 description: '2022 - present'
+image: 'ElyssePhillips.jpg'
+image-alt: 'Headshot of Elysse Phillips'
 ---
 
