@@ -13,7 +13,10 @@
       "/leadership/current/rachel-murro/index.html",
       "/leadership/current/sneha-rao/index.html",
       "/leadership/alumni/yutaka-sprague/index.html",
+      "/leadership/alumni/caroline-devany/index.html",
       "/leadership/alumni/zoe-grant/index.html",
+      "/leadership/alumni/alex-monrroy/index.html",
+      "/leadership/alumni/amy-becker/index.html",
       "/leadership/alumni/narayan-sankaran/index.html",
       "/leadership/alumni/pamela-concepcion/index.html",
       "/leadership/alumni/jack-stevenson/index.html",
@@ -28,19 +31,19 @@
     ]
   },
   {
-    "listing": "/gallery/index.html",
-    "items": []
-  },
-  {
-    "listing": "/news/index.html",
-    "items": []
-  },
-  {
     "listing": "/events/index.html",
     "items": [
       "/events/2025-09-25_welcome-picnic/index.html",
       "/events/2025-06-16_mcclintock-letters/index.html",
       "/events/2025-04-01_applying-science-to-policymaking-minicourse-round-3/index.html"
     ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": []
+  },
+  {
+    "listing": "/gallery/index.html",
+    "items": []
   }
 ]
